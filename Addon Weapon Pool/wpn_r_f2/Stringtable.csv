@@ -1,0 +1,45 @@
+﻿Калибр: <br/ >Дальность: <br/ >Режимы: <br/ >Темп стрельбы: <br/ >Магазины: 
+Caliber: <br/> Distance: <br/> Modes: <br/> Rate of fire: <br/> Mags:
+///////////////
+myW,"WPN_R_F","WPN_R_F"
+Language, "Original", "Russian"
+
+STR_aps_avt_name,"APS","АПС"
+STR_aps_avt_desc,"Caliber: 5.66x39<br/> Distance: 100<br/> Modes: 1\auto<br/> Rate of fire: 500<br/> Mags: 5.66x39","Калибр: 5.66х39<br/ >Дальность: 100<br/ >Режимы: 1/авто<br/ >Темп стрельбы: 550<br/ >Магазины:5.66х39"
+
+STR_toz194_name,"TOZ-194","ТОЗ-194"
+STR_toz194_desc,"Caliber: 12gauge <br/> Distance: 50-150<br/> Modes: 1<br/> Rate of fire: 72<br/> Mags: 7 cartridge 12gauge","Калибр: 12Калибр<br/ >Дальность: 50-150<br/ >Режимы: 1<br/ >Темп стрельбы: 72<br/ >Магазины:7 патронов 12калибра"
+
+STR_mp133_name,"MP-133","MP-133"
+STR_mp133_desc,"Caliber: 12gauge <br/> Distance: 50-150<br/> Modes: 1<br/> Rate of fire: 72<br/> Mags: 7 cartridge 12gauge","Калибр: 12Калибр<br/ >Дальность: 50-100<br/ >Режимы: 1<br/ >Темп стрельбы: 72<br/ >Магазины:7 патронов 12калибра"
+
+STR_mp133k_name,"MP-133k","MP-133k"
+STR_mp133k_desc,"Caliber: 12gauge <br/> Distance: 50-150<br/> Modes: 1<br/> Rate of fire: 72<br/> Mags: mag mp-133k","Калибр: 12Калибр<br/ >Дальность: 50-100<br/ >Режимы: 1<br/ >Темп стрельбы: 72<br/ >Магазины: магазин mp-133k"
+
+STR_s12_isp3_name,"Saiga-12K tactics isp.3-1","Сайга-12К тактика исп.3-1"
+STR_s12_isp3_desc,"Caliber: 12gauge <br/> Distance: 50-100<br/> Modes: 1<br/> Rate of fire: 600<br/> Mags: 3/5cartridge mag 12gauge","Калибр: 12Калибр<br/ >Дальность: 50-100<br/ >Режимы: 1<br/ >Темп стрельбы: 600<br/ >Магазины: маг. 3/5патронов 12калибра"
+
+STR_s20k_name,"Saiga-20K isp. 04","Сайга-20К исп. 04"
+STR_s20k_desc,"Caliber: 20gauge <br/> Distance: 50-100<br/> Modes: 1<br/> Rate of fire: 600<br/> Mags: 8cartridge mag 20gauge","Калибр: 20Калибр<br/ >Дальность: 50-100<br/ >Режимы: 1<br/ >Темп стрельбы: 600<br/ >Магазины: маг. 8патронов 20калибра"
+
+STR_s20k_tak_name,"Saiga-20K isp. 04 Tactik","Сайга-20К исп. 04 Тактический"
+STR_s20k_tak_desc,"Caliber: 20gauge <br/> Distance: 50-150<br/> Modes: 1<br/> Rate of fire: 600<br/> Mags: 20cartridge mag 20gauge","Калибр: 20Калибр<br/ >Дальность: 50-150<br/ >Режимы: 1<br/ >Темп стрельбы: 600<br/ >Магазины: маг. 20патронов 20калибра"
+
+STR_vepr12_name,"Vepr-12 Molot","Вепрь-12 Молот"
+STR_vepr12_desc,"Caliber: 12gauge <br/> Distance: 50-150<br/> Modes: 1<br/> Rate of fire: 600<br/> Mags: 20cartridge mag 12gauge","Калибр: 12Калибр<br/ >Дальность: 50-150<br/ >Режимы: 1<br/ >Темп стрельбы: 600<br/ >Магазины: маг. 20патронов 12калибра"
+
+STR_sai_308_02_name,"Saiga 308-1 mod 02","Сайга 308-1 исп 02"
+STR_sai_308_05_name,"Saiga 308-1 mod 05","Сайга 308-1 исп 05"
+STR_sai_308_21_name,"Saiga 308-1 mod 21","Сайга 308-1 исп 21"
+
+STR_s1_2_name,"Saiga-12C mod 10","Сайга-12С исп 10"
+STR_s1_3_name,"Saiga-12C mod 61","Сайга-12С исп 61"
+
+STR_s2_2_name,"Saiga-20C","Сайга-20С"
+STR_s2_3_name,"Saiga-20","Сайга-20"
+
+STR_ar_ors_name,"ORSIS AR-10","ОРСИС АР-10"
+STR_ar_ors_desc,"Caliber: .308<br/> Distance: 400<br/> Rate of fire: ~750<br/> Mags: 20rounds Mk14","Калибр: .308<br/ >Дальность: 400<br/ >Темп стрельбы: ~600<br/ >Магазины: 20заряд. Мk14"
+
+STR_mc_name,"MTc-255","МЦ-255"
+STR_mc_desc,"Caliber: 12gauge <br/> Distance: 50-150<br/> Modes: 1<br/> Rate of fire: 600<br/> Mags: 5 rounds 12gauge","Калибр: 12Калибр<br/ >Дальность: 50-150<br/ >Режимы: 1<br/ >Темп стрельбы: 600<br/ >Магазины: маг. 5 патронов 12калибра"
