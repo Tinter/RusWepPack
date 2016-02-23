@@ -1,0 +1,36 @@
+﻿Калибр: <br/ >Дальность: <br/ >Режимы: <br/ >Темп стрельбы: <br/ >Магазины: 
+Caliber: <br/> Distance: <br/> Modes: <br/> Rate of fire: <br/> Mags:
+///////////////
+Language, "Original", "Russian"
+
+STR_pkp_pul_name,"PKP","ПКП"
+STR_pkp_pe4_m_desc,"Caliber: 7.62x54<br/> Distance: 900<br/> Modes: auto<br/> Rate of fire: 650<br/> Mags: Box with tape 100\200 bullets","Калибр: 7.62х54<br/ >Дальность: 900<br/ >Режимы: авто<br/ >Темп стрельбы: 650<br/ >Магазины: Короб с лентой на 100\200 патронов"
+
+STR_pkp_b_name,"PKP-B","ПКП-Б"
+STR_pkp_pe4_bp_desc,"Caliber: 7.62x54<br/> Distance: 600<br/> Modes: auto<br/> Rate of fire: 650<br/> Mags: Box with tape 100\200 bullets","Калибр: 7.62х54<br/ >Дальность: 600<br/ >Режимы: авто<br/ >Темп стрельбы: 650<br/ >Магазины: Короб с лентой на 100\200 патронов"
+
+STR_pkm_pul_name,"PKM","ПКМ"
+STR_pkm_l_name,"PKM(dvtl)","ПКМ(лх)"
+STR_pkp_sp_name,"PKP-SP","ПКП-СП"
+
+STR_p_aps_plus_shit_name,"APS + Shiels","АПС + Щит"
+STR_p_aps_plus_shit_desc,"Caliber: 9x18<br/> Distance: 150<br/> Modes: 1\auto<br/> Rate of fire: 700<br/> Mags: spec.mag 85 bullets","Калибр: 9х18<br/ >Дальность: 150<br/ >Режимы: 1\авто<br/ >Темп стрельбы: 700<br/ >Магазины: спец. маг на 85 патронов"
+
+STR_ks23_dr_name,"KS-23","КС-23"
+STR_ks23_dr_desc,"Caliber: 23x75 R mm<br/> Distance: ~100<br/> Modes: 1<br/> Rate of fire: 72<br/> Mags: 3 cartridge 23mm","Калибр: 23x75 R мм<br/ >Дальность: ~100<br/ >Режимы: 1<br/ >Темп стрельбы: 72<br/ >Магазины:3 патрона 23калибра"
+
+STR_val_name,"AS Val","АС Вал"
+STR_val_desc,"Caliber: 9x39<br/> Distance: 400<br/> Modes: 1\auto<br/> Rate of fire: 700<br/> Mags: VSS\Val mags on 10|20|30 bullets","Калибр: 9х39<br/ >Дальность: 400<br/ >Режимы: 1\авто<br/ >Темп стрельбы: 700<br/ >Магазины: ВСС/Вал на 10/20/30 патр."
+STR_val_w_name,"AS Val(w)","АС Вал(w)"
+
+STR_vss_w_name,"VSS(w)","ВСС(w)"
+STR_vss_w_desc,"Caliber: 9x39<br/> Distance: 500<br/> Modes: 1\auto<br/> Rate of fire: 700<br/> Mags: VSS\Val mags on 10|20 bullets","Калибр: 9х39<br/ >Дальность: 500<br/ >Режимы: 1\авто<br/ >Темп стрельбы: 700<br/ >Магазины: ВСС/Вал на 10/20 патр."
+STR_STR_vss__name,"VSS","ВСС"
+
+STR_to34_name,"TOZ-34","ТОЗ-34"
+
+STR_145_d_mm_name,"14.5x114(1cartr)","14.5x114(1патр)"
+STR_145_d_mm_desc,"Caliber: 14.5x114 mm<br />Quantity: 1 cartrige<br />Type: Normal<br />Use: PTRD ","Калибр: 14.5x114 мм<br />Количество: 1 патрон<br />Тип: обычный<br />Используется: ПТРД"
+
+STR_ptrd_name,"Anti-tank gun Degtyaryov","ПТР Дегтярёва"
+STR_ptrd_desc,"Caliber:14.5x114 mm<br/> Distance: 400<br/> Modes: 1<br/> Mags: 1 bullet caliber 14.5 mm","Калибр: 14.5х114 мм<br/ >Дальность: 400<br/ >Режимы: 1<br/ >Магазины: 1 пуля калибра 14.5 мм"

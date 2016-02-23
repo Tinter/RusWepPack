@@ -1,0 +1,52 @@
+﻿Калибр: <br/ >Дальность: <br/ >Режимы: <br/ >Темп стрельбы: <br/ >Магазины: 
+Caliber: <br/> Distance: <br/> Modes: <br/> Rate of fire: <br/> Mags:
+///////////////
+Language, "Original", "Russian"
+
+STR_aba_name,"AN-94","АН-94"
+STR_aba_desc,"Caliber: 5.45x39<br/> Distance: 600<br/> Modes: 1\2\auto<br/> Rate of fire: 600\1800<br/> Mags: 5.45x39","Калибр: 5.45х39<br/ >Дальность: 600<br/ >Режимы: 1/2/авто<br/ >Темп стрельбы: 600\1800<br/ >Магазины:5.45х39"
+
+STR_ae_old_name,"АЕК-971(old)","АЕК-971(стар)"
+STR_ae_old_desc,"Caliber: 5.45x39<br/> Distance: 650<br/> Modes: 1\3\auto<br/> Rate of fire: 1500<br/> Mags: 5.45x39","Калибр: 5.45х39<br/ >Дальность: 650<br/ >Режимы: 1/3/авто<br/ >Темп стрельбы: 1500<br/ >Магазины:5.45х39"
+
+STR_aek71_name,"АЕК-971","АЕК-971"
+STR_aek71gp_desc,"Caliber: 5.45x39<br/> Distance: 650<br/> Modes: 1\3\auto<br/> Rate of fire: 900<br/> Mags: 5.45x39<br/> GL: GP-30M<br/> Distance: 400<br/> Mags: 40mm HE, smoke","Калибр: 5.45х39<br/ >Дальность: 650<br/ >Режимы: 1/2/авто<br/ >Темп стрельбы: 900<br/ >Магазины: 5.45х39<br/ >ПГ: ГП-30М<br/ >Дальность: 400<br/ >Магазины: 40мм Оск-фуг, дым"
+STR_aek71_desc,"Caliber: 5.45x39<br/> Distance: 650<br/> Modes: 1\3\auto<br/> Rate of fire: 900<br/> Mags: 5.45x39","Калибр: 5.45х39<br/ >Дальность: 650<br/ >Режимы: 1/3/авто<br/ >Темп стрельбы: 900<br/ >Магазины:5.45х39"
+STR_aek71gp_name,"АЕК-971(GP-30)","АЕК-971(ГП-30)"
+
+STR_aek73_name,"АЕК-973","АЕК-973"
+STR_aek73_desc,"Caliber: 7.62x39<br/> Distance: 650<br/> Modes: 1\3\auto<br/> Rate of fire: 900<br/> Mags: 7.62x39","Калибр: 7.62x39<br/ >Дальность: 650<br/ >Режимы: 1/3/авто<br/ >Темп стрельбы: 900<br/ >Магазины:7.62х39"
+STR_aek73g_name,"АЕК-973(GP-30)","АЕК-973(ГП-30)"
+STR_aek73g_desc,"Caliber: 7.62x39<br/> Distance: 650<br/> Modes: 1\3\auto<br/> Rate of fire: 900<br/> Mags: 7.62x39<br/> GL: GP-30M<br/> Distance: 400<br/> Mags: 40mm HE, smoke","Калибр: 7.62x39<br/ >Дальность: 650<br/ >Режимы: 1/2/авто<br/ >Темп стрельбы: 900<br/ >Магазины: 7.62x39<br/ >ПГ: ГП-30М<br/ >Дальность: 400<br/ >Магазины: 40мм Оск-фуг, дым"
+
+STR_aek72_name,"АЕК-972","АЕК-972"
+STR_aek72_desc,"Caliber: 5.56x45<br/> Distance: 650<br/> Modes: 1\3\auto<br/> Rate of fire: 900<br/> Mags: 5.56x45","Калибр: 5.56x45<br/ >Дальность: 650<br/ >Режимы: 1/3/авто<br/ >Темп стрельбы: 900<br/ >Магазины: 5.56x45"
+STR_aek72g_name,"АЕК-972(GP-30)","АЕК-972(ГП-30)"
+STR_aek72g_desc,"Caliber: 5.56x45<br/> Distance: 650<br/> Modes: 1\3\auto<br/> Rate of fire: 900<br/> Mags: 5.56x45<br/> GL: GP-30M<br/> Distance: 400<br/> Mags: 40mm HE, smoke","Калибр: 5.56x45<br/ >Дальность: 650<br/ >Режимы: 1/2/авто<br/ >Темп стрельбы: 900<br/ >Магазины: 5.56x45<br/ >ПГ: ГП-30М<br/ >Дальность: 400<br/ >Магазины: 40мм Оск-фуг, дым"
+
+STR_919aek_name,"АЕК-919K","АЕК-919К"
+STR_919aek_desc,"Caliber: 9x18mm<br/> Distance: 100<br/> Modes: 1\auto<br/> Rate of fire: 900<br/> Mags: 9x18mm aek919","Калибр: 9x18мм<br/ >Дальность: 100<br/ >Режимы: 1/авто<br/ >Темп стрельбы: 900<br/ >Магазины: 9x18мм аек-919"
+
+STR_mag919_name,"9x18(30cartr)","9х18(30патр)"
+STR_mag919_desc,"Caliber: 9x18mm<br />Quantity: 30cartrige<br />Type: Normal<br />Use: AEK-919","Калибр: 9х18мм<br />Количество: 30 патронов<br />Тип: обычный<br />Используется: АЕК-919"
+
+STR_rpdekt_name,"RPD","РПД"
+STR_rpdekt_desc,"Caliber: 7.62x39<br/> Distance: 800<br/> Modes: auto<br/> Rate of fire: 700<br/> Mags: rpd box 7.62","Калибр: 7.62x39<br/ >Дальность: 800<br/ >Режимы: авто<br/ >Темп стрельбы: 700<br/ >Магазины: короб рпд 7.62"
+
+STR_srm_l_name,"SR-3M","СР-3М"
+STR_val_desc,"Caliber: 9x39<br/> Distance: 400<br/> Modes: 1\auto<br/> Rate of fire: 900<br/> Mags: SR3\Val mags on 20|30 bullets","Калибр: 9х39<br/ >Дальность: 400<br/ >Режимы: 1\авто<br/ >Темп стрельбы: 900<br/ >Магазины: СР3/Вал на 20/30 патр."
+STR_srm_w_name,"SR-3M(w)","СР-3М(w)"
+
+STR_9a9_name,"9a-91","9а-91"
+STR_9a9_desc,"Caliber: 9x39<br/> Distance: 400<br/> Modes: 1\auto<br/> Rate of fire: 700<br/> Mags: VSK mag on 20 bullets","Калибр: 9х39<br/ >Дальность: 400<br/ >Режимы: 1\авто<br/ >Темп стрельбы: 700<br/ >Магазины: ВСК маг. на 20 патр."
+STR_vsk_name,"VSK-94","ВСК-94"
+STR_vskw_name,"VSK-94(w)","ВСК-94(w)"
+
+STR_9a7_name,"9a-91(7.62)","9а-91(7.62)"
+STR_9a7_desc,"Caliber: 7.61x39<br/> Distance: 400<br/> Modes: 1\auto<br/> Rate of fire: 700<br/> Mags: 7.62x39 mag on 20 bullets 9a91","Калибр: 7.62х39<br/ >Дальность: 400<br/ >Режимы: 1\авто<br/ >Темп стрельбы: 700<br/ >Магазины: 7.62х39 маг. на 20 патр. 9а91"
+
+STR_oc02_name,"OTs-02","ОЦ-02"
+STR_oc02_desc,"Caliber: 9x18<br/> Distance: 100<br/> Modes: 1\auto<br/> Rate of fire: ~900<br/> Mags: 9x18 Kedr","Калибр: 9х18<br/ >Дальность: 100<br/ >Режимы: 1\авто<br/ >Темп стрельбы: ~900<br/ >Магазины:9х18 Кедр"
+
+STR_p20p_name,"PP-2000","ПП-2000"
+STR_p20p_desc,"Caliber: 9x18<br/> Distance: 100<br/> Modes: 1\auto<br/> Rate of fire: ~700<br/> Mags: 9x18 Kedr","Калибр: 9х18<br/ >Дальность: 100<br/ >Режимы: 1\авто<br/ >Темп стрельбы: ~700<br/ >Магазины:9х18 Кедр"
