@@ -1,0 +1,17 @@
+﻿Калибр: <br/ >Дальность: <br/ >Режимы: <br/ >Темп стрельбы: <br/ >Магазины: 
+Caliber: <br/> Distance: <br/> Modes: <br/> Rate of fire: <br/> Mags:
+///////////////
+Language, "Original", "Russian"
+
+STR_sv98_name,"SV-98","СВ-98"
+STR_sv98_desc,"Caliber: 7.62x54mm<br/> Distance: 800<br/> Modes: 1<br/> Rate of fire: 22<br/> Mags: 7.62 SV-98","Калибр: 7.62х54<br/ >Дальность: 800<br/ >Режимы: 1<br/ >Темп стрельбы: 22<br/ >Магазины: 7.62 СВ-98"
+
+STR_vs121_name,"VS-121","ВС-121"
+STR_vs121_desc,"Caliber: 7.62x54mm<br/> Distance: 700<br/> Modes: 1\auto<br/> Rate of fire: 650<br/> Mags: 7.62 SVD","Калибр: 7.62х54<br/ >Дальность: 700<br/ >Режимы: 1/авто<br/ >Темп стрельбы: 650<br/ >Магазины: 7.62 СВД"
+
+STR_sv338_name,"SV-338","СВ-338"
+STR_sv338_desc,"Caliber: .338 <br/> Distance: 1300<br/> Modes: 1<br/> Rate of fire: 22<br/> Mags: .338Lapua(10 bullets)","Калибр: .338 <br/ >Дальность: 1300<br/ >Режимы: 1<br/ >Темп стрельбы: 22<br/ >Магазины: .338Lapua(10 патронов)"
+
+STR_svuaname,"SVU-A","СВУ-А"
+STR_svua_desc,"Caliber: 7.62x54mm<br/> Distance: 800<br/> Modes: 1\auto<br/> Rate of fire: 650<br/> Mags: 7.62 SVD","Калибр: 7.62х54<br/ >Дальность: 800<br/ >Режимы: 1/авто<br/ >Темп стрельбы: 650<br/ >Магазины: 7.62 СВД"
+STR_svuawname,"SVU-A(w)","СВУ-А(w)"

@@ -1,0 +1,30 @@
+////Multiplicity: <br/>Range: <br/>Modes: 
+////Кратность: <br/>Дальность: <br/>Режимы: 
+///////////////
+Language, "English", "Russian"
+
+STR_klesh,"2DPS-Kleshch(w)","2ДПС-Клещ(w)"
+STR_kl_desc,"Tactical Flashlight","Тактический фонарь"
+STR_klesh_pn,"2DPS-Kleshch(slat)","2ДПС-Клещ(планка)"
+
+STR_4tik,"4TiK(w)","4ТиК(w)"
+STR_4tik_desc,"Tactical laser pointer","Тактический ЛЦУ"
+STR_4tik_pn,"4TiK(slat)","4ТиК(планка)"
+
+STR_ambapp,"AMBA-PP(w)","АМБА-ПП(w)"
+STR_amba_desc,"IR night laser pointer","Инфракрасный ночной ЛЦУ"
+STR_ambapm,"AMBA-PM(makarov)","АМБА-ПМ(макаров)"
+STR_amba_plk,"AMBA-PP(slat)","AMBA-PP(планка)"
+
+STR_bpd,"Bipod 1(w)","Сошки 1(w)"
+STR_bpd_plk,"Bipod №1(slat)","Сошки №1(планка)"
+STR_bpd_svd,"Bipod SVD","Сошки СВД"
+STR_bpd2,"Bipod 2(w)","Сошки 2(w)"
+STR_bpd3,"Bipod 3(w)","Сошки 3(w)"
+
+STR_fo,"FO-2l-w(w)","ФО-2l-w(w)"
+STR_fo_desc,"Arms flashlight","Оружейный фонарь"
+STR_fo_plk,"FO-2l-w(slat)","ФО-2l-w(планка)"
+
+STR_2ps_name,"2PS(w)","2ПС(w)"
+STR_2ps_name_pn,"2PS(slat)","2ПС(планка)"

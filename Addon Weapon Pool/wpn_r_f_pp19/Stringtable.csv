@@ -1,0 +1,17 @@
+﻿Калибр: <br/ >Дальность: <br/ >Режимы: <br/ >Темп стрельбы: <br/ >Магазины: 
+Caliber: <br/> Distance: <br/> Modes: <br/> Rate of fire: <br/> Mags:
+///////////////
+myW,"WPN_R_F","WPN_R_F"
+Language, "Original", "Russian"
+
+STR_AK_12_name,"AK-12","АК-12"
+STR_AK_12_desc,"Caliber: 5.45x39<br/> Distance: 650<br/> Modes: 1\3\auto<br/> Rate of fire: 650\1000<br/> Mags: 5.45x39","Калибр: 5.45х39<br/ >Дальность: 650<br/ >Режимы: 1/3/авто<br/ >Темп стрельбы: 650/1000<br/ >Магазины:5.45х39"
+
+STR_pp1901_name,"PP-19-01 Vityaz","ПП-19-01 Витязь"
+STR_pp1901_desc,"Caliber: 9x19<br/> Distance: 300<br/> Modes: 1\auto<br/> Rate of fire: 650\700<br/> Mags: 9mm Vityaz","Калибр: 9х19<br/ >Дальность: 300<br/ >Режимы: 1/авто<br/ >Темп стрельбы: 650/700<br/ >Магазины:9мм Витязь"
+
+STR_pp90m1_name,"PP-90M1","ПП-90М1"
+STR_pp90m1_desc,"Caliber: 9x19<br/> Distance: 200<br/> Modes: 1\auto<br/> Rate of fire: ~800<br/> Mags: 9mm helical mag","Калибр: 9х19<br/ >Дальность: 200<br/ >Режимы: 1/авто<br/ >Темп стрельбы: ~800<br/ >Магазины:9мм шнековый маг."
+
+STR_9x19_90m1_name,"9x19(64cartr)","9x19(64патр)"
+STR_9x19_90m1_desc,"Caliber: 9x19mm<br />Quantity: 64cartrige<br />Type: Normal<br />Use: smg pp90m1","Калибр: 9х19мм<br />Количество: 64патронов<br />Тип: обычный<br />Используется: ПП-90М1"

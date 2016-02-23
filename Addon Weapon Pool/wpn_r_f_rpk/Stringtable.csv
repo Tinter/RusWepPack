@@ -1,0 +1,21 @@
+﻿Калибр: <br/ >Дальность: <br/ >Режимы: <br/ >Темп стрельбы: <br/ >Магазины: 
+Caliber: <br/> Distance: <br/> Modes: <br/> Rate of fire: <br/> Mags:
+compilation
+///////////////
+myW,"WPN_R_F","WPN_R_F"
+Language, "Original", "Russian"
+
+STR_rpk_name,"RPK","РПК"
+STR_rpk_desc,"Caliber: 7.62x39<br/> Distance: 700<br/> Modes: 1\auto<br/> Rate of fire: 600<br/>Mags: mag RPK 40/75 bullet","Калибр: 7.62х39<br/ >Дальность: 700<br/ >Режимы: 1/авто<br/ >Темп стрельбы: 600<br/ >Магазины: маг. РПК на 40\75 патронов"
+STR_rpkz_name,"RPK(Zmey)","РПК(Змей)"
+
+STR_rpk74m_name,"RPK-74M","РПК-74М"
+STR_rpk74m_desc,"Caliber: 5.45x39<br/> Distance: 800<br/> Modes: 1\auto<br/> Rate of fire: 600<br/>Mags: mag RPK-74 45/75 bullet","Калибр: 5.45х39<br/ >Дальность: 800<br/ >Режимы: 1/авто<br/ >Темп стрельбы: 600<br/ >Магазины: маг. РПК-74 на 45\75 патронов"
+STR_rpk74m_w_name,"RPK-74M(w)","РПК-74М(w)"
+
+STR_rpk_tun_name,"RPK(tactic)","РПК(тактик)"
+STR_rpk_tun_desc,"Caliber: 7.62x39<br/> Distance: 600<br/> Modes: 1\auto<br/> Rate of fire: 600<br/>Mags: mag RPK 40/75 bullet","Калибр: 7.62х39<br/ >Дальность: 600<br/ >Режимы: 1/авто<br/ >Темп стрельбы: 600<br/ >Магазины: маг. РПК на 40\75 патронов"
+
+STR_rpk203_name,"RPK-203","РПК-203"
+STR_rpk201_name,"RPK-201","РПК-201"
+STR_rpk201_desc,"Caliber: 5.56x45<br/> Distance: 800<br/> Modes: 1\auto<br/> Rate of fire: 600<br/>Mags: mag RPK-201 45/75 bullet","Калибр: 5.56x45<br/ >Дальность: 800<br/ >Режимы: 1/авто<br/ >Темп стрельбы: 600<br/ >Магазины: маг. РПК-201 на 45\75 патронов"
