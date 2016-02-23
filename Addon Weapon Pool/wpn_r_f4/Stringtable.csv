@@ -1,0 +1,41 @@
+﻿Калибр: <br/ >Дальность: <br/ >Режимы: <br/ >Темп стрельбы: <br/ >Магазины: 
+Caliber: <br/> Distance: <br/> Modes: <br/> Rate of fire: <br/> Mags:
+///////////////
+Language, "Original", "Russian"
+
+STR_vpo_psh_name,"VPO-133","ВПО-133"
+STR_vpo_psh_desc,"Caliber: 7.62x25 mm<br/> Distance: 300<br/> Modes: auto<br/> Rate of fire: ~1000<br/> Mags: 71\35 rounds mag PPSH","Калибр: 7.62х25 мм<br/ >Дальность: 300<br/ >Режимы: авто<br/ >Темп стрельбы: ~1000<br/ >Магазины: 71\35 зарядный маг. ППШ"
+STR_psh_name,"PPSH","ППШ"
+
+STR_mosr_sn_name,"Mosin rifle(sniper)","Винтовка Мосина(снайп.)"
+STR_mosr_sn_desc,"Caliber: 7.62x54 mm<br/> Distance: 600<br/> Rate of fire: ~22<br/> Mags: 5round clip 7.62mm","Калибр: 7.62х54 мм<br/ >Дальность: 600<br/ >Темп стрельбы: ~22<br/ >Магазины: 5 заряд. скоба 7.62мм"
+STR_mosr_snw_name,"Mosin rifle(sniper)(w)","Винтовка Мосина(снайп)(w)"
+STR_mosr_snl_name,"Mosin rifle(sniper)(dvtl)","Винтовка Мосина(снайп)(лх)"
+
+STR_mosr_sht_name,"Mosin rifle(assault)","Винтовка Мосина(штурм.)"
+STR_mosr_sht_desc,"Caliber: 7.62x54 mm<br/> Distance: 600<br/> Rate of fire: ~45<br/> Mags: 5round clip 7.62mm","Калибр: 7.62х54 мм<br/ >Дальность: 600<br/ >Темп стрельбы: ~45<br/ >Магазины: 5 заряд. скоба 7.62мм"
+
+STR_sc_pu_mos_name,"PU(Mosin)","ПУ(в. Мосина)"
+STR_sc_pb_name,"PB(Mosin)","ПБ(в. Мосина)"
+STR_sc_pb_desc,"Multiplicity: 4x<br/>Range: 300-500<br/>Modes: vis","Кратность: 4х<br/>Дальность: 300-500<br/>Режимы: vis"
+
+STR_pulDP_name,"DP","ДП"
+STR_pulDP_desc,"Caliber: 7.62x54 mm<br/> Distance: 700<br/> Modes: auto<br/> Rate of fire: 600<br/> Mags: 47 rounds drum mag","Калибр: 7.62х54 мм<br/ >Дальность: 700<br/ >Режимы: авто<br/ >Темп стрельбы: 600<br/ >Магазины: 47 заряд. барабан. диск"
+STR_pulDPw_name,"DP(w)","ДП(w)"
+
+STR_avf_name,"Fedorov Avtomat","Автомат Федорова"
+STR_avf_desc,"Caliber: 6.5x50 mm<br/> Distance: 400<br/> Modes: 1/auto<br/> Rate of fire: 600<br/> Mags: 25 rounds mag","Калибр: 6.5х50 мм<br/ >Дальность: 400<br/ >Режимы: 1/авто<br/ >Темп стрельбы: 600<br/ >Магазины: 25 заряд. магазин"
+STR_avfl_name,"Fedorov Avtomat(w)","Автомат Федорова(w)"
+
+STR_ptrs_name,"Anti-tank gun Simonov","ПТР Симонова"
+STR_ptrs_desc,"Caliber:14.5x114 mm<br/> Distance: 400<br/> Modes: 1<br/> Mags: 5 rounds mag PTRS","Калибр: 14.5х114 мм<br/ >Дальность: 400<br/ >Режимы: 1<br/ >Магазины: 5 заряд. магазин ПТРС"
+
+STR_svt_name,"SVT","СВТ"
+STR_svt_desc,"Caliber: 7.62x54 mm<br/> Distance: 400<br/> Rate of fire: 600<br/> Mags: 10round mag svt","Калибр: 7.62х54 мм<br/ >Дальность: 400<br/ >Темп стрельбы: 600<br/ >Магазины: 10 заряд. маг. свт"
+STR_avt_name,"AVT","АВТ"
+STR_svtl_name,"SVT(w)","СВТ(w)"
+
+STR_pu_svt_name,"PU(svt)","ПУ(свт)"
+
+STR_ppPPS_name,"PPS","ППС"
+STR_ppPPS_desc,"Caliber: 7.62x25 mm<br/> Distance: 300<br/> Modes: auto<br/> Rate of fire: 600<br/> Mags: 35 rounds mag PPSH","Калибр: 7.62х25 мм<br/ >Дальность: 300<br/ >Режимы: авто<br/ >Темп стрельбы: 600<br/ >Магазины: 35 зарядный маг. ППШ"

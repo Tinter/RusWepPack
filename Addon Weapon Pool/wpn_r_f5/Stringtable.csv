@@ -1,0 +1,33 @@
+﻿Калибр: <br/ >Дальность: <br/ >Режимы: <br/ >Темп стрельбы: <br/ >Магазины: 
+Caliber: <br/> Distance: <br/> Modes: <br/> Rate of fire: <br/> Mags:
+///////////////
+Language, "Original", "Russian"
+
+STR_akm_name,"AKM(GP-30m)","АКМ(ГП-30м)"
+STR_akm_gp_desc,"Caliber: 7.62x39<br/> Distance: 600<br/> Modes: 1\auto<br/> Rate of fire: 600<br/> Mags: 7.62x39<br/> GL: GP-30M<br/> Distance: 400<br/> Mags: 40mm HE, smoke","Калибр: 7.62х39<br/ >Дальность: 600<br/ >Режимы: 1/авто<br/ >Темп стрельбы: 600<br/ >Магазины: 7.62х39<br/ >ПГ: ГП-30М<br/ >Дальность: 400<br/ >Магазины: 40мм Оск-фуг, дым"
+STR_akm_lgl_name,"AKM(dvtl)(GP-30m)","АКМ(лх)(ГП-30м)"
+STR_akm_wgl_name,"AKM(w)(GP-30m)","АКМ(w)(ГП-30м)"
+
+STR_akm_l_name,"AKM(dvtl)","АКМ(лх)"
+STR_akm_cs_name,"AKM(reber)(dvtl)","АКМ(повстанец)(лх)"
+STR_akm_w_name,"AKM(w)","АКМ(w)"
+STR_akm_lw_desc,"Caliber: 7.62x39<br/> Distance: 600<br/> Modes: 1\auto<br/> Rate of fire: 600<br/> Mags: 7.62x39","Калибр: 7.62х39<br/ >Дальность: 600<br/ >Режимы: 1/авто<br/ >Темп стрельбы: 600<br/ >Магазины: 7.62х39"
+
+STR_soc94_name,"SOC-94","СОК-94"
+STR_soc94_desc,"Caliber: 7.62x39<br/> Distance: 400<br/> Rate of fire: ~600<br/> Mags: soc-94","Калибр: 7.62х39<br/ >Дальность: 400<br/ >Темп стрельбы: ~600<br/ >Магазины: сок-94"
+
+STR_soc95_name,"SOC-95","СОК-95"
+STR_soc95_desc,"Caliber: .308<br/> Distance: 400<br/> Rate of fire: ~600<br/> Mags: soc-95","Калибр: .308<br/ >Дальность: 400<br/ >Темп стрельбы: ~600<br/ >Магазины: сок-95"
+STR_soc95w_name,"SOC-95(w)","СОК-95(w)"
+
+STR_ash12_name,"ASH-12","АШ-12"
+STR_ash12_desc,"Caliber: 12.7x55<br/> Distance: 300<br/> Modes: 1\auto<br/> Rate of fire: 650<br/> Mags: 10\20round mag 12.7x55","Калибр: 12.7x55<br/ >Дальность: 300<br/ >Режимы: 1/авто<br/ >Темп стрельбы: 650<br/ >Магазины: 10/20 заряд. маг. 12.7x55"
+
+STR_orsis_t5000_name,"ORSIS T-5000","ОRSIS Т-5000"
+STR_orsis_t5000_desc,"Caliber: .338<br/> Distance: 1500<br/> Rate of fire: ~22<br/> Mags: .338Lapua(10 bullets)","Калибр: .338<br/ >Дальность: 1500<br/ >Темп стрельбы: ~22<br/ >Магазины: .338Lapua(10 патронов)"
+
+STR_vepr15_name,"Vepr'-15","Вепрь-15"
+STR_vepr15_desc,"Caliber: ,223<br/> Distance: 500<br/> Modes: 1<br/> Rate of fire: 850<br/> Mags: 5.56 nato","Калибр: .223<br/ >Дальность: 500<br/ >Режимы: 1<br/ >Темп стрельбы: 850<br/ >Магазины: 5.56 нато"
+
+STR_sv67_name,"SV-1367","СВ-1367"
+STR_sv67_desc,"Caliber: 12.7x55<br/> Distance: 600<br/> Modes: 1<br/> Rate of fire: 45<br/> Mags: 10\20round mag 12.7x55","Калибр: 12.7x55<br/ >Дальность: 600<br/ >Режимы: 1<br/ >Темп стрельбы: 45<br/ >Магазины: 10/20 заряд. маг. 12.7x55"
