@@ -1,0 +1,38 @@
+﻿Калибр: <br/ >Дальность: <br/ >Режимы: <br/ >Темп стрельбы: <br/ >Магазины: 
+Caliber: <br/> Distance: <br/> Modes: <br/> Rate of fire: <br/> Mags:
+compilation
+///////////////
+myW,"WPN_R_F","WPN_R_F"
+Language, "Original", "Russian"
+
+STR_ak74m_name,"AK-74M","АК-74М"
+STR_ak74m_desc,"Caliber: 5.45x39<br/> Distance: 600<br/> Modes: 1\auto<br/> Rate of fire: 650<br/> Mags: 5.45x39","Калибр: 5.45х39<br/ >Дальность: 600<br/ >Режимы: 1/авто<br/ >Темп стрельбы: 650<br/ >Магазины:5.45х39"
+
+STR_ak74mgp_name,"AK-74M(GP-30M)","АК-74М(ГП-30M)"
+STR_ak74mgp_desc,"Caliber: 5.45x39<br/> Distance: 600<br/> Modes: 1\auto<br/> Rate of fire: 650<br/> Mags: 5.45x39<br/> GL: GP-30M<br/> Distance: 400<br/> Mags: 40mm HE, smoke","Калибр: 5.45х39<br/ >Дальность: 600<br/ >Режимы: 1/авто<br/ >Темп стрельбы: 650<br/ >Магазины:5.45х39<br/ >ПГ: ГП-30М<br/ >Дальность: 400<br/ >Магазины: 40мм Оск-фуг, дым"
+
+STR_gp30m_gl,"GP-30M","ГП-30М"
+
+STR_ak74mr_name,"AK-74MR","АК-74МР"
+STR_ak74mrgp_name,"AK-74MR(GP-30M)","АК-74МР(ГП-30M)"
+
+STR_ak101_name,"AK-101","Ак-101"
+STR_ak101_desc,"Caliber: 5.56x45<br/> Distance: 600<br/> Modes: 1\auto<br/> Rate of fire: 600<br/> Mags: AK 5.56x45","Калибр: 5.56x45<br/ >Дальность: 600<br/ >Режимы: 1/авто<br/ >Темп стрельбы: 600<br/ >Магазины: АК 5.56x45"
+
+STR_ak101gp_name,"AK-101(GP-30M)","Ак-101(ГП-30M)"
+STR_ak101gp_desc,"Caliber: 5.56x45<br/> Distance: 600<br/> Modes: 1\auto<br/> Rate of fire: 600<br/> Mags: AK 5.56x45<br/>GL: GP-30M<br/> Distance: 400<br/> Mags: 40mm HE, smoke"","Калибр: 5.56x45<br/ >Дальность: 600<br/ >Режимы: 1/авто<br/ >Темп стрельбы: 600<br/ >Магазины: АК 5.56x45<br/ >ПГ: ГП-30М<br/ >Дальность: 400<br/ >Магазины: 40мм Оск-фуг, дым"
+
+STR_ak101_2_name,"AK-101-2","АК-101-2"
+STR_ak101_2_desc,"Caliber: 5.56x45<br/> Distance: 600<br/> Modes: 1\3\auto<br/> Rate of fire: 600<br/> Mags: AK 5.56x45","Калибр: 5.56x45<br/ >Дальность: 600<br/ >Режимы: 1/3/авто<br/ >Темп стрельбы: 600<br/ >Магазины: АК 5.56x45"
+
+STR_ak101_2gp_name,"AK-101-2(GP-30M)","Ак-101-2(GP-30M)"
+STR_ak101_2gp_desc,"Caliber: 5.56x45<br/> Distance: 600<br/> Modes: 1\3\auto<br/> Rate of fire: 600<br/> Mags: AK 5.56x45<br/>GL: GP-30M<br/> Distance: 400<br/> Mags: 40mm HE, smoke"","Калибр: 5.56x45<br/ >Дальность: 600<br/ >Режимы: 1/3/авто<br/ >Темп стрельбы: 600<br/ >Магазины: АК 5.56x45<br/ >ПГ: ГП-30М<br/ >Дальность: 400<br/ >Магазины: 40мм Оск-фуг, дым"
+
+STR_ak103c_name,"AK-103 Spec","АК-103 Спец"
+STR_ak103cgp_name,"AK-103 Spec(GP-30m)","АК-103 Спец(ГП-30м)"
+STR_ak_103_name,"AK-103","АК-103"
+STR_ak_103gp_name,"AK-103(GP-30m)","АК-103(ГП-30м)"
+
+STR_aks_name,"AKS-74","АКС-74"
+STR_akn_name,"AK-74N","АК-74Н"
+STR_akngp_name,"AK-74(GP-30m)","АК-74(ГП-30м)"

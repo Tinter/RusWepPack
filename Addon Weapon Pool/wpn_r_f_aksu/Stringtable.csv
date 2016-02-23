@@ -1,0 +1,21 @@
+﻿Калибр: <br/ >Дальность: <br/ >Режимы: <br/ >Темп стрельбы: <br/ >Магазины: 
+Caliber: <br/> Distance: <br/> Modes: <br/> Rate of fire: <br/> Mags:
+compilation
+///////////////
+myW,"WPN_R_F","WPN_R_F"
+Language, "Original", "Russian"
+
+STR_aks74u_name,"AKS-74U","АКС-74У"
+STR_aks74u_desc,"Caliber: 5.45x39<br/> Distance: 500<br/> Modes: 1\auto<br/> Rate of fire: 650/700<br/> Mags: 5.45x39","Калибр: 5.45х39<br/ >Дальность: 500<br/ >Режимы: 1/авто<br/ >Темп стрельбы: 650/700<br/ >Магазины:5.45х39"
+
+STR_aks74un_name,"AKS-74UN","АКС-74УН"
+
+STR_aks74ub81_name,"AKS-74U(B-18)","АКС-74У(Б-18)"
+
+STR_aks74u_takt_name,"AKS-74U(Tactic)","АКС-74У(Тактический)"
+STR_aks74u_takt_desc,"Caliber: 5.45x39<br/> Distance: 500<br/> Modes: 1\auto<br/> Rate of fire: 700<br/> Mags: 5.45x39","Калибр: 5.45х39<br/ >Дальность: 500<br/ >Режимы: 1/авто<br/ >Темп стрельбы: 700<br/ >Магазины:5.45х39"
+
+STR_aks74ub_name,"AKS-74UB","АКС-74УБ"
+STR_aks74ub_desc,"Caliber: 5.45x39<br/> Distance: 500<br/> Modes: 1\auto<br/> Rate of fire: 650/700<br/> Mags: 5.45x39<br/> GL: BS-1<br/> Distance: 200<br/> Mags: 30mm VOG-T","Калибр: 5.45х39<br/ >Дальность: 500<br/ >Режимы: 1/авто<br/ >Темп стрельбы: 650/00<br/ >Магазины:5.45х39<br/ > БС-1<br/ >Дальность: 200<br/ >Магазины: 30мм ВОГ-Т"
+
+STR_bs1_gl,"BS-1","БС-1"

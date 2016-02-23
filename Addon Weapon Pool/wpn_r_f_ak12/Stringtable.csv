@@ -1,0 +1,53 @@
+﻿Калибр: <br/ >Дальность: <br/ >Режимы: <br/ >Темп стрельбы: <br/ >Магазины: 
+Caliber: <br/> Distance: <br/> Modes: <br/> Rate of fire: <br/> Mags:
+///////////////
+myW,"WPN_R_F","WPN_R_F"
+Language, "Original", "Russian"
+
+STR_AK_12_name,"AK-12(5.45)","АК-12(5.45)"
+STR_AK_12_desc,"Caliber: 5.45x39<br/> Distance: 650<br/> Modes: 1\3\auto<br/> Rate of fire: 650\1000<br/> Mags: AK 5.45x39","Калибр: 5.45х39<br/ >Дальность: 650<br/ >Режимы: 1/3/авто<br/ >Темп стрельбы: 650/1000<br/ >Магазины: АК 5.45х39"
+
+STR_AK_12556_name,"AK-12(5.56)","АК-12(5.56)"
+STR_AK_12556_desc,"Caliber: 5.56x45<br/> Distance: 650<br/> Modes: 1\3\auto<br/> Rate of fire: 650\1000<br/> Mags: AK 5.56x45","Калибр: 5.56x45<br/ >Дальность: 650<br/ >Режимы: 1/3/авто<br/ >Темп стрельбы: 650/1000<br/ >Магазины: АК 5.56х45"
+
+STR_AK_12762_name,"AK-12(7.62)","АК-12(7.62)"
+STR_AK_12762_desc,"Caliber: 7.62x39<br/> Distance: 650<br/> Modes: 1\3\auto<br/> Rate of fire: 650\1000<br/> Mags: AK 7.62x39","Калибр: 7.62x39<br/ >Дальность: 650<br/ >Режимы: 1/3/авто<br/ >Темп стрельбы: 650/1000<br/ >Магазины: АК 7.62x39"
+
+STR_AK_1265_name,"AK-12(6.5)","АК-12(6.5)"
+STR_AK_1265_desc,"Caliber: 6.5x39<br/> Distance: 650<br/> Modes: 1\3\auto<br/> Rate of fire: 650\1000<br/> Mags: AK 6.5x39","Калибр: 6.5x39<br/ >Дальность: 650<br/ >Режимы: 1/3/авто<br/ >Темп стрельбы: 650/1000<br/ >Магазины: АК 6.5x39"
+
+STR_65_39_ak_mag_name,"6.5х39(30cartr)","6.5х39(30патр)"
+STR_65_39_ak_mag_desc,"Caliber: 6.5x39mm<br />Quantity: 30cartrige<br />Type: Normal<br />Use: Ak-12","Калибр: 6.5х39мм<br />Количество: 30патронов<br />Тип: обычный<br />Используется: Ак-12"
+STR_65_39_ak_mag_trs_name,"6.5х39(30cartr), green tracer","6.5х39(30патр), зеленый трассер"
+STR_65_39_ak_mag_trs_desc,"Caliber: 6.5x39mm<br />Quantity: 30cartrige<br />Type: tracer<br />Use: Ak-12","Калибр: 6.5х39мм<br />Количество: 30патронов<br />Тип: трассер<br />Используется: Ак-12"
+
+STR_545_60bmag_name,"5.45х39(60cartr)","5.45х39(60патр)"
+STR_545_60bmag_desc,"Caliber: 5.45x39mm<br />Quantity: 60cartrige<br />Type: Normal<br />Use: RPK-12","Калибр: 5.45х39мм<br />Количество: 60патронов<br />Тип: обычный<br />Используется: РПК-12"
+STR_545_60bmag_trs_name,"5.45x39(60cartr), green tracer","5.45х39(60патр), зеленый трассер"
+STR_545_60bmag_trs_desc,"Caliber: 5.45x39mm<br />Quantity: 60cartrige<br />Type: tracer<br />Use: RPK-12","Калибр: 5.45х39мм<br />Количество: 60патронов<br />Тип: трассер<br />Используется: РПК-12"
+STR_545_95bmag_name,"5.45х39(95cartr)","5.45х39(95патр)"
+STR_545_95bmag_desc,"Caliber: 5.45x39mm<br />Quantity: 95cartrige<br />Type: Normal<br />Use: RPK-12","Калибр: 5.45х39мм<br />Количество: 95патронов<br />Тип: обычный<br />Используется: РПК-12"
+
+STR_AK_12gp_name,"AK-12(5.45)(GP-30M)","АК-12(5.45)(ГП-30М)"
+STR_ak12_545gp_desc,"Caliber: 5.45x39<br/> Distance: 650<br/> Modes: 1\3\auto<br/> Rate of fire: 650\1000<br/>Mags: AK 5.45x39<br/> GL: GP-30M<br/> Distance: 400<br/> Mags: 40mm HE, smoke","Калибр: 5.45х39<br/ >Дальность: 650<br/ >Режимы: 1/3/авто<br/ >Темп стрельбы: 650/1000<br/ >Магазины: АК 5.45х39<br/ >ПГ: ГП-30М<br/ >Дальность: 400<br/ >Магазины: 40мм Оск-фуг, дым"
+
+STR_AK_12762gp_name,"AK-12(7.62)(GP-30M)","АК-12(7.62)(ГП-30М)"
+STR_ak12_762gp_desc,"Caliber: 7.62x39<br/> Distance: 650<br/> Modes: 1\3\auto<br/> Rate of fire: 650\1000<br/>Mags: AK 7.62x39<br/> GL: GP-30M<br/> Distance: 400<br/> Mags: 40mm HE, smoke","Калибр: 7.62x39<br/ >Дальность: 650<br/ >Режимы: 1/3/авто<br/ >Темп стрельбы: 650/1000<br/ >Магазины: АК 7.62х39<br/ >ПГ: ГП-30М<br/ >Дальность: 400<br/ >Магазины: 40мм Оск-фуг, дым"
+
+STR_AK_12556gp_name,"AK-12(5.56)(GP-30M)","АК-12(5.56)(ГП-30М)"
+STR_ak12_556gp_desc,"Caliber: 5.56x45<br/> Distance: 650<br/> Modes: 1\3\auto<br/> Rate of fire: 650\1000<br/>Mags: AK 5.56x45<br/> GL: GP-30M<br/> Distance: 400<br/> Mags: 40mm HE, smoke","Калибр: 5.56х45<br/ >Дальность: 650<br/ >Режимы: 1/3/авто<br/ >Темп стрельбы: 650/1000<br/ >Магазины: АК 5.56х45<br/ >ПГ: ГП-30М<br/ >Дальность: 400<br/ >Магазины: 40мм Оск-фуг, дым"
+
+STR_AKu_12_name,"AKU-12(5.45)","АКУ-12(5.45)"
+STR_AKu_12_desc,"Caliber: 5.45x39<br/> Distance: 550<br/> Modes: 1\3\auto<br/> Rate of fire: 700\1000<br/>Mags: AK 5.45x39","Калибр: 5.45х39<br/ >Дальность: 550<br/ >Режимы: 1/3/авто<br/ >Темп стрельбы: 700/1000<br/ >Магазины: АК 5.45х39"
+
+STR_AKu_12762_name,"AKU-12(7.62)","АКУ-12(7.62)"
+STR_AKu_12762_desc,"Caliber: 7.62x39<br/> Distance: 550<br/> Modes: 1\3\auto<br/> Rate of fire: 700\1000<br/>Mags: AK 7.62x39","Калибр: 7.62x39<br/ >Дальность: 550<br/ >Режимы: 1/3/авто<br/ >Темп стрельбы: 700/1000<br/ >Магазины: АК 7.62x39"
+
+STR_rpk12_name,"RPK-12(5.45)","РПК-12(5.45)"
+STR_rpk12_desc,"Caliber: 5.45x39<br/> Distance: 900<br/> Modes: 1\3\auto<br/> Rate of fire: 650\1000<br/>Mags: mag on 60/95 bullets RPK-12","Калибр: 5.45х39<br/ >Дальность: 900<br/ >Режимы: 1/3/авто<br/ >Темп стрельбы: 650/1000<br/ >Магазины: маг. на 60\95 патр. РПК-12"
+
+STR_rpk_12556_name,"RPK-12(5.56)","РПК-12(5.56)"
+STR_rpk_12556_desc,"Caliber: 5.56x45<br/> Distance: 900<br/> Modes: 1\3\auto<br/> Rate of fire: 650\1000<br/>Mags: mag RPK-201 45/75 bullet","Калибр: 5.56х45<br/ >Дальность: 900<br/ >Режимы: 1/3/авто<br/ >Темп стрельбы: 650/1000<br/ >Магазины: маг. РПК-201 на 45\75 патронов"
+
+STR_rpk_12762_name,"RPK-12(7.62)","РПК-12(7.62)"
+STR_rpk_12762_desc,"Caliber: 7.62x39<br/> Distance: 900<br/> Modes: 1\3\auto<br/> Rate of fire: 650\1000<br/>Mags: mag RPK 40/75 bullet","Калибр: 7.62х39<br/ >Дальность: 900<br/ >Режимы: 1/3/авто<br/ >Темп стрельбы: 650/1000<br/ >Магазины: маг. РПК на 40\75 патронов"
