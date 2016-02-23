@@ -1,0 +1,48 @@
+﻿////Multiplicity: <br/>Range: <br/>Modes: 
+////Кратность: <br/>Дальность: <br/>Режимы: 
+///////////////
+Language, "Original", "Russian"
+
+STR_pka_name,"PK-A(dvtl)","ПК-А(лх)"
+STR_pka_desc,"Multiplicity: 1x<br/>Range: 100<br/>Modes: vis","Кратность: 1x<br/>Дальность: 100<br/>Режимы: vis"
+
+STR_pkm_kro_name,"PKM-A-01(dvtl)","ПКМ-А-01(лх)"
+STR_pkm_kro_desc,"Multiplicity: 1x<br/>Range: 200<br/>Modes: vis","Кратность: 1x<br/>Дальность: 200<br/>Режимы: vis"
+STR_pkm_name,"PKM-A-01(w)","ПКМ-А-01(w)"
+
+STR_pln_name,"Mount for dovetail","Кронштейн для Ласт. хвост"
+STR_pln_desc,"Mounting Method-side","Способ крепления-сбоку"
+
+STR_kob_kro_name,"EKP-8-18(dvtl)","ЭКП-8-18(лх)"
+STR_kob_kro_desc,"Multiplicity: 1x<br/>Range: 200<br/>Modes: vis","Кратность: 1x<br/>Дальность: 200<br/>Режимы: vis"
+STR_kob_name,"EKP-8-18(w)","ЭКП-8-18(w)"
+
+STR_kobDrob_kro_name,"EKP-8-18(Shgn)(dvtl)","ЭКП-8-18(Drob)(лх)"
+STR_kobDrob_kro_desc,"Multiplicity: 1x<br/>Range: 100<br/>Modes: vis","Кратность: 1x<br/>Дальность: 100<br/>Режимы: vis"
+STR_kobDrob_name,"EKP-8-18(Shgn)(w)","ЭКП-8-18(Drob)(w)"
+
+STR_kr4_kro_name,"Krechet(dvtl)","Кречет(лх)"
+STR_kr4_kro_desc,"Multiplicity: 1x<br/>Range: 200<br/>Modes: vis","Кратность: 1x<br/>Дальность: 200<br/>Режимы: vis"
+STR_kr4_name,"Krechet(w)","Кречет(w)"
+
+STR_bars_name,"PO Barsik 1x24(w)","ПО Барсик 1х24(w)"
+STR_bars_desc,"Multiplicity: 1x<br/>Range: 100<br/>Modes: vis","Кратность: 1x<br/>Дальность: 100<br/>Режимы: vis"
+STR_bars_kro_name,"PO Barsik 1x24(dvtl)","ПО Барсик 1х24(лх)"
+
+STR_yo_name,"Yorris(w)","Йоррис(w)"
+STR_yo_kro_name,"Yorris(dvtl)","Йоррис(лх)"
+
+STR_psoC_name,"PSO-1(w)","ПСО-1(w)"
+STR_psoDrob_name,"PSO-1(Shgn)(w)","ПСО-1(Drob)(w)"
+STR_psoDrob_desc,"Multiplicity: 4x<br/>Range: 800<br/>Modes: vis","Кратность: 4x<br/>Дальность: 800<br/>Режимы: vis"
+
+STR_psoC_kro_name,"PSO-1(dvtl)","ПСО-1(лх)"
+STR_psoDrob_kro_name,"PSO-1(Shgn)(dvtl","ПСО-1(Drob)(лх)"
+
+STR_kasht2_name,"Kashtan-PM(dvtl)","Каштан-ПМ(лх)"
+STR_kasht2p_name,"Kashtan-PM(w)","Каштан-ПМ(w)"
+
+STR_PG2p_name,"Valdai PG-210(w)","Валдай ПГ-210(w)"
+STR_PG2_name,"Valdai PG-210(dvtl)","Валдай ПГ-210(лх)"
+
+STR_pso_avtori,"Paul68Rageous,Millenia,ПСЕВДО-S.T.A.L.K.E.R.","Paul68Rageous,Millenia,ПСЕВДО-S.T.A.L.K.E.R."

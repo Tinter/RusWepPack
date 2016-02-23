@@ -1,0 +1,62 @@
+﻿////Multiplicity: <br/>Range: <br/>Modes: 
+////Кратность: <br/>Дальность: <br/>Режимы: 
+///////////////
+Language, "Original", "Russian"
+
+STR_pkas_name,"PK-As(w)","ПК-Ас(w)"
+STR_pkas_desc,"Multiplicity: 1x<br/>Range: 200<br/>Modes: vis","Кратность: 1x<br/>Дальность: 200<br/>Режимы: vis"
+STR_pk01_name,"PK-01(dvtl)","ПК-01(лх)"
+
+STR_pkasDrob_name,"PK-As(Shgn)(dvtl)","ПК-Ас(Drob)(лх)"
+STR_pkasDrob_desc,"Multiplicity: 1x<br/>Range: 100<br/>Modes: vis","Кратность: 1x<br/>Дальность: 100<br/>Режимы: vis"
+
+STR_p29_name,"1P29(dvtl)","1П29(лх)"
+STR_p29_desc,"Multiplicity: 4x<br/>Range: 300-600<br/>Modes: vis","Кратность: 4x<br/>Дальность: 300-600<br/>Режимы: vis"
+
+STR_p63_name,"1P63(dvtl)","1П63(лх)"
+STR_p63_desc,"Multiplicity: 1x<br/>Range: 200<br/>Modes: vis","Кратность: 1x<br/>Дальность: 200<br/>Режимы: vis"
+STR_p63p_name,"1P63(w)","1П63(w)"
+
+STR_puoL_name,"PUO-1(w)","ПУО-1(w)"
+STR_puoL_desc,"Multiplicity: 0.5x-37.5x<br/>Range: 2200<br/>Modes: vis/nv/ti","Кратность: 0.5x-37.5x<br/>Дальность: 2200<br/>Режимы: vis/nv/ti"
+STR_puoL_kro_name,"PUO-1(dvtl)","ПУО-1(лх)"
+
+STR_p78_name,"1P78(dvtl)","1П78(лх)"
+STR_p78_desc,"Multiplicity: 2.7x<br/>Range: 200<br/>Modes: vis","Кратность: 2.7x<br/>Дальность: 200<br/>Режимы: vis"
+STR_p78p_name,"1P78(w)","1П78(w)"
+
+STR_pkou_name,"PK-021+OU5x(dvtl)","ПК-021+ОУ5х(лх)"
+STR_pkou_desc,"Multiplicity: 1x/5x<br/>Range: 200/300-400<br/>Modes: vis","Кратность: 1x/5x<br/>Дальность: 200/300-400<br/>Режимы: vis"
+STR_pkoup_name,"PK-021+OU5x(w)","ПК-021+ОУ5х(w)"
+
+STR_pksM_name,"PKS-07(w)","ПКС-07(w)"
+STR_pksM_desc,"Multiplicity: 7x<br/>Range: 1200<br/>Modes: vis","Кратность: 7x<br/>Дальность: 1200<br/>Режимы: vis"
+STR_pksDrob_name,"PKS-07(Shgn)(w)","ПКС-07(Drob)(w)"
+STR_pksDrob_desc,"Multiplicity: 7x<br/>Range: 100<br/>Modes: vis","Кратность: 7x<br/>Дальность: 100<br/>Режимы: vis"
+
+STR_pksM_kro_name,"PKS-07(M)(dvtl)","ПКС-07(M)(лх)"
+STR_pksDrob_kro_name,"PKS-07(Shgn)(dvtl)","ПКС-07(Drob)(лх)"
+
+STR_pksnM_name,"PKS-07(n)(w)","ПКС-07(n)(w)"
+STR_pksnM_desc,"Multiplicity: 7x<br/>Range: 1200<br/>Modes: vis\nv","Кратность: 7x<br/>Дальность: 1200<br/>Режимы: vis\nv"
+STR_pksnDrob_name,"PKS-07(Shgn)(n)(w)","ПКС-07(Drob)(n)(w)"
+STR_pksnDrob_desc,"Multiplicity: 7x<br/>Range: 100<br/>Modes: vis\nv","Кратность: 7x<br/>Дальность: 100<br/>Режимы: vis\nv"
+
+STR_pksnM_kro_name,"PKS-07(n)(dvtl)","ПКС-07(n)(лх)"
+STR_pksnDrob_kro_name,"PKS-07(Shgn)(n)(dvtl)","ПКС-07(Drob)(n)(лх)"
+
+STR_gi7M_name,"1P71-1","1П71-1"
+STR_gi7M_desc,"Multiplicity: 3x/6x/10x<br/>Range: 1200<br/>Modes: vis","Кратность: 3x/6x/10x<br/>Дальность: 1200<br/>Режимы: vis"
+STR_gi7Drob_name,"1P71-1(Shgn)","1П71-1(Drob)"
+STR_gi7Drob_desc,"Multiplicity: 3x/6x/10x<br/>Range: 100<br/>Modes: vis","Кратность: 3x/6x/10x<br/>Дальность: 100<br/>Режимы: vis"
+
+STR_gi6M_name,"1P69","1П69"
+STR_gi6Drob_name,"1P69(Shgn)","1П69(Drob)"
+
+STR_gi7nM_name,"1P71-1(n)","1П71-1(n)"
+STR_gi7nM_desc,"Multiplicity: 3x/6x/10x<br/>Range: 1200<br/>Modes: vis/nv","Кратность: 3x/6x/10x<br/>Дальность: 1200<br/>Режимы: vis/nv"
+STR_gi7nDrob_name,"1P71-1(Shgn)(n)","1П71-1(Drob)(n)"
+STR_gi7nDrob_desc,"Multiplicity: 3x/6x/10x<br/>Range: 100<br/>Modes: vis/nv","Кратность: 3x/6x/10x<br/>Дальность: 100<br/>Режимы: vis/nv"
+
+STR_gi6nM_name,"1P69(n)","1П69(n)"
+STR_gi6nDrob_name,"1P69(Shgn)(n)","1П69(Drob)(n)"

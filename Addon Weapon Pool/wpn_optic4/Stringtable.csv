@@ -1,0 +1,60 @@
+////Multiplicity: <br/>Range: <br/>Modes: 
+////Кратность: <br/>Дальность: <br/>Режимы: 
+///////////////
+Language, "Original", "Russian"
+
+STR_pu_p_name,"PU 3,5x22(w)","ПУ 3,5х22(w)"
+STR_pu_p_desc,"Multiplicity: 3,5x<br/>Range: 300<br/>Modes: vis","Кратность: 3,5х<br/>Дальность: 300<br/>Режимы: vis"
+STR_pu_kro_name,"PU 3,5x22(dvtl)","ПУ 3,5х22(лх)"
+
+STR_ded470M_name,"Dedal 470(w)","Dedal 470(w)"
+STR_ded470M_desc,"Multiplicity: 3,9x/6x<br/>Range: 1200<br/>Modes: vis/nv","Кратность: 3,9x/6x<br/>Дальность: 1200<br/>Режимы: vis/nv"
+STR_ded470Drob_name,"Dedal 470(Shgn)(w)","Dedal 470(Дроб)(w)"
+STR_ded470Drob_desc,"Multiplicity: 3,9x/6x<br/>Range: 100<br/>Modes: vis/nv","Кратность: 3,9x/6x<br/>Дальность: 100<br/>Режимы: vis/nv"
+
+STR_ded470M_kro_name,"Dedal 470(dvtl)","Dedal 470(лх)"
+STR_ded470M_kro_desc,"Multiplicity: 3,9x/6x<br/>Range: 1200<br/>Modes: vis/nv","Кратность: 3,9x/6x<br/>Дальность: 1200<br/>Режимы: vis/nv"
+STR_ded470Drob_kro_name,"Dedal 470(Shgn)(dvtl)","Dedal 470(Дроб)(лх)"
+STR_ded470Drob_kro_desc,"Multiplicity: 3,9x/6x<br/>Range: 100<br/>Modes: vis/nv","Кратность: 3,9x/6x<br/>Дальность: 100<br/>Режимы: vis/nv"
+
+STR_pk01vi_name,"PK-01VI(w)","ПК-01ВИ(w)"
+STR_pk01vi_desc,"Multiplicity: 1x<br/>Range: 200<br/>Modes: vis","Кратность: 1х<br/>Дальность: 200<br/>Режимы: vis"
+STR_pk01vi_kro,"PK-01VI(dvtl)","ПК-01ВИ(лх)"
+
+STR_pos1350M_name,"POS 13x50(w)","ПОС 13х50(w)"
+STR_pos1350M_desc,"Multiplicity: 13x<br/>Range: 1200<br/>Modes: vis","Кратность: 13x<br/>Дальность: 1200<br/>Режимы: vis"
+STR_POS13x50Drob_name,"POS 13x50(Shgn)(w)","ПОС 13х50(Drob)(w)"
+STR_POS13x50Drob_desc,"Multiplicity: 13x<br/>Range: 150<br/>Modes: vis","Кратность: 13x<br/>Дальность: 150<br/>Режимы: vis"
+
+STR_POS1350M_kro_name,"POS 13x50(dvtl)","ПОС 13х50(лх)"
+STR_POS1350M_kro_desc,"Multiplicity: 13x<br/>Range: 1200<br/>Modes: vis","Кратность: 13x<br/>Дальность: 1200<br/>Режимы: vis"
+STR_POS1350Drob_kro_name,"POS 13x50(Shgn)(dvtl)","ПОС 13х50(Drob)(лх)"
+STR_POS1350Drob_kro_desc,"Multiplicity: 13x<br/>Range: 150<br/>Modes: vis","Кратность: 13x<br/>Дальность: 150<br/>Режимы: vis"
+
+STR_POS1350nM_name,"POS 13x50(n)(w)","ПОС 13х50(n)(w)"
+STR_POS1350nM_desc,"Multiplicity: 13x<br/>Range: 1200<br/>Modes: vis/nv","Кратность: 13x<br/>Дальность: 1200<br/>Режимы: vis/nv"
+STR_POS1350nDrob_name,"POS 13x50(Shgn)(n)(w)","ПОС 13х50(Drob)(n)(w)"
+STR_POS1350nDrob_desc,"Multiplicity: 13x<br/>Range: 150<br/>Modes: vis/nv","Кратность: 13x<br/>Дальность: 150<br/>Режимы: vis/nv"
+
+STR_POS1350nM_kro_name,"POS 13x50(dvtl)(n)","ПОС 13х50(лх)(n)"
+STR_POS1350nM_kro_desc,"Multiplicity: 13x<br/>Range: 1200<br/>Modes: vis/nv","Кратность: 13x<br/>Дальность: 1200<br/>Режимы: vis/nv"
+STR_POS1350nDrob_kro_name,"POS 13x50(Shgn)(dvtl)(n)","ПОС 13х50(Drob)(лх)(n)"
+STR_POS1350nDrob_kro_desc,"Multiplicity: 13x<br/>Range: 150<br/>Modes: vis/nv","Кратность: 13x<br/>Дальность: 150<br/>Режимы: vis/nv"
+
+STR_pk05kro_name,"Ultra sight PK-05W(dvtl)","Ultra sight PK-05W(лх)"
+STR_pk05_desc,"Multiplicity: 1x<br/>Range: 200<br/>Modes: vis","Кратность: 1х<br/>Дальность: 200<br/>Режимы: vis"
+STR_pk05_name,"Ultra sight PK-05W(w)","Ultra sight PK-05W(w)"
+
+STR_pk05d_name,"Ultra sight PK-05W(Shgn)(w)","Ultra sight PK-05W(Drob)(w)"
+STR_pk05d_desc,"Multiplicity: 1x<br/>Range: 100<br/>Modes: vis","Кратность: 1х<br/>Дальность: 100<br/>Режимы: vis"
+STR_pk05dkro_name,"Ultra sight PK-05W(Shgn)(dvtl)","Ultra sight PK-05W(Drob)(лх)"
+
+STR_elcan_name,"Elcan SpecterDR 1-4x(w)","Elcan SpecterDR 1-4x(w)"
+STR_elcan_desc,"Multiplicity: 1x/4x/1x<br/>Range: 100/300<br/>Modes: vis","Кратность: 1x/4x/1x<br/>Дальность: 100/300<br/>Режимы: vis"
+STR_elcankr_name,"Elcan SpecterDR 1-4x(dvtl)","Elcan SpecterDR 1-4x(лх)"
+
+STR_pos_avtor,"team Операция Ы","команда Операция Ы"
+
+STR_ded312_name,"Dedal DS 3-12x50(w)","Dedal DS 3-12x50(w)"
+STR_ded312_desc,"Multiplicity: 3x/9x/12x<br/>Range: 2250<br/>Modes: vis","Кратность: 3x/9x/12x<br/>Дальность: 2250<br/>Режимы: vis"
+STR_ded312k_name,"Dedal DS 3-12x50(dvtl)","Dedal DS 3-12x50(лх)"

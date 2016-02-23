@@ -1,0 +1,60 @@
+﻿////Multiplicity: <br/>Range: <br/>Modes: 
+////Кратность: <br/>Дальность: <br/>Режимы: 
+///////////////
+Language, "Original", "Russian"
+
+STR_nit_name,"Nit'","Нить"
+STR_nit_desc,"Multiplicity: 1x<br/>Range: 100-300<br/>Modes: vis","Кратность: 1x<br/>Дальность: 100-300<br/>Режимы: vis"
+
+STR_racou_kro_name,"Rakurs-PM + OU5x(dvtl)","Ракурс-ПМ + ОУ5х(лх)"
+STR_racou_kro_desc,"Multiplicity: 1x/5x<br/>Range: 200\300-400<br/>Modes: vis","Кратность: 1x/5x<br/>Дальность: 200\300-400<br/>Режимы: vis"
+STR_racou_name,"Rakurs-PM + OU5x(w)","Ракурс-ПМ + ОУ5х(w)"
+
+STR_cod_name,"COD2(w)","COD2(w)"
+STR_cod_desc,"Multiplicity: 1x/4x<br/>Range: 100\300<br/>Modes: vis","Кратность: 1x/4x<br/>Дальность: 100\300<br/>Режимы: vis"
+STR_cod_kro_name,"COD2(dvtl)","COD2(лх)"
+
+STR_akog_name,"ACOG TA11c(dvtl)","ACOG TA11c(лх)"
+STR_akog_desc,"Multiplicity: 1x/4x<br/>Range: 100\300<br/>Modes: vis","Кратность: 1x/4x<br/>Дальность: 100\300<br/>Режимы: vis"
+STR_acog_name,"ACOG TA11c(w)","ACOG TA11c(w)"
+
+STR_PSU_name,"PSU(w)","ПСУ(w)"
+STR_PSU_desc,"Multiplicity: 1x/6x<br/>Range: 300<br/>Modes: vis","Кратность: 1x/6x<br/>Дальность: 100\300<br/>Режимы: vis"
+STR_PSU_kro_name,"PSU(dvtl)","ПСУ(лх)"
+
+STR_pi_name,"Pilad p1x42(w)","Пилад p1x42(w)"
+STR_pi_desc,"Multiplicity: 2x<br/>Range: 200<br/>Modes: vis","Кратность: 2x<br/>Дальность: 200<br/>Режимы: vis"
+STR_pi_kro_name,"Pilad p1x42(dvtl)","Пилад p1x42(лх)"
+
+STR_ded5L_name,"Dedal DH 5-20x56(w)","Дедаль DH 5-20x56(w)"
+STR_ded5L_desc,"Multiplicity: 5x/10x/15x/20x<br/>Range: 2200<br/>Modes: vis","Кратность: 5x/10x/15x/20x<br/>Дальность: 2200<br/>Режимы: vis"
+STR_ded5Drob_name,"Dedal DH 5-20x56(Shgn)(w)","Дедаль DH 5-20x56(Drob)(w)"
+STR_ded5Drob_desc,"Multiplicity: 5x/10x/15x/20x<br/>Range: 150<br/>Modes: vis","Кратность: 5x/10x/15x/20x<br/>Дальность: 150<br/>Режимы: vis"
+
+STR_ded5L_kro_name,"Dedal DH 5-20x56(dvtl)","Дедаль DH 5-20x56(лх)"
+STR_ded5Drob_kro_name,"Dedal DH 5-20x56(Shgn)(dvtl)","Дедаль DH 5-20x56(Drob)(лх)"
+
+STR_ded5nL_name,"Dedal DH 5-20x56(n)(w)","Дедаль DH 5-20x56(n)(w)"
+STR_ded5nL_desc,"Multiplicity: 5x/10x/15x/20x<br/>Range: 2200<br/>Modes: vis/nv","Кратность: 5x/10x/15x/20x<br/>Дальность: 2200<br/>Режимы: vis/nv"
+STR_ded5nDrob_name,"Dedal DH 5-20x56(Shgn)(n)(w)","Дедаль DH 5-20x56(Drob)(n)(w)"
+STR_ded5nDrob_desc,"Multiplicity: 5x/10x/15x/20x<br/>Range: 150<br/>Modes: vis/nv","Кратность: 5x/10x/15x/20x<br/>Дальность: 150<br/>Режимы: vis/nv"
+
+STR_ded5nL_kro_name,"Dedal DH 5-20x56(n)(dvtl)","Дедаль DH 5-20x56(n)(лх)"
+STR_ded5nDrob_kro_name,"Dedal DH 5-20x56(Shgn)(n)(dvtl)","Дедаль DH 5-20x56(Drob)(n)(лх)"
+
+STR_nfL_name,"NightForse 15-55x52(w)","NightForse 15-55x52(w)"
+STR_nfL_desc,"Multiplicity: 15x/25x/35x/45x/55x<br/>Range: 2200<br/>Modes: vis","Кратность: 15x/25x/35x/45x/55x<br/>Дальность: 2200<br/>Режимы: vis"
+STR_nfDrob_name,"NightForse 15-55x52(Shgn)(w)","NightForse 15-55x52(Drob)(w)"
+STR_nfDrob_desc,"Multiplicity: 15x/25x/35x/45x/55x<br/>Range: 150<br/>Modes: vis","Кратность: 15x/25x/35x/45x/55x<br/>Дальность: 150<br/>Режимы: vis"
+
+STR_nfL_kro_name,"NightForse 15-55x52(dvtl)","NightForse 15-55x52(лх)"
+STR_nfDrob_kro_name,"NightForse 15-55x52(Shgn)(dvtl)","NightForse 15-55x52(Drob)(лх)"
+
+STR_nfnL_name,"NightForse 15-55x52(n)(w)","NightForse 15-55x52(n)(w)"
+STR_nfnL_desc,"Multiplicity: 15x/25x/35x/45x/55x<br/>Range: 2200<br/>Modes: vis/nv","Кратность: 15x/25x/35x/45x/55x<br/>Дальность: 2200<br/>Режимы: vis/nv"
+STR_nfnDrob_name,"NightForse 15-55x52(Shgn)(n)(w)","NightForse 15-55x52(Drob)(n)(w)"
+STR_nfnDrob_desc,"Multiplicity: 15x/25x/35x/45x/55x<br/>Range: 150<br/>Modes: vis/nv","Кратность: 15x/25x/35x/45x/55x<br/>Дальность: 150<br/>Режимы: vis/nv"
+
+STR_nfnL_kro_name,"NightForse 15-55x52(n)(dvtl)","NightForse 15-55x52(n)(лх)"
+STR_nfnDrob_kro_name,"NightForse 15-55x52(Shgn)(n)(dvtl)","NightForse 15-55x52(Drob)(n)(лх)"
+	
