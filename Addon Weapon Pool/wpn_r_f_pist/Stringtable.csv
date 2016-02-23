@@ -1,0 +1,55 @@
+﻿Калибр: <br/ >Дальность: <br/ >Режимы: <br/ >Темп стрельбы: <br/ >Магазины: 
+Caliber: <br/> Distance: <br/> Modes: <br/> Rate of fire: <br/> Mags:
+compilation
+///////////////
+myW,"WPN_R_F","WPN_R_F"
+Language, "Original", "Russian"
+
+STR_gsh18_name,"GSH-18","ГШ-18"
+STR_gsh18_desc,"Caliber: 9x19<br/> Distance: ~50<br/> Modes: 1<br/> Mags: 9x19(18 bullet)","Калибр: 9х19<br/ >Дальность: ~50<br/ >Режимы: 1<br/ >Магазины:9х19(18 патронов)"
+
+STR_kedr_name,"PP-91 Kedr","ПП-91 Кедр"
+STR_kedr_desc,"Caliber: 9x18<br/> Distance: 150<br/> Modes: 1\auto<br/> Mags: 9x18 Kedr","Калибр: 9х18<br/ >Дальность: 150<br/ >Режимы: 1\авто<br/ >Магазины:9х18 Кедр"
+STR_kedrp_desc,"Caliber: 9x18<br/> Distance: 150<br/> Modes: 1\auto<br/> Mags: 9x18 Kedr(20 bullet)","Калибр: 9х18<br/ >Дальность: 150<br/ >Режимы: 1\авто<br/ >Магазины:9х18 Кедр(20 патронов)"
+
+STR_pb_name,"PB","ПБ"
+STR_pb_desc,"Caliber: 9x18<br/> Distance: ~50<br/> Modes: 1<br/> Mags: 9x18 PM","Калибр: 9х18<br/ >Дальность: ~50<br/ >Режимы: 1<br/ >Магазины:9х18 ПМ"
+
+STR_pmm_name,"PMM-8","ПММ-8"
+
+STR_so_name,"AF-1 Strike One","Стриж"
+STR_so_desc,"Caliber: 9x19<br/> Distance: ~50<br/> Modes: 1<br/> Mags: 9x19(17,30 bullet)","Калибр: 9х19<br/ >Дальность: ~50<br/ >Режимы: 1<br/ >Магазины:9х19(17,30 патронов)"
+
+STR_so_avtor,"Рикошет, ШиЗ","Рикошет, ШиЗ"
+STR_pp_so_avtor,"Рикошет, ШиЗ\gerasimow9","Рикошет, ШиЗ\gerasimow9"
+
+STR_pp_so_name,"SMG AF-1 Strike One","ПП Стриж"
+STR_pp_so_desc,"Caliber: 9x19<br/> Distance: 100<br/> Modes: 1\auto<br/> Mags: 9x19(17,30 bullet)","Калибр: 9х19<br/ >Дальность: 100<br/ >Режимы: 1\авто<br/ >Магазины:9х19(17,30 патронов)"
+
+STR_tt_pist_name,"TT","ТТ"
+STR_tt_pist_desc,"Caliber: 7.62x25<br/> Distance: ~50<br/> Modes: 1<br/> Mags: 7.62 TT(8 bullet)","Калибр: 7.62х25<br/ >Дальность: ~50<br/ >Режимы: 1<br/ >Магазины:7.62 ТТ(8 патронов)"
+
+STR_ngn_name,"Revolver Nagant","Револьвер системы Нагана"
+STR_ngn_desc,"Caliber: 7.62x38<br/> Distance: ~50 Mags: Bullets 7.62","Калибр: 7.62х38<br/ >Дальность: ~50<br/ >Магазины: Пули кал.7.62"
+
+STR_spp1_name,"SPP-1M","СПП-1М"
+STR_spp1_desc,"Caliber: 4.5x40mm R<br/> Distance: ~50<br/>Feature: underwater<br/>Mags: spec. clip with 4 bullets","Калибр: 4.5х40мм R<br/ >Дальность: ~50<br/ >Особенность: подводный<br/>Магазины: спец. клипа на 4 патр."
+
+STR_biz_name,"PP-19 Bison-2","ПП-19 Бизое-2"
+STR_biz_desc,"Caliber: 9x18<br/> Distance: 150<br/> Modes: 1\auto<br/> Mags: 9x18 Bison","Калибр: 9х18<br/ >Дальность: 150<br/ >Режимы: 1\авто<br/ >Магазины:9х18 Бизон"
+
+STR_rgm_name,"RGM-40","РГМ-40"
+STR_rgm_desc,"Caliber: 40mm<br/>Distance: 400<br/> Mags: 40mm HE, smoke","Калибр: 40мм<br/ >Дальность: 400<br/ >Магазины: 40мм Оск-фуг, дым"
+
+STR_pist_sr1_name,"SR1-MP","СР1-МП"
+STR_pist_sr1_desc,"Caliber: 9x21<br/> Distance: 100<br/> Modes: 1<br/> Mags: 9x21(18 bullets)","Калибр: 9х21<br/ >Дальность: 100<br/ >Режимы: 1<br/ >Магазины:9х21(18патронов)"
+
+STR_g17_name,"Orsis Glock 17","Оrsis Glock 17"
+STR_g17_desc,"Caliber: 9x19<br/> Distance: 100<br/> Modes: 1<br/> Mags: 9x19(17 bullet)","Калибр: 9х19<br/ >Дальность: 100<br/ >Режимы: 1<br/ >Магазины:9х19(17 патронов)"
+
+STR_g35_name,"Orsis Glock 35","Оrsis Glock 35"
+STR_g35_desc,"Caliber: .40<br/> Distance: 100<br/> Modes: 1<br/> Mags: 10x22(15 bullet)","Калибр: .40<br/ >Дальность: 100<br/ >Режимы: 1<br/ >Магазины:10x22 (15 патронов)"
+
+
+STR_gl_15b_name,".40(15cartr)",".40(15патр)"
+STR_gl_15b_desc,"Caliber: 10x22 mm<br />Quantity: 15cartrige<br />Type: Normal<br />Use:Glock 35","Калибр: 10x22 мм<br />Количество: 15 патронов<br />Тип: обычный<br />Используется: Glock 35"

@@ -1,0 +1,39 @@
+﻿Калибр: <br/ >Дальность: <br/ >Режимы: <br/ >Темп стрельбы: <br/ >Магазины: 
+Caliber: <br/> Distance: <br/> Modes: <br/> Rate of fire: <br/> Mags:
+///////////////
+myW,"WPN_R_F","WPN_R_F"
+Language, "Original", "Russian"
+
+STR_pbbs_pb,"PB silencer","Глушитель ПБ"
+
+STR_pbbs_pps,"PPS silencer","Глушитель ППС"
+
+STR_pbs_no4,"Flash suppressor Noch'(5.45x39)","Пламегаситель Ночь(5.45x39)"
+
+STR_pbs_no4_556,"Flash suppressor Noch'(5.56x45)","Пламегаситель Ночь(5.56х45)"
+
+STR_pbs_no4_762,"Flash suppressor Noch'(7.62x39)","Пламегаситель Ночь(7.62х39)"
+
+STR_pbbs_tgpa545,"TGP-A silencer(5.45x39)","Глушитель ТГП-А(5.45x39)"
+
+STR_pbbs_tgpa762,"TGP-A silencer(7.62x39)","Глушитель ТГП-А(7.62х39)"
+
+STR_pbbs_556,"silencer (5.56x45)","Глушитель (5.56x45)"
+
+STR_pbbs_salvo,"Salvo-12 silencer","Глушитель Salvo-12"
+
+STR_pbbs_tgpv,"TGP-V silencer","Глушитель ТГП-В"
+
+STR_pbbs_vit,"Silencer PP-19-01 Vitiaz","Глушитель ПП-19-01 Витязь"
+
+STR_pbbs_ATG,"ATG silencer","Глушитель АТГ"
+
+STR_pbbs_brm,"BraMit silencer","Глушитель БраМит"
+
+STR_pbbs_sr1m,"Silencer for SR1MP","Глушитель для СР1МП"
+
+STR_dtk_rtr_pkp,"Flash suppressor for Pechneg-M","Пламегаситель для Печенег-М"
+
+STR_pbbs_sr3m,"Silencer for SR-3M","Глушитель для СР-3М"
+
+STR_pbbs_vsk9a,"Silencer for 9a-91","Глушитель для 9а-91"

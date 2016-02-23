@@ -1,0 +1,28 @@
+﻿Калибр: <br/ >Дальность: <br/ >Режимы: <br/ >Темп стрельбы: <br/ >Магазины: 
+Caliber: <br/> Distance: <br/> Modes: <br/> Rate of fire: <br/> Mags:
+///////////////
+Language, "Original", "Russian"
+
+//STR_a91_name,"5.56A91","5.56А91"
+//STR_a91_desc,"Caliber: 5.56x45<br/> Distance: 500<br/> Modes: 1\auto<br/> Rate of fire: 600\800<br/> Mags:AK 5.56","Калибр: 5.56х45<br/ >Дальность: 500<br/ >Режимы: 1/авто<br/ >Темп стрельбы: 600/800<br/ >Магазины:АК 5.56/ВОГ-25/ГРД-40"
+
+STR_strela_name,"SA-7 Grail","9К32М Стрела-2"
+STR_strela_desc,"Caliber: 72<br/> Distance: 3400<br/>Mags: 9M32","Калибр: 72<br/ >Дальность: 3400<br/ >Магазины: 9М32"
+
+STR_gm94_name,"GM-94","ГМ-94"
+STR_gm94_desc,"Caliber: 43 mm<br/> Distance: 300<br/> Rate of fire: ~50<br/> Mags: 43mm grenades VGM-93","Калибр: 43 мм<br/ >Дальность: 300<br/ >Темп стрельбы: ~50<br/ >Магазины: 43мм гранаты ВГМ-93"
+
+STR_vgm9_name,"43mm VGM-93.900, HE","43мм ВГМ-93.900, Оскол."
+STR_vgm9_desc,"Type: High Explosive Grenade Round<br />Caliber: 43mm<br />Rounds: 3<br />Used in: GM-94","Тип: Осколочно-фугасный снаряд<br />Калибр: 43мм<br />Количество: 3<br />Используется: ГМ-94"
+
+STR_vgm3_name,"43mm VGM-93.300, Smoke(white)","43мм ВГМ-93.300, Дымов.(белый)"
+STR_vgm3_desc,"Type: White Smoke Round<br />Caliber: 43mm<br />Rounds: 3<br />Used in: GM-94","Тип: Белый дымовой снаряд<br />Калибр: 43мм<br />Количество: 3<br />Используется: ГМ-94"
+
+STR_rg6_name,"RG-6","РГ-6"
+STR_rg6_desc,"Caliber: 40 mm<br/> Distance: 400<br/>Mags: 40mm VOG-25/GRD-40(rg-6) grenades VGM-93","Калибр: 40 мм<br/ >Дальность: 400<br/ >Магазины: 40мм ВОГ-25\ГРД-40(рг-6)"
+
+STR_vog25osk_name_rg,"40mm VOG-25(RG-6), HE","40мм ВОГ-25(РГ-6), Оскол."
+STR_vog25osk_desc_rg,"Type: High Explosive Grenade Round<br />Caliber: 40mm<br />Rounds: 6<br />Used in: RG-6","Тип: Осколочно-фугасный снаряд<br />Калибр: 40мм<br />Количество: 6<br />Используется: РГ-6"
+
+STR_grd40w_name_rg,"40mm GRD-40(RG-6),Smoke(white)","40мм ГРД-40(РГ-6),Дымов.(белый)"
+STR_grd40w_sname_rg,"Type: White Smoke Round<br />Caliber: 40mm<br />Rounds: 6<br />Used in: RG-6","Тип: Белый дымовой снаряд<br />Калибр: 40мм<br />Количество: 6<br />Используется: РГ-6"

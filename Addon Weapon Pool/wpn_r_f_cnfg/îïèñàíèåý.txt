@@ -1,0 +1,2 @@
+Подр.опис.: <br/ >Индекс: <br/ >Калибр: <br/ >Дальность: <br/ >Режимы: <br/ >Темп стрельбы: <br/ >Исп.магаз.: <br/ >Особенность: <br/ >Применение:
+Det.desc.: <br/> Index: <br/> Caliber: <br/> Distance: <br/> Modes: <br/> Rate of fire: <br/> Used mags: <br/> Feature: <br / > Application:

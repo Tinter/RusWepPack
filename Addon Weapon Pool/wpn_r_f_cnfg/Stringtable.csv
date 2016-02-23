@@ -1,0 +1,270 @@
+﻿////Multiplicity: <br/>Range: <br/>Modes: 
+////Кратность: <br/>Дальность: <br/>Режимы: 
+///////////////
+Language, "Original", "Russian"
+
+STR_545mag_name,"5.45х39(30cartr)","5.45х39(30патр)"
+STR_545mag_desc,"Caliber: 5.45x39mm<br />Quantity: 30cartrige<br />Type: Normal<br />Use:rifle caliber 5.45x39mm","Калибр: 5.45х39мм<br />Количество: 30патронов<br />Тип: обычный<br />Используется: автоматы калибра 5.45х39"
+STR_545mag_trs_name,"5.45x39(30cartr), green tracer","5.45х39(30патр), зеленый трассер"
+STR_545mag_trs_sname,"tracer","трассер"
+STR_545mag_trs_desc,"Caliber: 5.45x39mm<br />Quantity: 30cartrige<br />Type: tracer<br />Use:rifle caliber 5.45x39mm","Калибр: 5.45х39мм<br />Количество: 30патронов<br />Тип: трассер<br />Используется: автоматы калибра 5.45х39"
+STR_545mag_uw_name,"5.45x39 (30cartr), underwater","5.45х39(30патр), подводный"
+STR_545mag_uw_sname,"underwater","подводный"
+STR_545mag_uw_desc,"Caliber: 5.45x39mm<br />Quantity: 30cartrige<br />Type: underwater<br />Use:rifle caliber 5.45x39mm","Калибр: 5.45х39мм<br />Количество: 30патронов<br />Тип: подводный<br />Используется: автоматы калибра 5.45х39"
+
+STR_556mag name,"5.56x45(30cartr)","5.56x45(30патр)"
+STR_556mag_desc,"Caliber: 5.56x45mm<br />Quantity: 30cartrige<br />Type: Normal<br />Use:AK-101,556A91","Калибр: 5.56х45мм<br />Количество: 30патронов<br />Тип: обычный<br />Используется:АК-101,556А91"
+STR_556mag_trs_name,"5.56x45(30cartr), tracer cartridge","5.56x45(30патр), трассирующий патрон"
+STR_556mag_desc,"Caliber: 5.56x45mm<br />Quantity: 30cartrige<br />Type: tracer<br />Use:AK-101,556A91","Калибр: 5.56х45мм<br />Количество: 30патронов<br />Тип: трассер<br />Используется:АК-101,556А91"
+
+STR_556_rpkmag name,"5.56x45(45cartr)","5.56x45(45патр)"
+STR_556_rpkmag_desc,"Caliber: 5.56x45mm<br />Quantity: 45cartrige<br />Type: Normal<br />Use: RPK-201","Калибр: 5.56х45мм<br />Количество: 45патронов<br />Тип: обычный<br />Используется: РПК-201"
+STR_556trs_rpkmag name,"5.56x45(45cartr), green tracer","5.56x45(45патр), зеленый трассер"
+STR_55trs_rpkmag_desc,"Caliber: 5.56x45mm<br />Quantity: 45cartrige<br />Type: tracer<br />Use:RPK-201","Калибр: 5.56х45мм<br />Количество: 45патронов<br />Тип: трассер<br />Используется: автоматы калибра РПК-201"
+STR_556_rpk75mag name,"5.56x45(75cartr)","5.56x45(75патр)"
+STR_556_rpk75mag_desc,"Caliber: 5.56x45mm<br />Quantity: 75cartrige<br />Type: Normal<br />Use: RPK-201","Калибр: 5.56х45мм<br />Количество: 75патронов<br />Тип: обычный<br />Используется: РПК-201"
+
+STR_vog25osk_name,"40mm VOG-25, HE","40мм ВОГ-25, Оскол."
+STR_vog25osk_sname,"HE Grenade","Осколочный"
+STR_vog25osk_desc,"Type: High Explosive Grenade Round<br />Caliber: 40mm<br />Rounds: 1<br />Used in: GP-30m,ADS","Тип: Осколочно-фугасный снаряд<br />Калибр: 40мм<br />Количество: 1<br />Используется: ГП-30,АДС"
+
+STR_grd40w_name,"40mm GRD-40, Smoke(white)","40мм ГРД-40, Дымов.(белый)"
+STR_grd40w_sname,"White smoke","Белый дым"
+STR_grd40w_desc,"Type: White Smoke Round<br />Caliber: 40mm<br />Rounds: 1<br />Used in: GP-30m,ADS","Тип: Белый дымовой снаряд<br />Калибр: 40мм<br />Количество: 1<br />Используется: ГП-30м,АДС"
+
+STR_grd40r_name,"40mm GRD-40, Smoke(red)","40мм ГРД-40, Дымов.(красный)"
+STR_grd40r_sname,"Red smoke","Красный дым"
+STR_grd40r_desc,"Type: Red Smoke Round<br />Caliber: 40mm<br />Rounds: 1<br />Used in: GP-30m,ADS","Тип: Красный дымовой снаряд<br />Калибр: 40мм<br />Количество: 1<br />Используется: ГП-30м,АДС"
+
+STR_grd40g_name,"40mm GRD-40, Smoke(green)","40мм ГРД-40, Дымов.(зеленый)"
+STR_grd40g_sname,"Green smoke","Зеленый дым"
+STR_grd40g_desc,"Type: Green Smoke Round<br />Caliber: 40mm<br />Rounds: 1<br />Used in: GP-30m,ADS","Тип: Зеленый дымовой снаряд<br />Калибр: 40мм<br />Количество: 1<br />Используется: ГП-30м,АДС"
+
+STR_9x19_vit_name,"9x19(30cartr)","9x19(30патр)"
+STR_9x19_vit_desc,"Caliber: 9x19mm<br />Quantity: 30cartrige<br />Type: Normal<br />Use: smg Vityaz","Калибр: 9х19мм<br />Количество: 30патронов<br />Тип: обычный<br />Используется: ПП Витязь"
+STR_9x19_vit_trs_name,"9x19(30cartr), green tracer","9x19(30парт), зеленый трассер"
+STR_9x19_vit_trs_sname,"tracer","трассер"
+STR_9x19_vit_trs_desc,"Caliber: 9x19mm<br />Quantity: 30cartrige<br />Type: tracer<br />Use: smg Vityaz","Калибр: 9х19мм<br />Количество: 30патронов<br />Тип: трассер<br />Используется: ПП Витязь"
+
+STR_vog_t_name,"30mm VOG-T, HE","30мм ВОГ-Т, Оскол."
+STR_vog_t_sname,"HE Grenade","Осколочный"
+STR_vog_t_desc,"Type: High Explosive Grenade Round<br />Caliber: 30mm<br />Rounds: 1<br />Used in: BS-1(AKS-74UB)","Тип: Осколочно-фугасный снаряд<br />Калибр: 30мм<br />Количество: 1<br />Используется: БС-1(АКС-74УБ)"
+
+STR_9mm_18b_name,"9x19(18cartr)","9х19(18патр)"
+STR_9mm_18b_desc,"Caliber: 9x19mm<br />Quantity: 18cartrige<br />Type: Normal<br />Use:GSH-18","Калибр: 9х19мм<br />Количество: 18патронов<br />Тип: обычный<br />Используется:ГШ-18"
+
+STR_pm_8b_name,"9x18(8cartr)","9х18(8патр)"
+STR_pm_8b_desc,"Caliber: 9x18mm<br />Quantity: 8cartrige<br />Type: Normal<br />Use:PMM, PB","Калибр: 9х18мм<br />Количество: 8патронов<br />Тип: обычный<br />Используется:ПММ, ПБ"
+STR_pm_12b_name,"9x18(12cartr)","9х18(12патр)"
+STR_pm_12b_desc,"Caliber: 9x18mm<br />Quantity: 12cartrige<br />Type: Normal<br />Use:PMM-12","Калибр: 9х18мм<br />Количество: 12патронов<br />Тип: обычный<br />Используется:ПММ-12"
+
+STR_so_17b_name,"9x19(17cartr)","9х19(17патр)"
+STR_so_17b_desc,"Caliber: 9x19mm<br />Quantity: 17cartrige<br />Type: Normal<br />Use:Strike One, smg Strike One","Калибр: 9х19мм<br />Количество: 17патронов<br />Тип: обычный<br />Используется: Стриж, пп Стриж"
+STR_so_30b_name,"9x19(30cartr)","9х19(30патр)"
+STR_so_30b_desc,"Caliber: 9x19mm<br />Quantity: 30cartrige<br />Type: Normal<br />Use:Strike One, smg Strike One","Калибр: 9х19мм<br />Количество: 30патронов<br />Тип: обычный<br />Используется: Стриж, пп Стриж"
+
+STR_9mm_kedr_name,"9x18(20cartr)","9х18(20патр)"
+STR_9mm_kedr_desc,"Caliber: 9x18mm<br />Quantity: 20 cartrige<br />Type: Normal<br />Use:smg Kedr","Калибр: 9х18мм<br />Количество: 20 патронов<br />Тип: обычный<br />Используется: ПП Кедр"
+STR_9mm30b_kedr_name,"9x18(30cartr)","9х18(30патр)"
+STR_9mm30b_kedr_desc,"Caliber: 9x18mm<br />Quantity: 30 cartrige<br />Type: Normal<br />Use:smg Kedr","Калибр: 9х18мм<br />Количество: 30 патронов<br />Тип: обычный<br />Используется: ПП Кедр"
+STR_9mm30b_kedr_trs_name,"9x18(30cartr), green tracer","9х18(30патр), зеленый трассер"
+STR_9mm30b_kedr_trs_desc,"Caliber: 9x18mm<br />Quantity: 30 cartrige<br />Type: tracer<br />Use:smg Kedr","Калибр: 9х18мм<br />Количество: 30 патронов<br />Тип: трассер<br />Используется: ПП Кедр"
+
+STR_sv98_10b_name,"7.62x54r(10cartr)","7.62x54r(10патр)"
+STR_sv98_10b_desc,"Caliber: 7.62x54 mm<br />Quantity: 10 cartrige<br />Type: Normal<br />Use: SV-98","Калибр: 7.62x54 мм<br />Количество: 10 патронов<br />Тип: обычный<br />Используется: СВ-98"
+
+STR_sv98_10b_trs_name,"7.62x54r(10cartr), green tracer","7.62x54r(10патр), зеленый трассер"
+STR_sv98_10b_trs_desc,"Caliber: 7.62x54mm<br />Quantity: 10 cartrige<br />Type: tracer<br />Use: SV-98","Калибр: 7.62x54 мм<br />Количество: 10 патронов<br />Тип: трассер<br />Используется: СВ-98"
+
+STR_apsa_26b_name,"5.66x39(26cartr), underwater",5.66х39(26патр), подводный"
+STR_apsa_26b_desc,"Caliber: 5.66x39mm<br />Quantity: 26 cartrige<br />Type: underwater<br />Use: rifle APS","Калибр: 5.66х39мм<br />Количество: 26 патронов<br />Тип: подводный<br />Используется: автомат АПС"
+
+STR_drob,"buckshot","картечь"
+STR_pula,"slig","пуля"
+
+STR_s1_5b_drob_name,"12x70(5cartr), buckshot","12х70(5патр), картечь"
+STR_s1_5b_drob_desc,"Caliber: 12x70 mm<br />Quantity: 5 cartrige<br />Type: buckshot<br />Use: Saiga-12","Калибр: 12х70 мм<br />Количество: 5 патронов<br />Тип: картечь<br />Используется: Сайга-12"
+STR_s1_3b_drob_name,"12x70(3cartr), buckshot","12х70(3патр), картечь"
+STR_s1_3b_drob_desc,"Caliber: 12x70 mm<br />Quantity: 3 cartrige<br />Type: buckshot<br />Use: Saiga-12","Калибр: 12х70 мм<br />Количество: 3 патронов<br />Тип: картечь<br />Используется: Сайга-12"
+STR_s1_3b_pula_name,"12x76(3cartr), slig","12х76(3патр), пуля"
+STR_s1_3b_pula_desc,"Caliber: 12x76 mm<br />Quantity: 3 cartrige<br />Type: slig<br />Use: Saiga-12","Калибр: 12х76 мм<br />Количество: 3 патронов<br />Тип: пуля<br />Используется: Сайга-12"
+STR_s1_5b_pula_name,"12x76(5cartr), slig","12х76(5патр), пуля"
+STR_s1_5b_pula_desc,"Caliber: 12x76 mm<br />Quantity: 5 cartrige<br />Type: slig<br />Use: Saiga-12","Калибр: 12х76 мм<br />Количество: 5 патронов<br />Тип: пуля<br />Используется: Сайга-12"
+
+STR_s1_20b_drob_name,"12x70(20cartr), buckshot","12х70(20патр), картечь"
+STR_s1_20b_drob_desc,"Caliber: 12x70 mm<br />Quantity: 20 cartrige<br />Type: buckshot<br />Use: Vepr-12","Калибр: 12х70 мм<br />Количество: 20 патронов<br />Тип: картечь<br />Используется: Вепрь-12"
+STR_s1_20b_pula_name,"12x76(20cartr), slig","12х76(20патр), пуля"
+STR_s1_20b_pula_desc,"Caliber: 12x76 mm<br />Quantity: 20 cartrige<br />Type: slig<br />Use: Vepr-12","Калибр: 12х76 мм<br />Количество: 20 патронов<br />Тип: пуля<br />Используется: Вепрь-12"
+
+STR_s2_20b_drob_name,"20x70(20cartr), buckshot","20х70(20патр), картечь"
+STR_s2_20b_drob_desc,"Caliber: 20x70 mm<br />Quantity: 20 cartrige<br />Type: buckshot<br />Use: Saiga-20 Tactik","Калибр: 20х70 мм<br />Количество: 20 патронов<br />Тип: картечь<br />Используется: Сайга-20 Тактик"
+STR_s2_20b_pula_name,"20x76(20cartr), slig","20х76(20патр), пуля"
+STR_s2_20b_pula_desc,"Caliber: 20x76 mm<br />Quantity: 20 cartrige<br />Type: slig<br />Use: Saiga-20 Tactik","Калибр: 20х76 мм<br />Количество: 20 патронов<br />Тип: пуля<br />Используется: Сайга-20 Тактик"
+
+STR_s2_8b_drob_name,"20x70(8cartr), buckshot","20х70(8патр), картечь"
+STR_s2_8b_drob_desc,"Caliber: 20x70 mm<br />Quantity: 8 cartrige<br />Type: buckshot<br />Use: Saiga-20","Калибр: 20х70 мм<br />Количество: 8 патронов<br />Тип: картечь<br />Используется: Сайга-20"
+STR_s2_8b_pula_name,"20x76(8cartr), slig","20х76(8патр), пуля"
+STR_s2_8b_pula_desc,"Caliber: 20x76 mm<br />Quantity: 8 cartrige<br />Type: slig<br />Use: Saiga-20","Калибр: 20х76 мм<br />Количество: 8 патронов<br />Тип: пуля<br />Используется: Сайга-20"
+
+STR_s2_5b_drob_name,"20x70(5cartr), buckshot","20х70(5патр), картечь"
+STR_s2_5b_drob_desc,"Caliber: 20x70 mm<br />Quantity: 5 cartrige<br />Type: buckshot<br />Use: Saiga-20","Калибр: 20х70 мм<br />Количество: 5 патронов<br />Тип: картечь<br />Используется: Сайга-20"
+STR_s2_5b_pula_name,"20x76(5cartr), slig","20х76(5патр), пуля"
+STR_s2_5b_pula_desc,"Caliber: 20x76 mm<br />Quantity: 5 cartrige<br />Type: slig<br />Use: Saiga-20","Калибр: 20х76 мм<br />Количество: 5 патронов<br />Тип: пуля<br />Используется: Сайга-20"
+
+STR_7b_drob_name,"12x70(7cartr), buckshot","12х70(7патр), картечь"
+STR_7b_drob_desc,"Caliber: 12x70 mm<br />Quantity: 7 cartrige<br />Type: buckshot<br />Use: MP-133, TOZ-194","Калибр: 12х70 мм<br />Количество: 7 патронов<br />Тип: картечь<br />Используется: MP-133, ТОЗ-194"
+STR_7b_pula_name,"12x76(7cartr), slig","12х76(7патр), пуля"
+STR_7b_pula_desc,"Caliber: 12x76 mm<br />Quantity: 7 cartrige<br />Type: slig<br />Use: MP-133, TOZ-194","Калибр: 12х76 мм<br />Количество: 7 патронов<br />Тип: пуля<br />Используется: MP-133, ТОЗ-194"
+
+STR_mp133_5b_drob_name,"12x70(5cartr), buckshot","12х70(5патр), картечь"
+STR_mp133_5b_drob_desc,"Caliber: 12x70 mm<br />Quantity: 5 cartrige<br />Type: buckshot<br />Use: MP-133k","Калибр: 12х70 мм<br />Количество: 5 патронов<br />Тип: картечь<br />Используется: MP-133k"
+STR_mp133_5b_pula_name,"12x76(5cartr), slig","12х76(5патр), пуля"
+STR_mp133_5b_pula_desc,"Caliber: 12x76 mm<br />Quantity: 5 cartrige<br />Type: slig<br />Use: MP-133k","Калибр: 12х76 мм<br />Количество: 5 патронов<br />Тип: пуля<br />Используется: MP-133k"
+
+STR_762rpk_40b_name,"7.62x39(40cartr)","7.62x39(40патр)"
+STR_762rpk_40b_desc,"Caliber: 7.62x39mm<br />Quantity: 40cartrige<br />Type: Normal<br />Use:rifle caliber 7.62x39mm/RPK","Калибр: 7.62х39мм<br />Количество: 40 патронов<br />Тип: обычный<br />Используется: автоматы калибра 7.62х39/РПК"
+
+STR_762rpk_trs_40b_name,"7.62x39(40cartr), green tracer","7.62x39(40патр), зеленый трассер"
+STR_762rpk_trs_40b_desc,"Caliber: 7.62x39mm<br />Quantity: 40cartrige<br />Type: tracer<br />Use: RPK","Калибр: 7.62х39мм<br />Количество: 40 патронов<br />Тип: трассер<br />Используется: РПК"
+
+STR_762rpk_75b_name,"7.62x39(75cartr)","7.62x39(75патр)"
+STR_762rpk_75b_desc,"Caliber: 7.62x39mm<br />Quantity: 75 cartrige<br />Type: Normal<br />Use: RPK","Калибр: 7.62х39мм<br />Количество: 75 патронов<br />Тип: обычный<br />Используется: РПК"
+
+STR_snarad_strela,"9M32","9М32"
+STR_snarad_strela_desc,"Caliber: 72 mm<br />Rounds: 1<br />Used in: SA-7 Grail","Калибр: 72<br />Снарядов: 1<br />Исп.: Стрела-2"
+
+STR_127m_osv_name,"12.7x108(5cartr)","12.7x108(5патр)"
+STR_127m_osv_desc,"Caliber: .50 Russian <br />Quantity: 5cartrige<br />Type: Normal<br />Use: OSV-96","Калибр: 12.7х108 мм<br />Количество: 5 патронов<br />Тип: обычный<br />Используется: ОСВ-96"
+STR_127m_bzt_osv_name,"12.7x108(5cartr), APIT","12.7x108(5патр), БЗТ"
+STR_127m_bzt_osv_desc,"Caliber: .50 Russian <br />Quantity: 5cartrige<br />Type: armor-piercing incendiary tracer<br />Use: OSV-96","Калибр: 12.7х108 мм<br />Количество: 5 патронов<br />Тип: бронебойно-зажигательный трассирующий<br />Используется: ОСВ-96"
+STR_BZT_name,"APIT","БЗТ"
+
+STR_sks20mag_name,"7.62x39(20cartr)","7.62x39(20патр)"
+STR_sks20mag_desc,"Caliber: 7.62x39mm<br />Quantity: 20cartrige<br />Type: Normal<br />Use: SKS(modern)","Калибр: 7.62х39мм<br />Количество: 20 патронов<br />Тип: обычный<br />Используется: СКС(современный)"
+STR_sks10mag_name,"7.62x39(10cartr)","7.62x39(10патр)"
+STR_sks10mag_desc,"Caliber: 7.62x39mm<br />Quantity: 10cartrige<br />Type: Normal<br />Use: SKS","Калибр: 7.62х39мм<br />Количество: 10 патронов<br />Тип: обычный<br />Используется: СКС"
+
+STR_2b_drob_name,"12x70(2cartr), buckshot","12х70(2патр), картечь"
+STR_2b_drob_desc,"Caliber: 12x70 mm<br />Quantity: 2 cartrige<br />Type: buckshot<br />Use: Izh-43","Калибр: 12х70 мм<br />Количество: 2 патронов<br />Тип: картечь<br />Используется: ИЖ-43"
+STR_2b_pula_name,"12x76(2cartr), slig","12х76(2патр), пуля"
+STR_2b_pula_desc,"Caliber: 12x76 mm<br />Quantity: 2 cartrige<br />Type: slig<br />Use: Izh-43","Калибр: 12х76 мм<br />Количество: 2 патронов<br />Тип: пуля<br />Используется: ИЖ-43"
+
+STR_svd_10b_name,"7.62x54r(10cartr)","7.62x54r(10патр)"
+STR_svd_10b_desc,"Caliber: 7.62x54 mm<br />Quantity: 10 cartrige<br />Type: Normal<br />Use: SVD,SVU,VS-121","Калибр: 7.62x54 мм<br />Количество: 10 патронов<br />Тип: обычный<br />Используется: СВД,СВУ,ВС-121"
+STR_svd_trs_10b_name,"7.62x54r(10cartr), green tracer","7.62x54r(10патр), зеленый трассер"
+STR_svd_trs_10b_desc,"Caliber: 7.62x54 mm<br />Quantity: 10 cartrige<br />Type: Tracer<br />Use: SVD,SVU,VS-121","Калибр: 7.62x54 мм<br />Количество: 10 патронов<br />Тип: Трассер<br />Используется: СВД,СВУ,ВС-121"
+STR_svd_20b_name,"7.62x54r(20cartr)","7.62x54r(20патр)"
+STR_svd_20b_desc,"Caliber: 7.62x54 mm<br />Quantity: 20 cartrige<br />Type: Normal<br />Use: SVD,SVU,VS-121","Калибр: 7.62x54 мм<br />Количество: 20 патронов<br />Тип: обычный<br />Используется: СВД,СВУ,ВС-121"
+
+STR_svdk_10b_name,"9.3x64(10cartr)","9.3х64(10патр)"
+STR_svdk_10b_desc,"Caliber: 9.3x64 mm<br />Quantity: 10 cartrige<br />Type: Normal<br />Use: SVDK","Калибр: 9.3х64 мм<br />Количество: 10 патронов<br />Тип: обычный<br />Используется: СВДК"
+
+STR_ppsh71_name,"7.62x25(71cartr)","7.62х25(71патр)"
+STR_ppsh71_desc,"Caliber: 7.62x25 mm<br />Quantity: 71 cartrige<br />Type: Normal<br />Use: PPD, PPSH","Калибр: 7.62х25 мм<br />Количество: 71 патронов<br />Тип: обычный<br />Используется: ППД, ППШ"
+STR_ppsh35_name,"7.62x25(35cartr)","7.62х25(35патр)"
+STR_ppsh35_desc,"Caliber: 7.62x25 mm<br />Quantity: 35 cartrige<br />Type: Normal<br />Use: PPSH, PPS","Калибр: 7.62х25 мм<br />Количество: 35 патронов<br />Тип: обычный<br />Используется: ППШ, ППС"
+STR_ppsh35trs_name,"7.62x25(35cartr), green tracer","7.62х25(35патр), зеленый трассер"
+STR_ppsh35trs_desc,"Caliber: 7.62x25 mm<br />Quantity: 35 cartrige<br />Type: Tracer<br />Use: PPSH, PPS","Калибр: 7.62х25 мм<br />Количество: 35 патронов<br />Тип: Трассер<br />Используется: ППШ, ППС"
+STR_tt8_name,"7.62x25(cartr)","7.62х25(8патр)"
+STR_tt8_desc,"Caliber: 7.62x25 mm<br />Quantity: 8 cartrige<br />Type: Normal<br />Use: TT-33","Калибр: 7.62х25 мм<br />Количество: 8 патронов<br />Тип: обычный<br />Используется: ТТ-33"
+
+STR_mos5b_name,"7.62x54r(5cartr)","7.62x54r(5патр)"
+STR_mos5b_desc,"Caliber: 7.62x54 mm<br />Quantity: 5 cartrige<br />Type: Normal<br />Use: Mosin rifle","Калибр: 7.62x54 мм<br />Количество: 5 патронов<br />Тип: обычный<br />Используется: Винт. Мосина"
+
+STR_dp_47b_name,"7.62x54r(47cartr)","7.62x54r(47патр)"
+STR_dp_47b_desc,"Caliber: 7.62x54 mm<br />Quantity: 47 cartrige<br />Type: Normal<br />Use: mg DP","Калибр: 7.62x54 мм<br />Количество: 47 патронов<br />Тип: обычный<br />Используется: пул. ДП"
+STR_dp_47b_trs_name,"7.62x54r(47cartr), green tracer","7.62x54r(47патр), зеленый трассер"
+STR_dp_47b_trs_desc,"Caliber: 7.62x54 mm<br />Quantity: 47cartrige<br />Type: tracer<br />Use: mg DP","Калибр: 7.62х54 мм<br />Количество: 47 патронов<br />Тип: трассер<br />Используется: пул. ДП"
+
+STR_65_aris_name,"6.5x50 Arisaka(25cartr)","6.5х50 Арисака(25патр)"
+STR_65_aris_desc,"Caliber: 6,5x50 mm<br />Quantity: 25 cartrige<br />Type: Normal<br />Use: Fedorov Avtomat ","Калибр: 6.5х50 мм<br />Количество: 25 патронов<br />Тип: обычный<br />Используется: Автомат Федорова"
+
+STR_145mm_name,"14.5x114(5cartr)","14.5x114(5патр)"
+STR_145mm_desc,"Caliber: 14.5x114 mm<br />Quantity: 5 cartrige<br />Type: Normal<br />Use: PTRS ","Калибр: 14.5x114 мм<br />Количество: 5 патронов<br />Тип: обычный<br />Используется: ПТРС"
+
+STR_svt_10b_name,"7.62x54r(10cartr)","7.62x54r(10патр)"
+STR_svt_10b_desc,"Caliber: 7.62x54 mm<br />Quantity: 10 cartrige<br />Type: Normal<br />Use: SVT, AVT","Калибр: 7.62x54 мм<br />Количество: 10 патронов<br />Тип: обычный<br />Используется: СВТ, АВТ"
+
+STR_ng_7b_name,"7.62x38(7cartr)","7.62х38(7патр)"
+STR_ng_7b_desc,"Caliber: 7.62x38 mm<br />Quantity: 7 cartrige<br />Type: Normal<br />Use: Revolver Nagant","Калибр: 7.62х98 мм<br />Количество: 7 патронов<br />Тип: обычный<br />Используется: Револьвер Нагана"
+
+STR_spp_uw_name,"4.5x40 mm R(4cartr)","4.5х40 мм R(4патр)"
+STR_spp_uw_desc,"Caliber: 4.5x40mm<br />Quantity: 4cartrige<br />Type: underwater<br />Use: SPP-1(M)","Калибр: 4.5x40 мм<br />Количество: 4патронов<br />Тип: подводный<br />Используется: СПП-1(М)"
+
+STR_762mag_name,"7.62х39(30cartr)","7.62х39(30патр)"
+STR_762mag_desc,"Caliber: 7.62x39mm<br />Quantity: 30cartrige<br />Type: Normal<br />Use:rifle caliber 7.62x39mm","Калибр: 7.62х39мм<br />Количество: 30патронов<br />Тип: обычный<br />Используется: автоматы калибра 7.62х39"
+STR_762mag_trs_name,"7.62x39(30cartr), green tracer","7.62х39(30патр), зеленый трассер"
+STR_762mag_trs_desc,"Caliber: 7.62x39mm<br />Quantity: 30cartrige<br />Type: tracer<br />Use:rifle caliber 7.62x39mm","Калибр: 7.62х39мм<br />Количество: 30патронов<br />Тип: трассер<br />Используется: автоматы калибра 7.62х39"
+
+STR_soc10mag_desc,"Caliber: 7.62x39mm<br />Quantity: 10cartrige<br />Type: Normal<br />Use: Soc-94","Калибр: 7.62х39мм<br />Количество: 10патронов<br />Тип: обычный<br />Используется: Сок-94"
+STR_308soc_name,".308(10cartr)",".308(10патр)"
+STR_308soc_desc,"Caliber: 7.62x51mm<br />Quantity: 10cartrige<br />Type: Normal<br />Use: Soc-95","Калибр: 7.62х51мм<br />Количество: 10патронов<br />Тип: обычный<br />Используется: Сок-95"
+
+STR_ash_mag_name,"12.7x55(20cartr)","12.7x55(20патр)"
+STR_ash_mag_desc,"Caliber: 12.7x55mm<br />Quantity: 20cartrige<br />Type: Normal<br />Use: ASH-12","Калибр: 12.7x55мм<br />Количество: 20патронов<br />Тип: обычный<br />Используется: АШ-12"
+
+STR_biz64_name,"9x18(64cartr)","9х18(64патр)"
+STR_biz64_desc,"Caliber: 9x18mm<br />Quantity: 64cartrige<br />Type: Normal<br />Use: smg Bizon","Калибр: 9х18мм<br />Количество: 64патронов<br />Тип: обычный<br />Используется: ПП Бизон"
+
+STR_9x21_sr1_name,"9x21(18cartr)","9х21(18патр)"
+STR_9x21_sr1_desc,"Caliber: 9x21mm<br />Quantity: 18cartrige<br />Type: Normal<br />Use:SR1MP","Калибр: 9х21мм<br />Количество: 18патронов<br />Тип: обычный<br />Используется:СР1МП"
+
+STR_rpk74_45mag_name,"5.45х39(45cartr)","5.45х39(45патр)"
+STR_rpk74_45mag_desc,"Caliber: 5.45x39mm<br />Quantity: 45cartrige<br />Type: Normal<br />Use:RPK-74M","Калибр: 5.45х39мм<br />Количество: 45патронов<br />Тип: обычный<br />Используется: РПК-74М"
+STR_rpk74_75mag_name,"5.45х39(75cartr)","5.45х39(75патр)"
+STR_rpk74_75mag_desc,"Caliber: 5.45x39mm<br />Quantity: 75cartrige<br />Type: Normal<br />Use:RPK-74M","Калибр: 5.45х39мм<br />Количество: 75патронов<br />Тип: обычный<br />Используется: РПК-74М"
+STR_rpk74_45mag_trs_name,"5.45x39(45cartr), green tracer","5.45х39(45патр), зеленый трассер"
+STR_rpk74_45mag_trs_desc,"Caliber: 5.45x39mm<br />Quantity: 45cartrige<br />Type: tracer<br />Use: RPK-74M","Калибр: 5.45х39мм<br />Количество: 45патронов<br />Тип: трассер<br />Используется: РПК-74М"
+
+STR_korob100r_pkp_name,"7.62x54r(100cartr)","7.62x54r(100патр)"
+STR_korob100r_pkp_desc,"Caliber: 7.62x54 mm<br />Quantity: 100 cartrige<br />Type: Normal<br />Use: LMG PKM, PKP","Калибр: 7.62x54 мм<br />Количество: 100 патронов<br />Тип: обычный<br />Используется: пулем. ПКМ, ПКП"
+STR_korob100r_trs_pkp_name,"7.62x54r(100cartr), green tracer","7.62x54r(100патр), зеленый трассер"
+STR_korob100r_trs_pkp_desc,"Caliber: 7.62x54 mm<br />Quantity: 100 cartrige<br />Type: tracer<br />Use: LMG PKM, PKP","Калибр: 7.62x54 мм<br />Количество: 100 патронов<br />Тип: трассер<br />Используется: пулем. ПКМ, ПКП"
+STR_korob200r_pkp_name,"7.62x54r(200cartr)","7.62x54r(200патр)"
+STR_korob200r_pkp_desc,"Caliber: 7.62x54 mm<br />Quantity: 200 cartrige<br />Type: Normal<br />Use: LMG PKM, PKP","Калибр: 7.62x54 мм<br />Количество: 200 патронов<br />Тип: обычный<br />Используется: пулем. ПКМ, ПКП"
+
+STR_aps_w_sh_85b_name,"9x18(85cartr)","9х18(85патр)"
+STR_aps_w_sh_85b_desc,"Caliber: 9x18mm<br />Quantity: 85cartrige<br />Type: Normal<br />Use: APS(with shield)","Калибр: 9х18мм<br />Количество: 85патронов<br />Тип: обычный<br />Используется: АПС(с щитом)"
+
+STR_ks23_3b_barr_name,"Barrikada(3cartr)","Баррикада(3патр)"
+STR_ks23_3b_barr_desc,"Caliber: 23x75 R mm<br />Quantity: 3 cartrige<br />Type: slig<br />Use: KS-23","Калибр: 23x75 R мм<br />Количество: 3 патрона<br />Тип: пуля<br />Используется: КС-23"
+STR_ks23_3b_kart_name,"Shrapnel-25(3cartr)","Шрапнель-25(3патр)"
+STR_ks23_3b_barr_desc,"Caliber: 23x75 R mm<br />Quantity: 3 cartrige<br />Type: buckshot<br />Use: KS-23","Калибр: 23x75 R мм<br />Количество: 3 патрона<br />Тип: картечь<br />Используется: КС-23"
+
+STR_vss_10b_dz_name,"9x39(10cartr),subsonic","9x39(10патр),дозвук."
+STR_vss_10b_dz_desc,"Caliber: 9x39mm<br />Quantity: 10 cartrige<br />Type: subsonic<br />Use: VSS, AS Val","Калибр: 9х39мм<br />Количество: 10 патронов<br />Тип: дозвуковой<br />Используется: ВСС, АС Вал"
+STR_vss_10b_trs_dz_name,"9x39(10cartr),subs, green tracer","9x39(10патр),дозвук, зеленый трассер"
+STR_vss_10b_trs_dz_desc,"Caliber: 9x39mm<br />Quantity: 10 cartrige<br />Type: subsonic, tracer<br />Use: VSS, AS Val, SR3","Калибр: 9х39мм<br />Количество: 10 патронов<br />Тип: дозвуковой, трассер<br />Используется: ВСС, АС Вал, СР3"
+STR_val_20b_dz_name,"9x39(20cartr),subsonic","9x39(20патр),дозвук."
+STR_val_20b_dz_desc,"Caliber: 9x39mm<br />Quantity: 20 cartrige<br />Type: subsonic<br />Use: VSS, AS Val, SR-3","Калибр: 9х39мм<br />Количество: 20 патронов<br />Тип: дозвуковой<br />Используется: ВСС, АС Вал, СР-3"
+STR_sr3_30b_dz_name,"9x39(30cartr),subsonic","9x39(30патр),дозвук."
+STR_sr3_30b_dz_desc,"Caliber: 9x39mm<br />Quantity: 30 cartrige<br />Type: subsonic<br />Use: AS Val, SR-3","Калибр: 9х39мм<br />Количество: 30 патронов<br />Тип: дозвуковой<br />Используется: АС Вал, СР-3"
+
+STR_vss_10b_sz_name,"9x39(10cartr),supersonic","9x39(10патр),сверхзвук."
+STR_vss_10b_sz_desc,"Caliber: 9x39mm<br />Quantity: 10 cartrige<br />Type: supersonic<br />Use: VSS, AS Val","Калибр: 9х39мм<br />Количество: 10 патронов<br />Тип: сверхзвуковой<br />Используется: ВСС, АС Вал"
+STR_vss_10b_trs_sz_name,"9x39(10cartr),supson, green tracer","9x39(10патр),сверхзвук, зеленый трассер"
+STR_vss_10b_trs_sz_desc,"Caliber: 9x39mm<br />Quantity: 10 cartrige<br />Type: supersonic, tracer<br />Use: VSS, AS Val, SR3","Калибр: 9х39мм<br />Количество: 10 патронов<br />Тип: сверхзвуковой, трассер<br />Используется: ВСС, АС Вал, СР3"
+STR_val_20b_sz_name,"9x39(20cartr),supersonic","9x39(20патр),сверхзвук."
+STR_val_20b_sz_desc,"Caliber: 9x39mm<br />Quantity: 20 cartrige<br />Type: supersonic<br />Use: VSS, AS Val, SR3","Калибр: 9х39мм<br />Количество: 20 патронов<br />Тип: сверхзвуковой<br />Используется: ВСС, АС Вал, СР3"
+STR_sr3_30b_sz_name,"9x39(30cartr),supersonic","9x39(30патр),сверхзвук."
+STR_sr3_30b_sz_desc,"Caliber: 9x39mm<br />Quantity: 30 cartrige<br />Type: supersonic<br />Use: AS Val, SR-3","Калибр: 9х39мм<br />Количество: 30 патронов<br />Тип: сверхзвуковой<br />Используется: АС Вал, СР-3"
+
+STR_dz_am,"Subsonic","Дозвуковой"
+STR_dz_trs_am,"Subsonic, tracer","Дозвуковой, трассер"
+STR_sz_am,"Supersonic","Сверхзвуковой"
+STR_sz_trs_am,"Supersonic, tracer","Сверхзвуковой, трассер"
+
+STR_vssk_mag_name,"12.7x55(10cartr)","12.7x55(10патр)"
+STR_vssk_mag_desc,"Caliber: 12.7x55mm<br />Quantity: 10cartrige<br />Type: Normal<br />Use: SV-1367","Калибр: 12.7x55мм<br />Количество: 10патронов<br />Тип: обычный<br />Используется: СВ-1367"
+
+STR_korob100r_rpd_name,"7.62x39(100cartr)","7.62x39(100патр)"
+STR_korob100r_rpd_desc,"Caliber: 7.62x39 mm<br />Quantity: 100 cartrige<br />Type: Normal<br />Use: LMG RPD","Калибр: 7.62x39 мм<br />Количество: 100 патронов<br />Тип: обычный<br />Используется: пулем. РПД"
+
+STR_mtc_5b_drob_desc,"Caliber: 12x70 mm<br />Quantity: 5 cartrige<br />Type: buckshot<br />Use: MTc-255","Калибр: 12х70 мм<br />Количество: 5 патронов<br />Тип: картечь<br />Используется: МЦ-255"
+STR_mtc_5b_pula_desc,"Caliber: 12x76 mm<br />Quantity: 5 cartrige<br />Type: slig<br />Use: MTc-255","Калибр: 12х76 мм<br />Количество: 5 патронов<br />Тип: пуля<br />Используется: МЦ-255"
+
+STR_vsk_20b_dz_desc,"Caliber: 9x39mm<br />Quantity: 20 cartrige<br />Type: subsonic<br />Use: 9a-91, VSK","Калибр: 9х39мм<br />Количество: 20 патронов<br />Тип: дозвуковой<br />Используется: 9А-91, ВСК"
+STR_vsk_20b_sz_desc,"Caliber: 9x39mm<br />Quantity: 20 cartrige<br />Type: supersonic<br />Use: 9a-91, VSK","Калибр: 9х39мм<br />Количество: 20 патронов<br />Тип: сверхзвуковой<br />Используется: 9А-91, ВСК"
+
+STR_762vsk_name,"7.62x39(20cartr)","7.62x39(20патр)"
+STR_762vsk_desc,"Caliber: 7.62x39mm<br />Quantity: 20cartrige<br />Type: Normal<br />Use: 9a-91(7.62)","Калибр: 7.62х39мм<br />Количество: 20 патронов<br />Тип: обычный<br />Используется: 9а-91(7.62)"
