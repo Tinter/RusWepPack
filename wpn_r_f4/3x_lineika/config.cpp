@@ -3,10 +3,16 @@ class CfgPatches
 	class RusWeapPack_mosin
 	{
 		units[]={};
-		weapons[]={};
+		weapons[]={
+			"str_3xlin_sn",
+			"str_3xlin_sht"
+			// "optic_str_puold",
+			// "optic_str_pb"
+		};
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{
+			"a3_weapons_f_mark_acc",
 			"A3_Weapons_F"
 		};
 	};
@@ -399,7 +405,7 @@ class CfgWeapons
 			};
 		};
 	};
-	class str_3xlin_sn_w: str_3xlin_sn
+	/*class str_3xlin_sn_w: str_3xlin_sn
 	{
 		author="Bohemia Interactive/New World Interactive";
 		displayname="$STR_mosr_snw_name";
@@ -465,7 +471,7 @@ class CfgWeapons
 				linkproxy="\A3\data_f\proxies\weapon_slots\TOP";
 			};
 		};
-	};
+	};*/
 	class str_3xlin_sht: str_3xlin_sn
 	{
 		author="Tripwire Interactive";
@@ -500,7 +506,8 @@ class CfgWeapons
 
 			class onFired_Action
 			{
-				HandAction = "HLC_GestureRechamberM1903A1_UN";
+				// HandAction = "HLC_GestureRechamberM1903A1_UN";
+				HandAction = "HLC_GestureRechamberAWM";
 				Actiondelay = 0;
 				Sound = "hlc_bolt_AWM";
 				Sound_Location = "RightHandMiddle1";
