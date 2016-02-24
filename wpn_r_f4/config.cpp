@@ -6,8 +6,6 @@ class CfgPatches
 		weapons[]={
 			"str_3xlin_sn",
 			"str_3xlin_sht"
-			// "optic_str_puold",
-			// "optic_str_pb"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -405,73 +403,6 @@ class CfgWeapons
 			};
 		};
 	};
-	/*class str_3xlin_sn_w: str_3xlin_sn
-	{
-		author="Bohemia Interactive/New World Interactive";
-		displayname="$STR_mosr_snw_name";
-		model="wpn_r_f4\3x_lineika\mosin9130_sn_w.p3d";
-		picture="\wpn_r_f4\3x_lineika\ui\gear_mos_sn_w_x_ca";
-		initspeed=875;
-		class Single: Single
-		{
-			dispersion=0.00062000001;
-		};
-		class WeaponSlotsInfo
-		{
-			allowedslots[]={901};
-			mass=115;
-			class MuzzleSlot: MuzzleSlot
-			{
-				iconPosition[]={0,0.41999999};
-				iconScale=0.2;
-				linkProxy="\A3\data_f\proxies\weapon_slots\MUZZLE";
-				compatibleItems[]=
-				{
-					// "muzzle_str_bram"
-				};
-			};
-			class CowsSlot: asdg_OpticRail1913
-			{
-				access=1;
-				iconPosition[]={0.44,0.34999999};
-				iconScale=0.2;
-			};
-		};
-	};
-	class str_3xlin_sn_dvtl: str_3xlin_sn
-	{
-		author="$STR_A3_Bohemia_Interactive";
-		displayname="$STR_mosr_snl_name";
-		model="wpn_r_f4\3x_lineika\mosin9130_sn_l.p3d";
-		picture="\wpn_r_f4\3x_lineika\ui\gear_mos_sn_l_x_ca";
-		initspeed=875;
-		class Single: Single
-		{
-			dispersion=0.00062000001;
-		};
-		class WeaponSlotsInfo
-		{
-			allowedslots[]={901};
-			mass=115;
-			class MuzzleSlot: MuzzleSlot
-			{
-				iconPosition[]={0.0099999998,0.40000001};
-				iconScale=0.2;
-				linkProxy="\A3\data_f\proxies\weapon_slots\MUZZLE";
-				compatibleItems[]=
-				{
-					// "muzzle_str_bram"
-				};
-			};
-			class CowsSlot: asdg_OpticRail_dvtl_str
-			{
-				access=1;
-				iconPosition[]={0.58999997,0.36000001};
-				iconScale=0.2;
-				linkproxy="\A3\data_f\proxies\weapon_slots\TOP";
-			};
-		};
-	};*/
 	class str_3xlin_sht: str_3xlin_sn
 	{
 		author="Tripwire Interactive";
@@ -506,8 +437,7 @@ class CfgWeapons
 
 			class onFired_Action
 			{
-				// HandAction = "HLC_GestureRechamberM1903A1_UN";
-				HandAction = "HLC_GestureRechamberAWM";
+				HandAction = "HLC_GestureRechamberM1903A1_UN";
 				Actiondelay = 0;
 				Sound = "hlc_bolt_AWM";
 				Sound_Location = "RightHandMiddle1";
