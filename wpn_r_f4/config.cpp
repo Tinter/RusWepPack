@@ -33,7 +33,7 @@ class CfgWeapons
 		displayname="$STR_mosr_sn_name";
 		model="wpn_r_f4\3x_lineika\mosin9130_sn.p3d";
 		picture="\wpn_r_f4\3x_lineika\ui\gear_mos_sn_x_ca";
-		discreteDistance[]={100,200,300,400,500};
+		discreteDistance[]={100,200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700,1800,1900,2000};
 		descriptionshort="$STR_mosr_sn_desc";
 		magazines[]=
 		{
@@ -41,7 +41,7 @@ class CfgWeapons
 		};
 		initspeed=870;
 		dexterity=1.344;
-		maxZeroing=600;
+		maxZeroing=2000;
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
@@ -441,7 +441,7 @@ class CfgWeapons
 				Actiondelay = 0;
 				Sound = "hlc_bolt_AWM";
 				Sound_Location = "RightHandMiddle1";
-				hasOptic = 0;
+				hasOptic = 1;
 			};
 		};
 	};
@@ -468,9 +468,9 @@ class CfgWeapons
 					opticsID=1;
 					// useModelOptics=0;
 					useModelOptics=1;
-					opticsZoomMin=0.064999998;
+					opticsZoomMin=0.087499999;
 					opticsZoomMax=0.087499999;
-					opticsZoomInit=0.071000002;
+					opticsZoomInit=0.087499999;
 					memoryPointCamera="eye";
 					modelOptics[]=
 					{
@@ -514,9 +514,9 @@ class CfgWeapons
 					opticsID=2;
 					opticsDisplayName="WFOV";
 					useModelOptics=1;
-					opticsZoomMin=0.050000001;
-					opticsZoomMax=0.071000002;
-					opticsZoomInit=0.063000001;
+					opticsZoomMin=0.142000004;
+					opticsZoomMax=0.142000004;
+					opticsZoomInit=0.142000004;
 					opticsPPEffects[]=
 					{
 						"OpticsCHAbera1",
@@ -527,10 +527,10 @@ class CfgWeapons
 					{
 						"wpn_r_f4\3x_lineika\pb_scope\scope_pb"
 					};
-					discreteDistance[]={300,400,500,600};
+					discreteDistance[]={300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700,1800,1900,2000};
 					discreteDistanceInitIndex=0;
 					distanceZoomMin=300;
-					distanceZoomMax=600;
+					distanceZoomMax=2000;
 					opticsFlare=1;
 					opticsDisablePeripherialVision=1;
 					visionMode[]=
