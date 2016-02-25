@@ -48,7 +48,8 @@ class CfgWeapons
 			"OFP2_ManSkeleton",
 			"\A3\Weapons_F_Mark\LongRangeRifles\DMR_06\data\Anim\DMR_06.rtm"
 		};
-		reloadAction="DZ_GestureReloadMosin";
+		// reloadAction="DZ_GestureReloadMosin";
+		reloadAction="DZ_GestureReloadMosinFast";
 		reloadMagazineSound[]=
 		{
 			"wpn_r_f4\3x_lineika\snd\mosin_reloading_dz",
@@ -393,18 +394,17 @@ class CfgWeapons
 		};
 		class bg_weaponparameters 
 		{
-
 			class onFired_Action
 			{
 				HandAction = "HLC_GestureRechamberM1903A1_UN";
 				Actiondelay = 0.5;
 				Sound = "hlc_bolt_AWM";
 				Sound_Location = "RightHandMiddle1";
-				hasOptic = 0;
+				hasOptic = 1;
 			};
 		};
 	};
-	class str_3xlin_sht: str_3xlin_sn
+	/*class str_3xlin_sht: str_3xlin_sn
 	{
 		author="Tripwire Interactive";
 		displayname="$STR_mosr_sht_name";
@@ -433,19 +433,7 @@ class CfgWeapons
 				};
 			};
 		};
-		class bg_weaponparameters 
-		{
-
-			class onFired_Action
-			{
-				HandAction = "HLC_GestureRechamberM1903A1_UN";
-				Actiondelay = 0;
-				Sound = "hlc_bolt_AWM";
-				Sound_Location = "RightHandMiddle1";
-				hasOptic = 1;
-			};
-		};
-	};
+	};*/
 	class optic_str_puold: optic_DMS
 	{
 		scope=2;
@@ -453,7 +441,7 @@ class CfgWeapons
 		displayName="$STR_sc_pu_mos_name";
 		picture="\wpn_r_f4\3x_lineika\ui\pu_ic.paa";
 		model="\wpn_optic4\pu\pu1";
-		descriptionShort="$STR_pu_p_desc";
+		descriptionShort="$STR_sc_pu_mos_desc";
 		weaponInfoType="RscWeaponZeroing";
 		class ItemInfo: InventoryOpticsItem_Base_F
 		{
@@ -528,10 +516,10 @@ class CfgWeapons
 					{
 						"wpn_r_f4\3x_lineika\pb_scope\scope_pb"
 					};
-					discreteDistance[]={800};
+					discreteDistance[]={500};
 					discreteDistanceInitIndex=0;
-					distanceZoomMin=800;
-					distanceZoomMax=800;
+					distanceZoomMin=500;
+					distanceZoomMax=500;
 					opticsFlare=1;
 					opticsDisablePeripherialVision=1;
 					visionMode[]=
