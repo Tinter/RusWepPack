@@ -2,3 +2,8 @@
 
 STR_mos5b_name,"7.62x54r(5cartr)"
 STR_mos5b_desc,"Caliber: 7.62x54 mm<br />Quantity: 5 cartrige<br />Type: Normal<br />Use: Mosin rifle"
+
+STR_dp_47b_name,"7.62x54r(47cartr)"
+STR_dp_47b_desc,"Caliber: 7.62x54 mm<br />Quantity: 47 cartrige<br />Type: Normal<br />Use: mg DP"
+STR_dp_47b_trs_name,"7.62x54r(47cartr), green tracer"
+STR_dp_47b_trs_desc,"Caliber: 7.62x54 mm<br />Quantity: 47cartrige<br />Type: tracer<br />Use: mg DP"
