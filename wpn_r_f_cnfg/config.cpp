@@ -52,4 +52,16 @@ class CfgMagazines
 		descriptionShort="$STR_dp_47b_trs_desc";
 		initSpeed=800;
 	};
+	class 10rnd_762_svt: 20Rnd_762x51_Mag
+	{
+		author="Street-you";
+		scope=2;
+		displayName="$STR_svt_10b_name";
+		displaynameshort="";
+		picture="\wpn_r_f_cnfg\ammon\svt_10b";
+		count=10;
+		descriptionShort="$STR_svt_10b_desc";
+		initSpeed=810;
+		mass=10;
+	};
 };
