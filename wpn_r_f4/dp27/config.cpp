@@ -3,7 +3,9 @@ class CfgPatches
 	class weap_StreetYou_dektyarev_pehotnyi
 	{
 		units[]={};
-		weapons[]={};
+		weapons[]={
+			"str_pul_DP"
+		};
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{
