@@ -27,7 +27,8 @@ class CfgWeapons
 		displayname="$STR_pulDP_name";
 		model="\wpn_r_f4\dp27\dp.p3d";
 		picture="\wpn_r_f4\dp27\ui\gear_dp_x_ca";
-		reloadAction="HLC_GestureReloadRPK";
+		// reloadAction="HLC_GestureReloadRPK";
+		reloadAction="GestureReloadM200";
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
@@ -52,12 +53,19 @@ class CfgWeapons
 			1,
 			20
 		};
-		reloadMagazineSound[]=
+		/*reloadMagazineSound[]=
 		{
 			"\wpn_r_f4\dp27\snd\rpk_reload.wav",
 			1,
 			1,
 			30
+		};*/
+		reloadMagazineSound[] = 
+		{
+			"A3\Sounds_F\arsenal\weapons\Machineguns\Mk200\Reload_Mk200",
+			1,
+			1,
+			10
 		};
 		deployedPivot="bipod";
 		hasBipod="true";
