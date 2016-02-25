@@ -32,7 +32,7 @@ class CfgMagazines
 		scope=2;
 		displayName="$STR_dp_47b_name";
 		displaynameshort="";
-		picture="\wpn_r_f_cnfg\ammo\ammon\bar_dp_47b";
+		picture="\wpn_r_f_cnfg\ammon\bar_dp_47b";
 		count=47;
 		mass=32;
 		descriptionShort="$STR_dp_47b_desc";
@@ -44,7 +44,7 @@ class CfgMagazines
 		scope=2;
 		displayName="$STR_dp_47b_trs_name";
 		displaynameshort="$STR_545mag_trs_sname";
-		picture="\wpn_r_f_cnfg\ammo\ammon\bar_dp_47b_trs";
+		picture="\wpn_r_f_cnfg\ammon\bar_dp_47b_trs";
 		count=47;
 		mass=32;
 		tracersEvery=1;
