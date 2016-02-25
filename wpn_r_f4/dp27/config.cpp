@@ -116,21 +116,21 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"wpn_r_f_snd\svd\762_dp.wav",
+					"\wpn_r_f4\dp27\snd\762_dp.wav",
 					1.15,
 					1,
 					1300
 				};
 				begin2[]=
 				{
-					"wpn_r_f_snd\svd\762_dp.wav",
+					"\wpn_r_f4\dp27\snd\762_dp.wav",
 					1.15,
 					1,
 					1300
 				};
 				begin3[]=
 				{
-					"wpn_r_f_snd\svd\762_dp.wav",
+					"\wpn_r_f4\dp27\snd\762_dp.wav",
 					1.15,
 					1,
 					1300
@@ -254,21 +254,21 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"wpn_r_f_snd\svd\762_dp.wav",
+					"\wpn_r_f4\dp27\snd\762_dp.wav",
 					1.15,
 					1,
 					1300
 				};
 				begin2[]=
 				{
-					"wpn_r_f_snd\svd\762_dp.wav",
+					"\wpn_r_f4\dp27\snd\762_dp.wav",
 					1.15,
 					1,
 					1300
 				};
 				begin3[]=
 				{
-					"wpn_r_f_snd\svd\762_dp.wav",
+					"\wpn_r_f4\dp27\snd\762_dp.wav",
 					1.15,
 					1,
 					1300
