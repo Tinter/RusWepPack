@@ -33,7 +33,8 @@ class CfgWeapons
 		displayname="$STR_mosr_sn_name";
 		model="wpn_r_f4\3x_lineika\mosin9130_sn.p3d";
 		picture="\wpn_r_f4\3x_lineika\ui\gear_mos_sn_x_ca";
-		discreteDistance[]={100,200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700,1800,1900,2000};
+		discreteDistance[]={500};
+		discreteDistanceInitIndex = 0;
 		descriptionshort="$STR_mosr_sn_desc";
 		magazines[]=
 		{
@@ -41,7 +42,7 @@ class CfgWeapons
 		};
 		initspeed=870;
 		dexterity=1.344;
-		maxZeroing=2000;
+		maxZeroing=500;
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
@@ -514,9 +515,9 @@ class CfgWeapons
 					opticsID=2;
 					opticsDisplayName="WFOV";
 					useModelOptics=1;
-					opticsZoomMin=0.142000004;
-					opticsZoomMax=0.142000004;
-					opticsZoomInit=0.142000004;
+					opticsZoomMin=0.042000004;
+					opticsZoomMax=0.042000004;
+					opticsZoomInit=0.042000004;
 					opticsPPEffects[]=
 					{
 						"OpticsCHAbera1",
@@ -527,10 +528,10 @@ class CfgWeapons
 					{
 						"wpn_r_f4\3x_lineika\pb_scope\scope_pb"
 					};
-					discreteDistance[]={300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700,1800,1900,2000};
+					discreteDistance[]={800};
 					discreteDistanceInitIndex=0;
-					distanceZoomMin=300;
-					distanceZoomMax=2000;
+					distanceZoomMin=800;
+					distanceZoomMax=800;
 					opticsFlare=1;
 					opticsDisablePeripherialVision=1;
 					visionMode[]=
