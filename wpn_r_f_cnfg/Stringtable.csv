@@ -10,3 +10,10 @@ STR_dp_47b_trs_desc,"Caliber: 7.62x54 mm<br />Quantity: 47 rounds<br />Type: Tra
 
 STR_svt_10b_name,"7.62x54r (10 round)"
 STR_svt_10b_desc,"Caliber: 7.62x54 mm<br />Quantity: 10 rounds<br />Type: Normal<br />Use: SVT, AVT"
+
+STR_ppsh35_name,"7.62x25 (35 round)"
+STR_ppsh35_desc,"Caliber: 7.62x25mm<br />Quantity: 35 rounds<br />Type: Normal<br />Use: PPSh-41"
+STR_ppsh35_trs_name,"7.62x2(35 round), Green Tracer"
+STR_ppsh35_trs_desc,"Caliber: 7.62x25mm<br />Quantity: 35 rounds<br />Type: Tracer<br />Use: PPSh-41"
+STR_ppsh71_name,"7.62x25 (75 round)"
+STR_ppsh71_desc,"Caliber: 7.62x25mm<br />Quantity: 71 rounds<br />Type: Normal<br />Use: PPSh-41"
