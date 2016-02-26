@@ -448,14 +448,12 @@ class CfgWeapons
 			opticType=2;
 			mass=8;
 			optics=1;
-			// modelOptics="\A3\Weapons_F\empty";
 			modelOptics="\A3\Weapons_F\acc\reticle_sniper_F";
 			class OpticsModes
 			{
 				class Snip
 				{
 					opticsID=1;
-					// useModelOptics=0;
 					useModelOptics=1;
 					opticsZoomMin=0.087499999;
 					opticsZoomMax=0.087499999;

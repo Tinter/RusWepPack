@@ -46,7 +46,7 @@ class CfgWeapons
 		{
 			"10rnd_762_svt"
 		};
-		picture="\wpn_r_f4\svt\gear_svt_x_ca";
+		picture="\wpn_r_f4\svt\ui\gear_svt_x_ca";
 		descriptionshort="$STR_svt_desc";
 		drySound[]=
 		{
@@ -558,13 +558,13 @@ class CfgWeapons
 			opticType=2;
 			mass=8;
 			optics=1;
-			modelOptics="\A3\Weapons_F\empty";
+			modelOptics="\A3\Weapons_F\acc\reticle_sniper_F";
 			class OpticsModes
 			{
 				class Snip
 				{
 					opticsID=1;
-					useModelOptics=0;
+					useModelOptics=1;
 					opticsZoomMin=0.087499999;
 					opticsZoomMax=0.087499999;
 					opticsZoomInit=0.087499999;
@@ -580,6 +580,10 @@ class CfgWeapons
 					opticsPPEffects[]=
 					{
 						""
+					};
+					modelOptics[]=
+					{
+						"wpn_r_f4\3x_lineika\pb_scope\scope_pb"
 					};
 				};
 			};
