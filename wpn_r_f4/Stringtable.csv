@@ -1,13 +1,13 @@
 ﻿Language, "Original"
 
 STR_vpo_psh_name,"VPO-133"
-STR_vpo_psh_desc,"Caliber: 7.62x25 mm<br/> Range: 300<br/> Modes: auto<br/> Rate of fire: ~1000<br/> Mags: 71\35 rounds mag PPSH"
-STR_psh_name,"PPSH"
+STR_vpo_psh_desc,"Caliber: 7.62x25 mm<br/> Range: 300<br/> Modes: REMOVE FASCIST<br/> Rate of fire: ~1000<br/> Mags: 71\35 rounds mag PPSh-41"
+STR_psh_name,"PPSh-41"
 
-STR_mosr_sn_name,"Mosin Nagant M91"
+STR_mosr_sn_name,"Mosin Nagant M91/30"
 STR_mosr_sn_desc,"Caliber: 7.62x54 mm<br/> Range: 600<br/> Rate of fire: ~22<br/> Mags: 5round clip 7.62mm"
 
-STR_mosr_sht_name,"Mosin Nagant M91"
+STR_mosr_sht_name,"Mosin Nagant M91/30"
 STR_mosr_sht_desc,"Caliber: 7.62x54 mm<br/> Range: 600<br/> Rate of fire: ~45<br/> Mags: 5round clip 7.62mm"
 
 STR_sc_pu_mos_name,"PU(Mosin)"
