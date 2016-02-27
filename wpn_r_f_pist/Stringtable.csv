@@ -1,0 +1,9 @@
+﻿Калибр: <br/ >Дальность: <br/ >Режимы: <br/ >Темп стрельбы: <br/ >Магазины: 
+Caliber: <br/> Distance: <br/> Modes: <br/> Rate of fire: <br/> Mags:
+compilation
+///////////////
+myW,"WPN_R_F","WPN_R_F"
+Language, "Original", "Russian"
+
+STR_ngn_name,"Nagant M1895","Револьвер системы Нагана"
+STR_ngn_desc,"Caliber: 7.62x38<br/> Distance: ~50 Mags: Bullets 7.62x38mmR","Калибр: 7.62х38<br/ >Дальность: ~50<br/ >Магазины: Пули кал.7.62"

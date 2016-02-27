@@ -15,6 +15,7 @@ class CfgMagazines
 {
     class CA_Magazine;
 	class 20Rnd_762x51_Mag;
+	class 16Rnd_9x21_Mag;
 	class 5rnd_762_mos: 20Rnd_762x51_Mag
 	{
 		author="Street-you";
@@ -107,6 +108,19 @@ class CfgMagazines
 		lastRoundsTracer=35;
 		descriptionShort="$STR_ppsh35_trs_desc";
 		mass=11;
+	};
+	class 7Rnd_nagan_rev: 16Rnd_9x21_Mag
+	{
+		author="Street-you";
+		scope=2;
+		ammo="B_762x25_pula";
+		count=7;
+		displayname="$STR_ng_7b_name";
+		picture="\wpn_r_f_cnfg\ammon\nagan_7b";
+		descriptionShort="$STR_ng_7b_desc";
+		displaynameshort="";
+		initSpeed=280;
+		mass=3;
 	};
 };
 class CfgAmmo

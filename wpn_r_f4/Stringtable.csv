@@ -25,7 +25,7 @@ STR_avfl_name,"Fedorov Avtomat(w)"
 STR_ptrs_name,"Anti-tank gun Simonov"
 STR_ptrs_desc,"Caliber:14.5x114 mm<br/> Range: 400<br/> Modes: 1<br/> Mags: 5 rounds mag PTRS"
 
-STR_svt_name,"SVT"
+STR_svt_name,"SVT-40"
 STR_svt_desc,"Caliber: 7.62x54 mm<br/> Range: 400<br/> Rate of fire: 600<br/> Mags: 10 round mag"
 STR_avt_name,"AVT"
 
