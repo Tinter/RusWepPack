@@ -17,3 +17,6 @@ STR_ppsh35_trs_name,"7.62x2(35 round), Green Tracer"
 STR_ppsh35_trs_desc,"Caliber: 7.62x25mm<br />Quantity: 35 rounds<br />Type: Tracer<br />Use: PPSh-41"
 STR_ppsh71_name,"7.62x25 (75 round)"
 STR_ppsh71_desc,"Caliber: 7.62x25mm<br />Quantity: 71 rounds<br />Type: Normal<br />Use: PPSh-41"
+
+STR_ng_7b_name,"7.62x38mmR (7 round)"
+STR_ng_7b_desc,"Caliber: 7.62x38mmR<br />Quantity: 7 rounds<br />Type: Normal<br />Use: Nagant M1895"

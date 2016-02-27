@@ -81,28 +81,28 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\wpn_r_f_snd\pist\p38_shoot1.ogg",
+					"\wpn_r_f_pist\nagan\snd\nagantfire.wav",
 					0.89999998,
 					1,
 					2500
 				};
 				begin2[]=
 				{
-					"\wpn_r_f_snd\pist\p38_shoot1.ogg",
+					"\wpn_r_f_pist\nagan\snd\nagantfire.wav",
 					0.89999998,
 					1,
 					2500
 				};
 				begin3[]=
 				{
-					"\wpn_r_f_snd\pist\p38_shoot1.ogg",
+					"\wpn_r_f_pist\nagan\snd\nagantfire.wav",
 					0.89999998,
 					1,
 					2500
 				};
 				begin4[]=
 				{
-					"\wpn_r_f_snd\pist\p38_shoot1.ogg",
+					"\wpn_r_f_pist\nagan\snd\nagantfire.wav",
 					0.89999998,
 					1,
 					2500
@@ -199,9 +199,4 @@ class CfgWeapons
 			mass=20;
 		};
 	};
-};
-class cfgMods
-{
-	author="76561198086111011";
-	timepacked="1455925176";
 };
