@@ -1,7 +1,7 @@
 ﻿Language, "Original"
 
 STR_vpo_psh_name,"VPO-133"
-STR_vpo_psh_desc,"Caliber: 7.62x25 mm<br/> Range: 300<br/> Modes: REMOVE FASCIST<br/> Rate of fire: ~1000<br/> Mags: 71\35 rounds mag PPSh-41"
+STR_vpo_psh_desc,"Caliber: 7.62x25 mm<br/> Range: 300<br/> Modes: Full auto<br/> Rate of fire: ~1000<br/> Mags: 71\35 rounds mag PPSh-41"
 STR_psh_name,"PPSh-41"
 
 STR_mosr_sn_name,"Mosin Nagant M91/30"
@@ -16,7 +16,7 @@ STR_sc_pb_name,"PB(Mosin)"
 STR_sc_pb_desc,"Magnification: 8x<br/>Range: 500-800<br/>Modes: Normal"
 
 STR_pulDP_name,"DP-27"
-STR_pulDP_desc,"Caliber: 7.62x54 mm<br/> Range: 700<br/> Modes: auto<br/> Rate of fire: 600<br/> Mags: 47 round drum mag"
+STR_pulDP_desc,"Caliber: 7.62x54 mm<br/> Range: 700<br/> Modes: Full auto<br/> Rate of fire: 600<br/> Mags: 47 round drum mag"
 
 STR_avf_name,"Fedorov Avtomat"
 STR_avf_desc,"Caliber: 6.5x50 mm<br/> Range: 400<br/> Modes: 1/auto<br/> Rate of fire: 600<br/> Mags: 25 rounds mag"
