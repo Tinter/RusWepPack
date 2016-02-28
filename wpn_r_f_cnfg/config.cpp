@@ -204,6 +204,33 @@ class CfgMagazines
 		mass=65;
 		descriptionShort="$STR_korob200r_pkp_desc";
 	};
+	class 100rnd_korob_rpd: CA_Magazine
+	{
+		author="Street-you";
+		scope=2;
+		displayName="$STR_korob100r_rpd_name";
+		displaynameshort="";
+		picture="\wpn_r_f_cnfg\ammon\100b_korob_rpd";
+		count=100;
+		ammo="HLC_762x39_Ball";
+		initSpeed=830;
+		tracersEvery=0;
+		lastRoundsTracer=5;
+		mass=35;
+		descriptionShort="$STR_korob100r_rpd_desc";
+	};
+	class 100rnd_korob_trs_rpd: 100rnd_korob_rpd
+	{
+		author="Street-you";
+		scope=2;
+		displayName="$STR_korob100r_rpd_trs_name";
+		count=100;
+		ammo="HLC_762x39_Tracer";
+		tracersEvery=2;
+		lastRoundsTracer=5;
+		mass=35;
+		descriptionShort="$STR_korob100r_rpd_trs_desc";
+	};
 };
 class CfgAmmo
 {
