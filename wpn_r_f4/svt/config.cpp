@@ -50,7 +50,7 @@ class CfgWeapons
 		descriptionshort="$STR_svt_desc";
 		drySound[]=
 		{
-			"\wpn_r_f4\dp27\snd\empty.ogg",
+			"wpn_r_f\snd\empty.ogg",
 			1,
 			1,
 			20

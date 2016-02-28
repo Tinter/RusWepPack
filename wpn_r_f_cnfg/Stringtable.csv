@@ -39,3 +39,24 @@ STR_korob100r_rpd_name,"7.62x39mm (100 round)"
 STR_korob100r_rpd_desc,"Caliber: 7.62x39mm<br />Quantity: 100 rounds<br />Type: Normal<br />Use: RPD"
 STR_korob100r_rpd_trs_name,"7.62x54mmR (100 round), Green Tracer"
 STR_korob100r_rpd_trs_desc,"Caliber: 7.62x39mm<br />Quantity: 100 rounds<br />Type: Tracer<br />Use: RPD"
+
+STR_drob,"Buckshot"
+STR_pula,"Slug"
+
+STR_7b_drob_name,"12x70 (7 round), Buckshot"
+STR_7b_drob_desc,"Caliber: 12x70 mm<br />Quantity: 7 shells<br />Type: Buckshot<br />Use: MP-133"
+STR_7b_pula_name,"12x76 (7 round), slug"
+STR_7b_pula_desc,"Caliber: 12x76 mm<br />Quantity: 7 shells<br />Type: Slug<br />Use: MP-133"
+
+STR_2b_drob_name,"12x70(2 round), Buckshot"
+STR_2b_drob_desc,"Caliber: 12x70 mm<br />Quantity: 2 shells<br />Type: Buckshot<br />Use: Izh-43, Toz-34"
+STR_2b_pula_name,"12x76(2 round), Slug"
+STR_2b_pula_desc,"Caliber: 12x76 mm<br />Quantity: 2 shells<br />Type: Slug<br />Use: Izh-43, Toz-34"
+
+STR_sks10mag_name,"7.62x39(10 round)"
+STR_sks10mag_desc,"Caliber: 7.62x39mm<br />Quantity: 10 rounds<br />Type: Normal<br />Use: SKS"
+
+STR_ks23_3b_barr_name,"Barrikada (3 round)"
+STR_ks23_3b_barr_desc,"Caliber: 23x75 R mm<br />Quantity: 3 shells<br />Type: Slug<br />Use: KS-23"
+STR_ks23_3b_kart_name,"Shrapnel-25 (3 round)"
+STR_ks23_3b_barr_desc,"Caliber: 23x75 R mm<br />Quantity: 3 shells<br />Type: Buckshot<br />Use: KS-23"

@@ -16,6 +16,7 @@ class CfgMagazines
     class CA_Magazine;
 	class 20Rnd_762x51_Mag;
 	class 16Rnd_9x21_Mag;
+	class 30Rnd_556x45_Stanag;
 	class 5rnd_762_mos: 20Rnd_762x51_Mag
 	{
 		author="Street-you";
@@ -231,11 +232,99 @@ class CfgMagazines
 		mass=35;
 		descriptionShort="$STR_korob100r_rpd_trs_desc";
 	};
+	class 7pul_drob: CA_Magazine
+	{
+		author="Street-you";
+		displayname="$STR_7b_drob_name";
+		displaynameshort="$STR_drob";
+		ammo="drob_12cal";
+		count=7;
+		initspeed=396;
+		picture="\wpn_r_f_cnfg\ammon\drobov_7b";
+		descriptionshort="$STR_7b_drob_desc";
+		mass=6;
+	};
+	class 7pul_pula: CA_Magazine
+	{
+		author="Street-you";
+		displayname="$STR_7b_pula_name";
+		displaynameshort="$STR_pula";
+		ammo="pulia_12cal";
+		count=7;
+		initspeed=396;
+		picture="\wpn_r_f_cnfg\ammon\drobov_p_7b";
+		descriptionshort="$STR_7b_pula_desc";
+		mass=7;
+	};
+	class 2pul_drob: CA_Magazine
+	{
+		author="Street-you";
+		displayname="$STR_2b_drob_name";
+		displaynameshort="$STR_drob";
+		ammo="drob_12cal";
+		count=2;
+		initspeed=396;
+		picture="\wpn_r_f_cnfg\ammon\dvustv_2b";
+		descriptionshort="$STR_2b_drob_desc";
+		mass=2;
+	};
+	class 2pul_pula: CA_Magazine
+	{
+		author="Street-you";
+		displayname="$STR_2b_pula_name";
+		displaynameshort="$STR_pula";
+		ammo="pulia_12cal";
+		count=2;
+		initspeed=396;
+		picture="\wpn_r_f_cnfg\ammon\dvustv_2b_p";
+		descriptionshort="$STR_2b_pula_desc";
+		mass=2;
+	};
+	class 10rnd_sks_mag: 30Rnd_556x45_Stanag
+	{
+		author="Street-you";
+		scope=2;
+		ammo="HLC_762x39_Ball";
+		displayName="$STR_sks10mag_name";
+		displaynameshort="";
+		descriptionShort="$STR_sks10mag_desc";
+		picture="\wpn_r_f_cnfg\ammon\sks_10b";
+		count=10;
+		initSpeed=730;
+		tracersEvery=0;
+		lastRoundsTracer=0;
+		mass=8;
+	};
+	class 3pul_ks23_kart: CA_Magazine
+	{
+		author="Street-you";
+		displayname="$STR_ks23_3b_kart_name";
+		displaynameshort="$STR_drob";
+		count=3;
+		ammo="kart_shrap25_23cal";
+		initspeed=380;
+		picture="\wpn_r_f_cnfg\ammon\ks23_drob_3b";
+		descriptionshort="$STR_ks23_3b_kart_desc";
+		mass=6;
+	};
+	class 3pul_ks23_barrik: CA_Magazine
+	{
+		author="Street-you";
+		displayname="$STR_ks23_3b_barr_name";
+		displaynameshort="$STR_pula";
+		ammo="barrik_pula_23cal";
+		count=3;
+		initspeed=380;
+		picture="\wpn_r_f_cnfg\ammon\ks23_pula_3b";
+		descriptionshort="$STR_ks23_3b_barr_desc";
+		mass=6;
+	};
 };
 class CfgAmmo
 {
     class BulletBase;
 	class CUP_B_762x54_Ball_Green_Tracer;
+    class ShotgunBase;
 	class B_762x25_pula: BulletBase
 	{
 		hit=5.6500001;
@@ -276,5 +365,52 @@ class CfgAmmo
 	class CUP_B_762x54_Ball: CUP_B_762x54_Ball_Green_Tracer
 	{
 	    model="\A3\Weapons_f\Data\bullettracer\tracer_yellow";
+	};
+	class drob_12cal: ShotgunBase
+	{
+		hit=17;
+		indirectHit=0;
+		indirectHitRange=0.5;
+		visibleFire=4;
+		audibleFire=7;
+		visibleFireTime=3;
+		cost=1;
+		tracerColor[]={1,0.050000001,0.050000001,1};
+		tracerColorR[]={1,0.050000001,0.050000001,1};
+		airFriction=-0.0049999999;
+		caliber=0.5;
+		cartridge="FxCartridge_slug";
+	};
+	class pulia_12cal: BulletBase
+	{
+		hit=25;
+		indirectHit=0;
+		indirectHitRange=0;
+		visibleFire=4;
+		audibleFire=7;
+		visibleFireTime=2;
+		cartridge="FxCartridge_slug";
+		cost=1;
+		tracerColor[]={1,0.050000001,0.050000001,1};
+		tracerColorR[]={1,0.050000001,0.050000001,1};
+		airFriction=-0.0049999999;
+		caliber=0.5;
+		hitArmor[]=
+		{
+			"soundHitArmor1",
+			0.69999999,
+			"soundHitArmor2",
+			0.30000001
+		};
+	};
+	class barrik_pula_23cal: pulia_12cal
+	{
+		hit=37;
+		indirectHit=0.050000001;
+		indirectHitRange=0.050000001;
+	};
+	class kart_shrap25_23cal: drob_12cal
+	{
+		hit=25;
 	};
 };

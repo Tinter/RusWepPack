@@ -56,7 +56,7 @@ class CfgWeapons
 		maxZeroing=950;
 		drySound[]=
 		{
-			"\wpn_r_f_snd\ak545\empty.ogg",
+			"wpn_r_f\snd\empty.ogg",
 			1,
 			1,
 			20

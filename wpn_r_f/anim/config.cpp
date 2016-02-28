@@ -18,6 +18,7 @@ class CfgMovesBasic
 	{
 		DZ_GestureReloadMosin="DZ_GestureReloadMosin";
 		DZ_GestureReloadMosinFast="DZ_GestureReloadMosinFast";
+		DZ_GestureReloadSKS="DZ_GestureReloadSKS";
 	};
 	class Actions
 	{
@@ -31,6 +32,11 @@ class CfgMovesBasic
 			DZ_GestureReloadMosinFast[]=
 			{
 				"DZ_GestureReloadMosinFast",
+				"Gesture"
+			};
+			DZ_GestureReloadSKS[]=
+			{
+				"DZ_GestureReloadSKS",
 				"Gesture"
 			};
 		};
@@ -47,6 +53,11 @@ class CfgMovesBasic
 				"DZ_GestureReloadMosinFast_prone",
 				"Gesture"
 			};
+			DZ_GestureReloadSKS[]=
+			{
+				"DZ_GestureReloadSKS_prone",
+				"Gesture"
+			};
 		};
 		class RifleAdjustProneBaseActions;
 		class RifleAdjustRProneActions: RifleAdjustProneBaseActions
@@ -59,6 +70,11 @@ class CfgMovesBasic
 			DZ_GestureReloadMosinFast[]=
 			{
 				"DZ_GestureReloadMosinFast_Context",
+				"Gesture"
+			};
+			DZ_GestureReloadSKS[]=
+			{
+				"DZ_GestureReloadSKS_Context",
 				"Gesture"
 			};
 		};
@@ -74,6 +90,11 @@ class CfgMovesBasic
 				"DZ_GestureReloadMosinFast_Context",
 				"Gesture"
 			};
+			DZ_GestureReloadSKS[]=
+			{
+				"DZ_GestureReloadSKS_Context",
+				"Gesture"
+			};
 		};
 		class RifleAdjustFProneActions: RifleAdjustProneBaseActions
 		{
@@ -85,6 +106,11 @@ class CfgMovesBasic
 			DZ_GestureReloadMosinFast[]=
 			{
 				"DZ_GestureReloadMosinFast",
+				"Gesture"
+			};
+			DZ_GestureReloadSKS[]=
+			{
+				"DZ_GestureReloadSKS",
 				"Gesture"
 			};
 		};
@@ -208,6 +234,40 @@ class CfgGesturesMale
 			mask="handsWeapon";
 		};
 		class DZ_GestureReloadBoMosinFast_Context: DZ_GestureReloadMosin
+		{
+			mask="handsWeapon_context";
+		};
+		class DZ_GestureReloadSKS: Default2
+		{
+			file="wpn_r_f\anim\sks\CdzpPercMstpSKS.rtm";
+			speed=-5;
+			rightHandIKCurve[]={0,0.1,0.79000002,0.1,0.81,0.25,0.89999998,0.15000001};
+			leftHandIKcurve[]={1};
+			looped="false";
+			disableInventory=1;
+			disableWeaponChange=1;
+			leftHandIKBeg="true";
+			leftHandIKEnd="true";
+			rightHandIKBeg="false";
+			rightHandIKEnd="true";
+			mask="handsWeapon";
+		};
+		class DZ_GestureReloadSKS_prone: Default2
+		{
+			file="wpn_r_f\anim\sks\CdzpPpneMstpSKS.rtm";
+			speed=-5;
+			rightHandIKCurve[]={0,0.1,0.79000002,0.1,0.81,0.25,0.89999998,0.15000001};
+			leftHandIKcurve[]={1};
+			looped="false";
+			disableInventory=1;
+			disableWeaponChange=1;
+			leftHandIKBeg="true";
+			leftHandIKEnd="true";
+			rightHandIKBeg="false";
+			rightHandIKEnd="true";
+			mask="handsWeapon";
+		};
+		class DZ_GestureReloadSKS_Context: DZ_GestureReloadSKS
 		{
 			mask="handsWeapon_context";
 		};
