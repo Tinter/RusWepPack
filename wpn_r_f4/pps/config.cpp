@@ -36,7 +36,7 @@ class CfgWeapons
 		handanim[]=
 		{
 			"OFP2_ManSkeleton",
-			"\wpn_r_f4\pps\pps43.rtm"
+			"\wpn_r_f\anim\pps43.rtm"
 		};
 		initspeed=430;
 		dexterity=1.4592;

@@ -145,7 +145,7 @@ class CfgGesturesMale
 	{
 		class DZ_GestureReloadMosin: Default2
 		{
-			file="wpn_r_f_anm\dz_anim\mosya\CdzpPercMstpMosinNagant_full.rtm";
+			file="wpn_r_f\anim\mosya\CdzpPercMstpMosinNagant_full.rtm";
 			speed=-8;
 			rightHandIKCurve[]={0,0.0099999998,0.31999999,0.1};
 			leftHandIKcurve[]={1};
@@ -160,7 +160,7 @@ class CfgGesturesMale
 		};
 		class DZ_GestureReloadMosin_prone: Default2
 		{
-			file="wpn_r_f_anm\dz_anim\mosya\CdzpPpneMstpMosinNagant_full.rtm";
+			file="wpn_r_f\anim\mosya\CdzpPpneMstpMosinNagant_full.rtm";
 			speed=-5;
 			rightHandIKCurve[]={0,0.0099999998,0.31999999,0.1};
 			leftHandIKcurve[]={1};
@@ -179,7 +179,7 @@ class CfgGesturesMale
 		};
 		class DZ_GestureReloadMosinFast: Default2
 		{
-			file="wpn_r_f_anm\dz_anim\mosya\CdzpPercMstpMosinNagant_full.rtm";
+			file="wpn_r_f\anim\mosya\CdzpPercMstpMosinNagant_full.rtm";
 			speed=-5;
 			rightHandIKCurve[]={0,0.0099999998,0.31999999,0.1};
 			leftHandIKcurve[]={1};
@@ -194,7 +194,7 @@ class CfgGesturesMale
 		};
 		class DZ_GestureReloadMosinFast_prone: Default2
 		{
-			file="wpn_r_f_anm\dz_anim\mosya\CdzpPpneMstpMosinNagant_full.rtm";
+			file="wpn_r_f\anim\mosya\CdzpPpneMstpMosinNagant_full.rtm";
 			speed=-8;
 			rightHandIKCurve[]={0,0.0099999998,0.31999999,0.1};
 			leftHandIKcurve[]={1};
