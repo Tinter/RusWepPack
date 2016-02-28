@@ -1,0 +1,8 @@
+﻿Калибр: <br/ >Дальность: <br/ >Режимы: <br/ >Темп стрельбы: <br/ >Магазины: 
+Caliber: <br/> Distance: <br/> Modes: <br/> Rate of fire: <br/> Mags:
+///////////////
+Language, "Original"
+
+STR_svuaname,"SVU"
+STR_svua_desc,"Caliber: 7.62x54mm<br/> Distance: 800<br/> Modes: 1\auto<br/> Rate of fire: 650<br/> Mags: 7.62 SVD"
+STR_svuawname,"SVU (Rail)"
