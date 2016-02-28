@@ -1,0 +1,20 @@
+﻿Калибр: <br/ >Дальность: <br/ >Режимы: <br/ >Темп стрельбы: <br/ >Магазины: 
+Caliber: <br/> Distance: <br/> Modes: <br/> Rate of fire: <br/> Mags:
+///////////////
+Language, "Original", "Russian"
+
+STR_skso_name,"SKS","СКС"
+STR_skso_desc,"Caliber: 7.62x39 mm<br/> Distance: 400<br/> Modes: 1<br/> Rate of fire: 600<br/> Mags: 10 round clip","Калибр: 7.62х39 мм<br/ >Дальность: 400<br/ >Режимы: 1<br/ >Темп стрельбы: 600<br/ >Магазины: 10зарядная обойма СКС"
+
+STR_ij43_obr_name,"IZH-43(sawedoff)","ИЖ-43(обрез)"
+STR_ij43_obr_desc,"Caliber: 12 mm<br/> Distance: 100<br/> Mags: 2 bullets .12","Калибр: 12 мм<br/ >Дальность: 100<br/ >Магазины: 2 патрона 12 калибра"
+
+STR_ij43_l_name,"IZH-43","ИЖ-43"
+STR_ij43_l_desc,"Caliber: 12 mm<br/> Distance: 150<br/> Mags: 2 bullets .12","Калибр: 12 мм<br/ >Дальность: 150<br/ >Магазины: 2 патрона 12 калибра"
+
+STR_svdb_name,"SVDM","СВД(лх)"
+STR_svdb_desc,"Caliber: 7.62x54 mm<br/> Distance: 800<br/> Modes: 1<br/> Rate of fire: 500<br/> Mags: 10/20 rounds mag svd ","Калибр: 7.62х54 мм<br/ >Дальность: 800<br/ >Режимы: 1<br/ >Темп стрельбы: 500<br/ >Магазины: 10/20зарядный маг. свд"
+STR_svdbp_desc,"SVDM (Rail)","СВД(w)"
+
+STR_tigr_name,"SVD","Тигр исп 05"
+STR_tigr_desc,"Caliber: 7.62x54 mm<br/> Distance: 400<br/> Modes: 1<br/> Rate of fire: 500<br/> Mags: 10 rounds mag svd ","Калибр: 7.62х54 мм<br/ >Дальность: 400<br/ >Режимы: 1<br/ >Темп стрельбы: 500<br/ >Магазины: 10зарядный маг. свд"

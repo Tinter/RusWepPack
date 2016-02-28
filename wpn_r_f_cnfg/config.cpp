@@ -66,6 +66,46 @@ class CfgMagazines
 		initSpeed=810;
 		mass=10;
 	};
+	class 10rnd_762_svd: 20Rnd_762x51_Mag
+	{
+		author="Street-you";
+		scope=2;
+		displayName="$STR_svd_10b_name";
+		displaynameshort="";
+		ammo="CUP_B_762x54_Ball";
+		picture="\wpn_r_f_cnfg\ammon\svd_10b";
+		count=10;
+		descriptionShort="$STR_svd_10b_desc";
+		initSpeed=805;
+		mass=13;
+	};
+	class 10rnd_trs_762_svd: 20Rnd_762x51_Mag
+	{
+		author="Street-you";
+		scope=2;
+		displayName="$STR_svd_trs_10b_name";
+		ammo="CUP_B_762x54_Ball_Green_Tracer";
+		picture="\wpn_r_f_cnfg\ammon\svd_10b";
+		count=10;
+		descriptionShort="$STR_svd_trs_10b_desc";
+		initSpeed=805;
+		tracersEvery=1;
+		lastRoundsTracer=10;
+		mass=13;
+	};
+	class 20rnd_762_svd: 20Rnd_762x51_Mag
+	{
+		author="Street-you";
+		scope=2;
+		displayName="$STR_svd_20b_name";
+		displaynameshort="";
+		ammo="CUP_B_762x54_Ball";
+		picture="\wpn_r_f_cnfg\ammon\svd_20b";
+		count=20;
+		descriptionShort="$STR_svd_20b_desc";
+		initSpeed=800;
+		mass=17;
+	};
 	class 71rnd_psh_bar: CA_Magazine
 	{
 		author="Street-you";
@@ -122,10 +162,53 @@ class CfgMagazines
 		initSpeed=280;
 		mass=3;
 	};
+	class 100rnd_korob_pkp: CA_Magazine
+	{
+		author="Street-you";
+		scope=2;
+		displayName="$STR_korob100r_pkp_name";
+		displaynameshort="";
+		picture="\wpn_r_f_cnfg\ammon\pkp_korob_100b";
+		count=100;
+		ammo="CUP_B_762x54_Ball";
+		initSpeed=830;
+		tracersEvery=0;
+		lastRoundsTracer=5;
+		mass=40;
+		descriptionShort="$STR_korob100r_pkp_desc";
+	};
+	class 100rnd_korob_trs_pkp: 100rnd_korob_pkp
+	{
+		author="Street-you";
+		scope=2;
+		displayName="$STR_korob100r_pkp_trs_name";
+		displaynameshort="";
+		picture="\wpn_r_f_cnfg\ammon\pkp_korob_trs_100b";
+		ammo="CUP_B_762x54_Ball_Green_Tracer";
+		tracersEvery=1;
+		lastRoundsTracer=100;
+		descriptionShort="$STR_korob100r_pkp_trs_desc";
+	};
+	class 200rnd_korob_pkp: 100rnd_korob_pkp
+	{
+		author="Street-you";
+		scope=2;
+		displayName="$STR_korob200r_pkp_name";
+		displaynameshort="";
+		picture="\wpn_r_f_cnfg\ammon\pkp_korob_200b";
+		count=200;
+		ammo="CUP_B_762x54_Ball";
+		initSpeed=820;
+		tracersEvery=0;
+		lastRoundsTracer=7;
+		mass=65;
+		descriptionShort="$STR_korob200r_pkp_desc";
+	};
 };
 class CfgAmmo
 {
     class BulletBase;
+	class CUP_B_762x54_Ball_Green_Tracer;
 	class B_762x25_pula: BulletBase
 	{
 		hit=5.6500001;
@@ -162,5 +245,9 @@ class CfgAmmo
 	class B_762x25_trs_pula: B_762x25_pula
 	{
 		model="\A3\Weapons_f\Data\bullettracer\tracer_green";
+	};
+	class CUP_B_762x54_Ball: CUP_B_762x54_Ball_Green_Tracer
+	{
+	    model="\A3\Weapons_f\Data\bullettracer\tracer_yellow";
 	};
 };
