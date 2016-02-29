@@ -232,6 +232,104 @@ class CfgMagazines
 		mass=35;
 		descriptionShort="$STR_korob100r_rpd_trs_desc";
 	};
+	class 10rnd_mag_vss_doz: CA_Magazine
+	{
+		author="Street-you";
+		scope=2;
+		displayName="$STR_vss_10b_dz_name";
+		displaynameshort="$STR_dz_am";
+		picture="\wpn_r_f_cnfg\ammon\vss_10b_dz";
+		count=10;
+		ammo="B_9_39_sp5_pula";
+		initSpeed=295;
+		tracersEvery=0;
+		lastRoundsTracer=1;
+		mass=7;
+		descriptionShort="$STR_vss_10b_dz_desc";
+	};
+	class 10rnd_mag_vss_doz_trs: 10rnd_mag_vss_doz
+	{
+		author="Street-you";
+		scope=2;
+		displayName="$STR_vss_10b_trs_dz_name";
+		displaynameshort="$STR_dz_trs_am";
+		picture="\wpn_r_f_cnfg\ammon\vss_10b_trs_dz";
+		ammo="B_9_39_sp5_pula_trs";
+		initSpeed=295;
+		tracersEvery=1;
+		lastRoundsTracer=10;
+		mass=7;
+		descriptionShort="$STR_vss_10b_trs_dz_desc";
+	};
+	class 20rnd_mag_vss_doz: 10rnd_mag_vss_doz
+	{
+		author="Street-you";
+		scope=2;
+		displayName="$STR_val_20b_dz_name";
+		picture="\wpn_r_f_cnfg\ammon\val_20b_dz";
+		count=20;
+		descriptionShort="$STR_val_20b_dz_desc";
+		mass=10;
+	};
+	class 30rnd_mag_vss_doz: 10rnd_mag_vss_doz
+	{
+		author="Street-you";
+		scope=2;
+		displayName="$STR_sr3_30b_dz_name";
+		picture="\wpn_r_f_cnfg\ammon\sr3_30b_dz";
+		count=30;
+		descriptionShort="$STR_sr3_30b_dz_desc";
+		mass=13;
+	};
+	class 10rnd_mag_vss_sz: CA_Magazine
+	{
+		author="Street-you";
+		scope=2;
+		displayName="$STR_vss_10b_sz_name";
+		displaynameshort="$STR_sz_am";
+		picture="\wpn_r_f_cnfg\ammon\vss_10b_sz";
+		count=10;
+		ammo="B_9_39_pab9_pula";
+		initSpeed=309;
+		tracersEvery=0;
+		lastRoundsTracer=1;
+		mass=7;
+		descriptionShort="$STR_vss_10b_sz_desc";
+	};
+	class 10rnd_mag_vss_sz_trs: 10rnd_mag_vss_sz
+	{
+		author="Street-you";
+		scope=2;
+		displayName="$STR_vss_10b_trs_sz_name";
+		displaynameshort="$STR_sz_trs_am";
+		picture="\wpn_r_f_cnfg\ammon\vss_10b_trs_sz";
+		ammo="B_9_39_pab9_pula_trs";
+		initSpeed=309;
+		tracersEvery=1;
+		lastRoundsTracer=10;
+		mass=7;
+		descriptionShort="$STR_vss_10b_trs_sz_desc";
+	};
+	class 20rnd_mag_vss_sz: 10rnd_mag_vss_sz
+	{
+		author="Street-you";
+		scope=2;
+		displayName="$STR_val_20b_sz_name";
+		picture="\wpn_r_f_cnfg\ammon\val_20b_sz";
+		count=20;
+		descriptionShort="$STR_val_20b_sz_desc";
+		mass=10;
+	};
+	class 30rnd_mag_vss_sz: 10rnd_mag_vss_sz
+	{
+		author="Street-you";
+		scope=2;
+		displayName="$STR_sr3_30b_sz_name";
+		picture="\wpn_r_f_cnfg\ammon\sr3_30b_sz";
+		count=30;
+		descriptionShort="$STR_sr3_30b_sz_desc";
+		mass=13;
+	};
 	class 7pul_drob: CA_Magazine
 	{
 		author="Street-you";
@@ -366,6 +464,86 @@ class CfgAmmo
 	{
 	    model="\A3\Weapons_f\Data\bullettracer\tracer_yellow";
 	};
+	class B_9_39_sp5_pula: BulletBase
+	{
+		hit=13;
+		indirectHit=0;
+		indirectHitRange=0;
+		cartridge="FxCartridge_762";
+		visibleFire=2;
+		audibleFire=3;
+		cost=0.5;
+		airLock="true";
+		typicalSpeed=295;
+		caliber=1.3;
+		model="\A3\Weapons_f\Data\bullettracer\tracer_yellow";
+		tracerScale=0.60000002;
+		tracerStartTime=0.0074999998;
+		tracerEndTime=5;
+		airFriction=-0.001;
+		dangerRadiusBulletClose=4;
+		dangerRadiusHit=6;
+		suppressionRadiusBulletClose=3;
+		suppressionRadiusHit=4;
+		class CamShakeExplode
+		{
+			power="(8^0.5)";
+			duration="((round (8^0.5))*0.2 max 0.2)";
+			frequency=20;
+			distance="((8^0.5)*3)";
+		};
+		class CamShakeHit
+		{
+			power=5;
+			duration="((round (5^0.25))*0.2 max 0.2)";
+			frequency=20;
+			distance=1;
+		};
+	};
+	class B_9_39_sp5_pula_trs: B_9_39_sp5_pula
+	{
+		model="\A3\Weapons_f\Data\bullettracer\tracer_green";
+	};
+	class B_9_39_pab9_pula: BulletBase
+	{
+		hit=14.3;
+		indirectHit=0;
+		indirectHitRange=0;
+		cartridge="FxCartridge_762";
+		visibleFire=2.3;
+		audibleFire=3.5;
+		cost=0.51999998;
+		airLock="true";
+		typicalSpeed=309;
+		caliber=1.3;
+		model="\A3\Weapons_f\Data\bullettracer\tracer_yellow";
+		tracerScale=0.60000002;
+		tracerStartTime=0.0074999998;
+		tracerEndTime=5;
+		airFriction=-0.001;
+		dangerRadiusBulletClose=5;
+		dangerRadiusHit=7;
+		suppressionRadiusBulletClose=4;
+		suppressionRadiusHit=5;
+		class CamShakeExplode
+		{
+			power="(8^0.5)";
+			duration="((round (8^0.5))*0.2 max 0.2)";
+			frequency=20;
+			distance="((8^0.5)*3)";
+		};
+		class CamShakeHit
+		{
+			power=5;
+			duration="((round (5^0.25))*0.2 max 0.2)";
+			frequency=20;
+			distance=1;
+		};
+	};
+	class B_9_39_pab9_pula_trs: B_9_39_pab9_pula
+	{
+		model="\A3\Weapons_f\Data\bullettracer\tracer_green";
+    };
 	class drob_12cal: ShotgunBase
 	{
 		hit=17;

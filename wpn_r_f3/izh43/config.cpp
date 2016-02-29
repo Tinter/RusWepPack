@@ -35,9 +35,9 @@ class CfgWeapons
 		descriptionshort="$STR_ij43_obr_desc";
 		handAnim[]=
 		{
-			"OFP2_ManSkeleton",
-			"\A3\Weapons_F_Mark\LongRangeRifles\DMR_03\data\Anim\DMR_03.rtm"
-		};
+		    "OFP2_ManSkeleton",
+		    "\A3\Weapons_F_Mark\LongRangeRifles\DMR_03\data\Anim\DMR_03.rtm"
+    	};
 		magazines[]=
 		{
 			"2pul_drob",

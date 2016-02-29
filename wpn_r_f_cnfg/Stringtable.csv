@@ -40,6 +40,24 @@ STR_korob100r_rpd_desc,"Caliber: 7.62x39mm<br />Quantity: 100 rounds<br />Type: 
 STR_korob100r_rpd_trs_name,"7.62x54mmR (100 round), Green Tracer"
 STR_korob100r_rpd_trs_desc,"Caliber: 7.62x39mm<br />Quantity: 100 rounds<br />Type: Tracer<br />Use: RPD"
 
+STR_vss_10b_dz_name,"9x39mm (10 round),Subsonic"
+STR_vss_10b_dz_desc,"Caliber: 9x39mm<br />Quantity: 10 round<br />Type: Subsonic<br />Use: VSS, AS Val"
+STR_vss_10b_trs_dz_name,"9x39mm (10 round), Subsonic, green tracer"
+STR_vss_10b_trs_dz_desc,"Caliber: 9x39mm<br />Quantity: 10 round<br />Type: Subsonic, tracer<br />Use: VSS, AS Val, SR3"
+STR_val_20b_dz_name,"9x39mm (20 round), Subsonic"
+STR_val_20b_dz_desc,"Caliber: 9x39mm<br />Quantity: 20 round<br />Type: Subsonic<br />Use: VSS, AS Val, SR-3"
+STR_sr3_30b_dz_name,"9x39mm (30 round), Subsonic"
+STR_sr3_30b_dz_desc,"Caliber: 9x39mm<br />Quantity: 30 round<br />Type: Subsonic<br />Use: AS Val, SR-3"
+
+STR_vss_10b_sz_name,"9x39mm (10 round),supersonic"
+STR_vss_10b_sz_desc,"Caliber: 9x39mm<br />Quantity: 10 round<br />Type: supersonic<br />Use: VSS, AS Val"
+STR_vss_10b_trs_sz_name,"9x39mm (10 round),supson, green tracer"
+STR_vss_10b_trs_sz_desc,"Caliber: 9x39mm<br />Quantity: 10 round<br />Type: supersonic, tracer<br />Use: VSS, AS Val, SR3"
+STR_val_20b_sz_name,"9x39mm (20 round),supersonic"
+STR_val_20b_sz_desc,"Caliber: 9x39mm<br />Quantity: 20 round<br />Type: supersonic<br />Use: VSS, AS Val, SR3"
+STR_sr3_30b_sz_name,"9x39mm (30 round),supersonic"
+STR_sr3_30b_sz_desc,"Caliber: 9x39mm<br />Quantity: 30 round<br />Type: supersonic<br />Use: AS Val, SR-3"
+
 STR_drob,"Buckshot"
 STR_pula,"Slug"
 
@@ -60,3 +78,4 @@ STR_ks23_3b_barr_name,"Barrikada (3 round)"
 STR_ks23_3b_barr_desc,"Caliber: 23x75 R mm<br />Quantity: 3 shells<br />Type: Slug<br />Use: KS-23"
 STR_ks23_3b_kart_name,"Shrapnel-25 (3 round)"
 STR_ks23_3b_barr_desc,"Caliber: 23x75 R mm<br />Quantity: 3 shells<br />Type: Buckshot<br />Use: KS-23"
+

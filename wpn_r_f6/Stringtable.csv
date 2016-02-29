@@ -17,10 +17,10 @@ STR_ks23_dr_desc,"Caliber: 23x75 R mm<br/> Distance: ~100<br/> Modes: Pump actio
 
 STR_val_name,"AS Val"
 STR_val_desc,"Caliber: 9x39<br/> Distance: 400<br/> Modes: 1\auto<br/> Rate of fire: 700<br/> Mags: VSS\Val mags on 10|20|30 bullets"
-STR_val_w_name,"AS Val(w)"
+STR_val_w_name,"AS Val (Rail)"
 
-STR_vss_w_name,"VSS(w)"
+STR_vss_w_name,"VSS (Rail)"
 STR_vss_w_desc,"Caliber: 9x39<br/> Distance: 500<br/> Modes: 1\auto<br/> Rate of fire: 700<br/> Mags: VSS\Val mags on 10|20 bullets"
-STR_STR_vss__name,"VSS"
+STR_STR_vss_name,"VSS"
 
 STR_to34_name,"TOZ-34"
