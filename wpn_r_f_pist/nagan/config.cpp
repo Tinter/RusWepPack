@@ -38,6 +38,7 @@ class CfgWeapons
 		model="\wpn_r_f_pist\nagan\ngn.p3d";
 		picture="\wpn_r_f_pist\nagan\gear_ng_x_ca";
 		descriptionshort="$STR_ngn_desc";
+		reloadAction = "GestureReloadPistolHeavy02";
 		magazines[]=
 		{
 			"7Rnd_nagan_rev"
