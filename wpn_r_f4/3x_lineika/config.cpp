@@ -33,10 +33,10 @@ class CfgWeapons
 		displayname="$STR_mosr_sn_name";
 		model="wpn_r_f4\3x_lineika\mosin9130_sn.p3d";
 		picture="\wpn_r_f4\3x_lineika\ui\gear_mos_sn_x_ca";
-		discreteDistance[]={100,200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700,1800,1900,2000};
+		discreteDistance[]={100,200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700,1800};
 		discreteDistanceInitIndex = 2;
 		minZeroing=100;
-		maxZeroing=2000;
+		maxZeroing=1800;
 		descriptionshort="$STR_mosr_sn_desc";
 		magazines[]=
 		{
