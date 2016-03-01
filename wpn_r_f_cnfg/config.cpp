@@ -417,6 +417,19 @@ class CfgMagazines
 		descriptionshort="$STR_ks23_3b_barr_desc";
 		mass=6;
 	};
+	class 85Rnd_Mag_aps_sh: 16Rnd_9x21_Mag
+	{
+		author="Street-you";
+		scope=2;
+		ammo="B_9x18_pula";
+		count=85;
+		displayname="$STR_aps_w_sh_85b_name";
+		picture="\wpn_r_f_cnfg\ammon\aps_shield_85b";
+		descriptionShort="$STR_aps_w_sh_85b_desc";
+		displaynameshort="";
+		initSpeed=360;
+		mass=38;
+	};
 };
 class CfgAmmo
 {
@@ -590,5 +603,38 @@ class CfgAmmo
 	class kart_shrap25_23cal: drob_12cal
 	{
 		hit=25;
+	};
+	class B_9x18_pula: BulletBase
+	{
+		hit=5.3000002;
+		indirectHit=0;
+		indirectHitRange=0;
+		cartridge="FxCartridge_9mm";
+		cost=100;
+		typicalSpeed=450;
+		airFriction=-0.0016;
+		caliber=1.7;
+		deflecting=45;
+		model="\A3\Weapons_f\Data\bullettracer\tracer_yellow";
+		tracerScale=0.5;
+		tracerStartTime=0.050000001;
+		tracerEndTime=1;
+		nvgOnly=0;
+		visibleFire=2;
+		audibleFire=3;
+		class CamShakeExplode
+		{
+			power="(2.55^0.5)";
+			duration="((round (2.55^0.5))*0.2 max 0.2)";
+			frequency=20;
+			distance="((2.55^0.5)*3)";
+		};
+		class CamShakeHit
+		{
+			power=3;
+			duration="((round (2.55^0.25))*0.2 max 0.2)";
+			frequency=20;
+			distance=1;
+		};
 	};
 };

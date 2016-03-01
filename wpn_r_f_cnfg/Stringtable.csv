@@ -79,3 +79,5 @@ STR_ks23_3b_barr_desc,"Caliber: 23x75 R mm<br />Quantity: 3 shells<br />Type: Sl
 STR_ks23_3b_kart_name,"Shrapnel-25 (3 round)"
 STR_ks23_3b_barr_desc,"Caliber: 23x75 R mm<br />Quantity: 3 shells<br />Type: Buckshot<br />Use: KS-23"
 
+STR_aps_w_sh_85b_name,"9x18(85 round)"
+STR_aps_w_sh_85b_desc,"Caliber: 9x18mm<br />Quantity: 85 rounds<br />Type: Normal<br />Use: APS(with shield)"
