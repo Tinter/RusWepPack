@@ -5,3 +5,6 @@ Language, "Original"
 
 STR_rpdekt_name,"RPD"
 STR_rpdekt_desc,"Caliber: 7.62x39<br/> Distance: 800<br/> Modes: auto<br/> Rate of fire: 700<br/> Mags: rpd box 7.62"
+
+STR_aba_name,"AN-94"
+STR_aba_desc,"Caliber: 5.45x39<br/> Distance: 600<br/> Modes: 1\2\auto<br/> Rate of fire: 600\1800<br/> Mags: 5.45x39"

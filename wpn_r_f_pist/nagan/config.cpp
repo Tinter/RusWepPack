@@ -29,11 +29,7 @@ class CfgWeapons
 		model="\wpn_r_f_pist\nagan\ngn.p3d";
 		picture="\wpn_r_f_pist\nagan\gear_ng_x_ca";
 		descriptionshort="$STR_ngn_desc";
-<<<<<<< HEAD
         reloadAction = "GestureReloadPistolHeavy02";
-=======
-		reloadAction = "GestureReloadPistolHeavy02";
->>>>>>> refs/heads/Tinter/master
 		magazines[]=
 		{
 			"7Rnd_nagan_rev"

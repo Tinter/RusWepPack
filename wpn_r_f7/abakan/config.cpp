@@ -42,7 +42,7 @@ class CfgWeapons
 		author="DICE";
 		displayname="$STR_aba_name";
 		model="\wpn_r_f7\abakan\an.p3d";
-		picture="\wpn_r_f\ak74m\ui\gear_ak74m_x_ca";
+		picture="\wpn_r_f7\abakan\gear_an94_x_ca";
 		reloadAction="GestureReloadDMR04";
 		handanim[]=
 		{
@@ -51,15 +51,22 @@ class CfgWeapons
 		};
 		initspeed=900;
 		dexterity=1.418;
-		recoil="recoil_str_ak545_gp";
 		aiRateOfFireDistance=650;
 		discreteDistance[]={100,200,300,400,500};
 		discreteDistanceInitIndex=1;
 		maxZeroing=600;
-		magazines[]=
-		{
-			"30rnd_545_mag",
-			"30rnd_545_mag_trs"
+        magazines[] = {
+		    "hlc_30Rnd_545x39_B_AK",
+			"hlc_30Rnd_545x39_T_AK",
+			"hlc_30Rnd_545x39_EP_AK",
+			"hlc_45Rnd_545x39_t_rpk",
+			"hlc_30Rnd_545x39_S_AK",
+			"CUP_30Rnd_545x39_AK_M",
+			"CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M",
+			"CUP_30Rnd_TE1_Red_Tracer_545x39_AK_M",
+			"CUP_30Rnd_TE1_White_Tracer_545x39_AK_M",
+			"CUP_30Rnd_TE1_Yellow_Tracer_545x39_AK_M",
+			"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M"
 		};
 		descriptionshort="$STR_aba_desc";
 		drySound[]=
@@ -120,28 +127,28 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\wpn_r_f_snd\ak545\545_ak74.wav",
+					"wpn_r_f7\abakan\snd\545_ak74.wav",
 					1.2,
 					1,
 					1500
 				};
 				begin2[]=
 				{
-					"\wpn_r_f_snd\ak545\545_ak74.wav",
+					"wpn_r_f7\abakan\snd\545_ak74.wav",
 					1.2,
 					1,
 					1500
 				};
 				begin3[]=
 				{
-					"\wpn_r_f_snd\ak545\545_ak74.wav",
+					"wpn_r_f7\abakan\snd\545_ak74.wav",
 					1.2,
 					1,
 					1500
 				};
 				begin4[]=
 				{
-					"\wpn_r_f_snd\ak545\545_ak74.wav",
+					"wpn_r_f7\abakan\snd\545_ak74.wav",
 					1.2,
 					1,
 					1500
@@ -225,28 +232,28 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\wpn_r_f_snd\ak545\545_ak74_sil.wav",
+					"wpn_r_f7\abakan\snd\545_ak74_sil.wav",
 					0.94999999,
 					1,
 					500
 				};
 				begin2[]=
 				{
-					"\wpn_r_f_snd\ak545\545_ak74_sil.wav",
+					"wpn_r_f7\abakan\snd\545_ak74_sil.wav",
 					0.94999999,
 					1,
 					500
 				};
 				begin3[]=
 				{
-					"\wpn_r_f_snd\ak545\545_ak74_sil.wav",
+					"wpn_r_f7\abakan\snd\545_ak74_sil.wav",
 					0.94999999,
 					1,
 					500
 				};
 				begin4[]=
 				{
-					"\wpn_r_f_snd\ak545\545_ak74_sil.wav",
+					"wpn_r_f7\abakan\snd\545_ak74_sil.wav",
 					0.94999999,
 					1,
 					500
@@ -372,28 +379,28 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\wpn_r_f_snd\ak545\545_ak74.wav",
+					"wpn_r_f7\abakan\snd\545_ak74.wav",
 					1.2,
 					1,
 					1500
 				};
 				begin2[]=
 				{
-					"\wpn_r_f_snd\ak545\545_ak74.wav",
+					"wpn_r_f7\abakan\snd\545_ak74.wav",
 					1.2,
 					1,
 					1500
 				};
 				begin3[]=
 				{
-					"\wpn_r_f_snd\ak545\545_ak74.wav",
+					"wpn_r_f7\abakan\snd\545_ak74.wav",
 					1.2,
 					1,
 					1500
 				};
 				begin4[]=
 				{
-					"\wpn_r_f_snd\ak545\545_ak74.wav",
+					"wpn_r_f7\abakan\snd\545_ak74.wav",
 					1.2,
 					1,
 					1500
@@ -477,28 +484,28 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\wpn_r_f_snd\ak545\545_ak74_sil.wav",
+					"wpn_r_f7\abakan\snd\545_ak74_sil.wav",
 					0.94999999,
 					1,
 					500
 				};
 				begin2[]=
 				{
-					"\wpn_r_f_snd\ak545\545_ak74_sil.wav",
+					"wpn_r_f7\abakan\snd\545_ak74_sil.wav",
 					0.94999999,
 					1,
 					500
 				};
 				begin3[]=
 				{
-					"\wpn_r_f_snd\ak545\545_ak74_sil.wav",
+					"wpn_r_f7\abakan\snd\545_ak74_sil.wav",
 					0.94999999,
 					1,
 					500
 				};
 				begin4[]=
 				{
-					"\wpn_r_f_snd\ak545\545_ak74_sil.wav",
+					"wpn_r_f7\abakan\snd\545_ak74_sil.wav",
 					0.94999999,
 					1,
 					500
@@ -626,28 +633,28 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\wpn_r_f_snd\ak545\545_ak74.wav",
+					"wpn_r_f7\abakan\snd\545_ak74.wav",
 					1.2,
 					1,
 					1500
 				};
 				begin2[]=
 				{
-					"\wpn_r_f_snd\ak545\545_ak74.wav",
+					"wpn_r_f7\abakan\snd\545_ak74.wav",
 					1.2,
 					1,
 					1500
 				};
 				begin3[]=
 				{
-					"\wpn_r_f_snd\ak545\545_ak74.wav",
+					"wpn_r_f7\abakan\snd\545_ak74.wav",
 					1.2,
 					1,
 					1500
 				};
 				begin4[]=
 				{
-					"\wpn_r_f_snd\ak545\545_ak74.wav",
+					"wpn_r_f7\abakan\snd\545_ak74.wav",
 					1.2,
 					1,
 					1500
@@ -731,28 +738,28 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\wpn_r_f_snd\ak545\545_ak74_sil.wav",
+					"wpn_r_f7\abakan\snd\545_ak74_sil.wav",
 					0.94999999,
 					1,
 					500
 				};
 				begin2[]=
 				{
-					"\wpn_r_f_snd\ak545\545_ak74_sil.wav",
+					"wpn_r_f7\abakan\snd\545_ak74_sil.wav",
 					0.94999999,
 					1,
 					500
 				};
 				begin3[]=
 				{
-					"\wpn_r_f_snd\ak545\545_ak74_sil.wav",
+					"wpn_r_f7\abakan\snd\545_ak74_sil.wav",
 					0.94999999,
 					1,
 					500
 				};
 				begin4[]=
 				{
-					"\wpn_r_f_snd\ak545\545_ak74_sil.wav",
+					"wpn_r_f7\abakan\snd\545_ak74_sil.wav",
 					0.94999999,
 					1,
 					500
@@ -887,12 +894,6 @@ class CfgWeapons
 		{
 			allowedslots[]={901};
 			mass=125;
-			class CowsSlot: asdg_OpticRail_dvtl_str
-			{
-				iconPosition[]={0.52999997,0.30000001};
-				iconScale=0.2;
-				access=1;
-			};
 		};
 		class ItemInfo
 		{
