@@ -392,4 +392,17 @@ class CfgWeapons
 			mass=30;
 		};
 	};
+	class str_ij_long_so: str_ij_long
+	{
+		displayName="$STR_ij43_obr_name";
+		model="\wpn_r_f3\izh43\izh43_sawedoff.p3d";
+		picture="\wpn_r_f3\izh43\ui\ij43_obr";
+		descriptionshort="$STR_ij43_obr_desc";
+		initspeed=395;
+		handAnim[] = {
+			"OFP2_ManSkeleton",
+			// "\A3\Weapons_F\Rifles\MX\data\Anim\MX_afg.rtm"
+			"\A3\Weapons_F_Mark\LongRangeRifles\DMR_06\data\Anim\DMR_06.rtm"
+		};
+	};
 };
