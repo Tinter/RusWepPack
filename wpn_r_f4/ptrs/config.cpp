@@ -3,8 +3,15 @@ class CfgPatches
 	class weap_StreetYou_ptrs
 	{
 		units[]={};
-		weapons[]={};
+		weapons[]=
+		{
+		    "str_ptrs"
+		};
 		requiredVersion=0.1;
+		requiredAddons[]=
+		{
+			"A3_Weapons_F"
+		};
 	};
 };
 class Mode_SemiAuto;
