@@ -28,6 +28,9 @@ class CfgWeapons
 		discreteDistance[]={50,100};
 		maxZeroing=100;
 		recoil="recoil_m320";
+        opticsZoomMin = 0.249;
+        opticsZoomMax = 1.1;
+        opticsZoomInit = 0.75;
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
