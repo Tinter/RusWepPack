@@ -18,6 +18,7 @@ class CfgMagazines
 	class 16Rnd_9x21_Mag;
 	class 30Rnd_556x45_Stanag;
 	class 30Rnd_9x21_Mag;
+	class 5Rnd_127x108_Mag;
 	class 5rnd_762_mos: 20Rnd_762x51_Mag
 	{
 		author="Street-you";
@@ -476,12 +477,52 @@ class CfgMagazines
 		descriptionShort="$STR_9x19_90m1_desc";
 		mass=18;
 	};
+	class 5Rnd_mag_ptrs_BS: 5Rnd_127x108_Mag
+	{
+		scope=2;
+		author="Street-you";
+		displayName="$STR_145mm_name_BS";
+		displayNameShort="$STR_145mm_name_BS_short";
+		descriptionShort="$STR_145mm_desc_BS";
+		picture="\wpn_r_f_cnfg\ammon\ptrs_5b.paa";
+		initSpeed=1020;
+		ammo="CUP_B_145x115_AP_Green_Tracer";
+		tracersEvery=0;
+		lastRoundsTracer=0;
+		mass=18;
+		count=5;
+	};
+	class 5Rnd_mag_ptrs_B32: 5Rnd_mag_ptrs_BS
+	{
+		scope=2;
+		author="Street-you";
+		displayName="$STR_145mm_name_B32";
+		displayNameShort="$STR_145mm_name_B32_short";
+		descriptionShort="$STR_145mm_desc_B32";
+		initSpeed=1020;
+		ammo="CUP_B_145x115_BS32";
+	};
+	class 5Rnd_mag_ptrs_BZT: 5Rnd_mag_ptrs_BS
+	{
+		scope=2;
+		author="Street-you";
+		displayName="$STR_145mm_name_BZT";
+		displayNameShort="$STR_145mm_name_BZT_short";
+		descriptionShort="$STR_145mm_desc_BZT";
+		initSpeed=1020;
+		ammo="CUP_B_145x115_AP_Green_Tracer";
+		tracersEvery=1;
+		lastRoundsTracer=5;
+		mass=18;
+		count=5;
+	};
 };
 class CfgAmmo
 {
     class BulletBase;
 	class CUP_B_762x54_Ball_Green_Tracer;
     class ShotgunBase;
+	class CUP_B_145x115_AP_Green_Tracer;
 	class B_762x25_pula: BulletBase
 	{
 		hit=5.6500001;
@@ -719,5 +760,10 @@ class CfgAmmo
 	class B_9x19_trs_pula: B_9x19_pula
 	{
 		model="\A3\Weapons_f\Data\bullettracer\tracer_green";
+	};
+	class CUP_B_145x115_BS32: CUP_B_145x115_AP_Green_Tracer
+	{
+	    hit=60;
+		caliber=4;
 	};
 };

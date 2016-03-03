@@ -42,6 +42,9 @@ class CfgWeapons
 		discreteDistance[]={100,200,300,400};
 		discreteDistanceInitIndex=0;
 		maxZeroing=400;
+        opticsZoomMin = 0.249;
+        opticsZoomMax = 1.1;
+        opticsZoomInit = 0.75;
 		magazines[]=
 		{
 			"10rnd_sks_mag"
