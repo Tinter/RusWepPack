@@ -49,14 +49,14 @@ STR_val_20b_dz_desc,"Caliber: 9x39mm<br />Quantity: 20 round<br />Type: Subsonic
 STR_sr3_30b_dz_name,"9x39mm (30 round), Subsonic"
 STR_sr3_30b_dz_desc,"Caliber: 9x39mm<br />Quantity: 30 round<br />Type: Subsonic<br />Use: AS Val, SR-3"
 
-STR_vss_10b_sz_name,"9x39mm (10 round),supersonic"
-STR_vss_10b_sz_desc,"Caliber: 9x39mm<br />Quantity: 10 round<br />Type: supersonic<br />Use: VSS, AS Val"
+STR_vss_10b_sz_name,"9x39mm (10 round),Supersonic"
+STR_vss_10b_sz_desc,"Caliber: 9x39mm<br />Quantity: 10 round<br />Type: Supersonic<br />Use: VSS, AS Val"
 STR_vss_10b_trs_sz_name,"9x39mm (10 round),supson, green tracer"
-STR_vss_10b_trs_sz_desc,"Caliber: 9x39mm<br />Quantity: 10 round<br />Type: supersonic, tracer<br />Use: VSS, AS Val, SR3"
-STR_val_20b_sz_name,"9x39mm (20 round),supersonic"
-STR_val_20b_sz_desc,"Caliber: 9x39mm<br />Quantity: 20 round<br />Type: supersonic<br />Use: VSS, AS Val, SR3"
-STR_sr3_30b_sz_name,"9x39mm (30 round),supersonic"
-STR_sr3_30b_sz_desc,"Caliber: 9x39mm<br />Quantity: 30 round<br />Type: supersonic<br />Use: AS Val, SR-3"
+STR_vss_10b_trs_sz_desc,"Caliber: 9x39mm<br />Quantity: 10 round<br />Type: Supersonic, tracer<br />Use: VSS, AS Val, SR3"
+STR_val_20b_sz_name,"9x39mm (20 round),Supersonic"
+STR_val_20b_sz_desc,"Caliber: 9x39mm<br />Quantity: 20 round<br />Type: Supersonic<br />Use: VSS, AS Val, SR3"
+STR_sr3_30b_sz_name,"9x39mm (30 round),Supersonic"
+STR_sr3_30b_sz_desc,"Caliber: 9x39mm<br />Quantity: 30 round<br />Type: Supersonic<br />Use: AS Val, SR-3"
 
 STR_drob,"Buckshot"
 STR_pula,"Slug"
@@ -98,5 +98,14 @@ STR_9x19_vit_trs_name,"9x19(30 round), Green Tracer"
 STR_9x19_vit_trs_sname,"Tracer"
 STR_9x19_vit_trs_desc,"Caliber: 9x19mm<br />Quantity: 30 rounds<br />Type: Tracer<br />Use: PP-19-01 Vityaz"
 
-STR_9x19_90m1_name,"9x19(64cartr)"
-STR_9x19_90m1_desc,"Caliber: 9x19mm<br />Quantity: 64cartrige<br />Type: Normal<br />Use: smg pp90m1"
+STR_9x19_90m1_name,"9x19(64 round)"
+STR_9x19_90m1_desc,"Caliber: 9x19mm<br />Quantity: 64 rounds<br />Type: Normal<br />Use: PP90M1"
+
+STR_vsk_20b_dz_desc,"Caliber: 9x39mm<br />Quantity: 20 rounds<br />Type: Subsonic<br />Use: 9a-91, VSK"
+STR_vsk_20b_sz_desc,"Caliber: 9x39mm<br />Quantity: 20 rounds<br />Type: Supersonic<br />Use: 9a-91, VSK"
+
+STR_9mm30b_kedr_name,"9x18(30 round)"
+STR_9mm30b_kedr_desc,"Caliber: 9x18mm<br />Quantity: 30 rounds<br />Type: Normal<br />Use: PP-2000"
+STR_9mm30b_kedr_trs_name,"9x18(30 round), Green Tracer"
+STR_9mm30b_kedr_trs_desc,"Caliber: 9x18mm<br />Quantity: 30 rounds<br />Type: Tracer<br />Use: PP-2000"
+
