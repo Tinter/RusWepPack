@@ -30,6 +30,9 @@ class CfgWeapons
 		picture="\wpn_r_f_pist\nagan\gear_ng_x_ca";
 		descriptionshort="$STR_ngn_desc";
         reloadAction = "GestureReloadPistolHeavy02";
+        opticsZoomMin = 0.249;
+        opticsZoomMax = 1.1;
+        opticsZoomInit = 0.75;
 		magazines[]=
 		{
 			"7Rnd_nagan_rev"
