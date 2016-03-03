@@ -17,6 +17,7 @@ class CfgMagazines
 	class 20Rnd_762x51_Mag;
 	class 16Rnd_9x21_Mag;
 	class 30Rnd_556x45_Stanag;
+	class 30Rnd_9x21_Mag;
 	class 5rnd_762_mos: 20Rnd_762x51_Mag
 	{
 		author="Street-you";
@@ -430,6 +431,51 @@ class CfgMagazines
 		initSpeed=360;
 		mass=38;
 	};
+	class 30rnd_9mm_vit: 30Rnd_9x21_Mag
+	{
+		author="Street-you";
+		scope=2;
+		displayName="$STR_9x19_vit_name";
+		displaynameshort="";
+		picture="\wpn_r_f_cnfg\ammon\pp19mag9m_30b.paa";
+		ammo="B_9x19_pula";
+		count=30;
+		initSpeed=590;
+		tracersEvery=0;
+		lastRoundsTracer=1;
+		descriptionShort="$STR_9x19_vit_desc";
+		mass=10;
+	};
+	class 30rnd_9mm_vit_trs: 30rnd_9mm_vit
+	{
+		author="Street-you";
+		scope=2;
+		displayName="$STR_9x19_vit_trs_name";
+		displaynameshort="$STR_9x19_vit_trs_sname";
+		picture="\wpn_r_f_cnfg\ammon\pp19mag9m_30b_trs.paa";
+		ammo="B_9x19_trs_pula";
+		count=30;
+		initSpeed=590;
+		tracersEvery=1;
+		lastRoundsTracer=30;
+		descriptionShort="$STR_9x19_vit_trs_desc";
+		mass=10;
+	};
+	class 64rnd_9mm_90m1: 30Rnd_9x21_Mag
+	{
+		author="Street-you";
+		scope=2;
+		displayName="$STR_9x19_90m1_name";
+		displaynameshort="";
+		picture="\wpn_r_f_cnfg\ammon\90m1_64b.paa";
+		ammo="B_9x19_pula";
+		count=64;
+		initSpeed=580;
+		tracersEvery=0;
+		lastRoundsTracer=7;
+		descriptionShort="$STR_9x19_90m1_desc";
+		mass=18;
+	};
 };
 class CfgAmmo
 {
@@ -636,5 +682,42 @@ class CfgAmmo
 			frequency=20;
 			distance=1;
 		};
+	};
+	class B_9x19_pula: BulletBase
+	{
+		hit=5.9000001;
+		indirectHit=0;
+		indirectHitRange=0;
+		cartridge="FxCartridge_9mm";
+		cost=100;
+		typicalSpeed=590;
+		airFriction=-0.0014;
+		caliber=1.7;
+		deflecting=40;
+		model="\A3\Weapons_f\Data\bullettracer\tracer_yellow";
+		tracerScale=0.5;
+		tracerStartTime=0.050000001;
+		tracerEndTime=1;
+		nvgOnly=0;
+		visibleFire=3;
+		audibleFire=4;
+		class CamShakeExplode
+		{
+			power="(2.7^0.5)";
+			duration="((round (2.7^0.5))*0.2 max 0.2)";
+			frequency=20;
+			distance="((2.7^0.5)*3)";
+		};
+		class CamShakeHit
+		{
+			power=3;
+			duration="((round (2.7^0.25))*0.2 max 0.2)";
+			frequency=20;
+			distance=1;
+		};
+	};
+	class B_9x19_trs_pula: B_9x19_pula
+	{
+		model="\A3\Weapons_f\Data\bullettracer\tracer_green";
 	};
 };

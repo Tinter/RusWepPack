@@ -81,3 +81,12 @@ STR_ks23_3b_barr_desc,"Caliber: 23x75 R mm<br />Quantity: 3 shells<br />Type: Bu
 
 STR_aps_w_sh_85b_name,"9x18(85 round)"
 STR_aps_w_sh_85b_desc,"Caliber: 9x18mm<br />Quantity: 85 rounds<br />Type: Normal<br />Use: APS(with shield)"
+
+STR_9x19_vit_name,"9x19 (30 round)"
+STR_9x19_vit_desc,"Caliber: 9x19mm<br />Quantity: 30 rounds<br />Type: Normal<br />Use: PP-19-01 Vityaz"
+STR_9x19_vit_trs_name,"9x19(30 round), Green Tracer"
+STR_9x19_vit_trs_sname,"Tracer"
+STR_9x19_vit_trs_desc,"Caliber: 9x19mm<br />Quantity: 30 rounds<br />Type: Tracer<br />Use: PP-19-01 Vityaz"
+
+STR_9x19_90m1_name,"9x19(64cartr)"
+STR_9x19_90m1_desc,"Caliber: 9x19mm<br />Quantity: 64cartrige<br />Type: Normal<br />Use: smg pp90m1"
