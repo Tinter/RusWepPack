@@ -516,6 +516,50 @@ class CfgMagazines
 		mass=18;
 		count=5;
 	};
+	class 20rnd_mag_vsk_doz: 10rnd_mag_vss_doz
+	{
+		author="Street-you";
+		scope=2;
+		displayName="$STR_val_20b_dz_name";
+		picture="\wpn_r_f_cnfg\ammon\20rnd_vsk_dz_mag";
+		count=20;
+		descriptionShort="$STR_vsk_20b_dz_desc";
+		mass=10;
+	};
+	class 20rnd_mag_vsk_sz: 10rnd_mag_vss_sz
+	{
+		author="Street-you";
+		scope=2;
+		displayName="$STR_val_20b_sz_name";
+		picture="\wpn_r_f_cnfg\ammon\20rnd_vsk_sz_mag";
+		count=20;
+		descriptionShort="$STR_vsk_20b_sz_desc";
+		mass=10;
+	};
+	class 30rnd_mag_kedr: 16Rnd_9x21_Mag
+	{
+		author="Street-you";
+		scope=2;
+		ammo="B_9x18_pula";
+		displaynameshort="";
+		count=30;
+		displayname="$STR_9mm30b_kedr_name";
+		picture="\wpn_r_f_cnfg\ammon\kedr_30b";
+		descriptionShort="$STR_9mm30b_kedr_desc";
+		initSpeed=350;
+		mass=10;
+	};
+	class 30rnd_mag_trs_kedr: 30rnd_mag_kedr
+	{
+		author="Street-you";
+		displayname="$STR_9mm30b_kedr_trs_name";
+		picture="\wpn_r_f_cnfg\ammon\kedr_30b_trs";
+		descriptionShort="$STR_9mm30b_kedr_trs_desc";
+		displaynameshort="$STR_9x19_vit_trs_sname";
+		tracersEvery=1;
+		lastRoundsTracer=30;
+		mass=10;
+	};
 };
 class CfgAmmo
 {

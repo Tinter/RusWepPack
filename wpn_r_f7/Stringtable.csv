@@ -1,10 +1,17 @@
-﻿Калибр: <br/ >Дальность: <br/ >Режимы: <br/ >Темп стрельбы: <br/ >Магазины: 
-Caliber: <br/> Distance: <br/> Modes: <br/> Rate of fire: <br/> Mags:
-///////////////
-Language, "Original"
+﻿Language, "Original"
 
 STR_rpdekt_name,"RPD"
 STR_rpdekt_desc,"Caliber: 7.62x39<br/> Distance: 800<br/> Modes: auto<br/> Rate of fire: 700<br/> Mags: rpd box 7.62"
 
 STR_aba_name,"AN-94"
 STR_aba_desc,"Caliber: 5.45x39<br/> Distance: 600<br/> Modes: 1\2\auto<br/> Rate of fire: 600\1800<br/> Mags: 5.45x39"
+
+STR_9a9_name,"9a-91"
+STR_9a9_desc,"Caliber: 9x39<br/> Distance: 400<br/> Modes: Full-auto<br/> Rate of fire: 700<br/> Mags: VSK 20 round mag"
+STR_vsk_name,"VSK-94"
+
+STR_oc02_name,"OTs-02"
+STR_oc02_desc,"Caliber: 9x18<br/> Distance: 100<br/> Modes: Full-auto<br/> Rate of fire: ~900<br/> Mags: 9x18 Kedr"
+
+STR_p20p_name,"PP-2000"
+STR_p20p_desc,"Caliber: 9x18<br/> Distance: 100<br/> Modes: Full-auto<br/> Rate of fire: ~700<br/> Mags: 9x18 Kedr"

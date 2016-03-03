@@ -401,8 +401,7 @@ class CfgWeapons
 		initspeed=395;
 		handAnim[] = {
 			"OFP2_ManSkeleton",
-			// "\A3\Weapons_F\Rifles\MX\data\Anim\MX_afg.rtm"
-			"\A3\Weapons_F_Mark\LongRangeRifles\DMR_06\data\Anim\DMR_06.rtm"
+			"\CUP\Weapons\CUP_Weapons_GrenadeLaunchers\data\anim\M79.rtm"
 		};
 	};
 };
