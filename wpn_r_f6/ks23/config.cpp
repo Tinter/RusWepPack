@@ -9,7 +9,8 @@ class CfgPatches
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{
-			"A3_Weapons_F"
+			"A3_Weapons_F",
+			"weap_StreetYou_main"
 		};
 	};
 };
@@ -216,6 +217,17 @@ class CfgWeapons
 			distanceZoomMin=5;
 			distanceZoomMax=120;
 		};
+		/*class bg_weaponparameters 
+		{
+			class onFired_Action
+			{
+				HandAction = "Tint_PumpTest";
+				Actiondelay = 0.2;
+				Sound = "r_f_pump";
+				Sound_Location = "LeftHandMiddle1";
+				hasOptic = 0;
+			};
+		};*/
 		class WeaponSlotsInfo
 		{
 			allowedslots[]={901};

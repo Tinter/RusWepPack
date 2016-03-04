@@ -9,7 +9,8 @@ class CfgPatches
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{
-			"A3_Weapons_F"
+			"A3_Weapons_F",
+			"weap_StreetYou_main"
 		};
 	};
 };
@@ -35,7 +36,6 @@ class CfgWeapons
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			// "\wpn_r_f_anm\a2\M24.rtm"
 			"\CUP\Weapons\CUP_Weapons_M24\data\anim\M24.rtm"
 		};
 		drySound[]=
@@ -327,6 +327,17 @@ class CfgWeapons
 			maxRangeProbab=0.1;
 			distanceZoomMin=1;
 			distanceZoomMax=100;
+		};
+		class bg_weaponparameters 
+		{
+			class onFired_Action
+			{
+				HandAction = "R_f_Pump";
+				Actiondelay = 0.2;
+				Sound = "r_f_pump";
+				Sound_Location = "LeftHandMiddle1";
+				hasOptic = 0;
+			};
 		};
 		class WeaponSlotsInfo
 		{

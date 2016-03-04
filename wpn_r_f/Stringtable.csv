@@ -1,0 +1,20 @@
+﻿Language, "Original"
+STR_ak74m_name,"AK-74M"
+STR_ak74m_desc,"Caliber: 5.45x39<br/> Distance: 600<br/> Modes: 1\auto<br/> Rate of fire: 650<br/> Mags: 5.45x39"
+
+STR_ak74mgp_name,"AK-74M(GP-30M)"
+STR_ak74mgp_desc,"Caliber: 5.45x39<br/> Distance: 600<br/> Modes: 1\auto<br/> Rate of fire: 650<br/> Mags: 5.45x39<br/> GL: GP-30M<br/> Distance: 400<br/> Mags: 40mm HE, smoke"
+
+STR_gp30m_gl,"GP-30M"
+
+STR_ak101_name,"AK-101"
+STR_ak101_desc,"Caliber: 5.56x45<br/> Distance: 600<br/> Modes: 1\auto<br/> Rate of fire: 600<br/> Mags: AK 5.56x45"
+
+STR_ak101gp_name,"AK-101(GP-30M)"
+STR_ak101gp_desc,"Caliber: 5.56x45<br/> Distance: 600<br/> Modes: 1\auto<br/> Rate of fire: 600<br/> Mags: AK 5.56x45<br/>GL: GP-30M<br/> Distance: 400<br/> Mags: 40mm HE, smoke"
+
+STR_ak101_2_name,"AK-101-2"
+STR_ak101_2_desc,"Caliber: 5.56x45<br/> Distance: 600<br/> Modes: 1\3\auto<br/> Rate of fire: 600<br/> Mags: AK 5.56x45"
+
+STR_ak101_2gp_name,"AK-101-2(GP-30M)"
+STR_ak101_2gp_desc,"Caliber: 5.56x45<br/> Distance: 600<br/> Modes: 1\3\auto<br/> Rate of fire: 600<br/> Mags: AK 5.56x45<br/>GL: GP-30M<br/> Distance: 400<br/> Mags: 40mm HE, smoke"
