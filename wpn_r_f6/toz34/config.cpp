@@ -40,6 +40,9 @@ class CfgWeapons
 		discreteDistanceInitIndex=0;
 		maxZeroing=150;
 		descriptionshort="$STR_ij43_l_desc";
+        opticsZoomMin = 0.249;
+        opticsZoomMax = 1.1;
+        opticsZoomInit = 0.75;
 		magazines[]=
 		{
 			"2pul_drob",
