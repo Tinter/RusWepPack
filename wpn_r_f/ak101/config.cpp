@@ -56,7 +56,6 @@ class CfgWeapons
 		displayname="$STR_ak101_name";
 		model="\wpn_r_f\ak101\ka.p3d";
 		picture="\wpn_r_f\ak101\ui\gear_ak101_x_ca";
-		// reloadAction="iGestureReloadAK";
 		reloadAction="HLC_GestureReloadAK";
 		handanim[]=
 		{

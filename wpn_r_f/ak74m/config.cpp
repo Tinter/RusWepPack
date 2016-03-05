@@ -133,7 +133,6 @@ class CfgWeapons
 		displayname="$STR_ak74m_name";
 		model="\wpn_r_f\ak74m\ka.p3d";
 		picture="\wpn_r_f\ak74m\ui\gear_ak74m_x_ca";
-		// reloadAction="iGestureReloadAK";
 		reloadAction="HLC_GestureReloadAK";
 		handanim[]=
 		{
