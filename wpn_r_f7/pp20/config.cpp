@@ -18,7 +18,7 @@ class Mode_FullAuto;
 class single_medium_optics1;
 class single_far_optics2;
 class fullauto_medium;
-class CowsSlot;
+class asdg_OpticRail1913;
 class CfgWeapons
 {
 	class SMG_02_F;
@@ -591,14 +591,14 @@ class CfgWeapons
 		{
 			allowedslots[]={901};
 			mass=35;
-			class CowsSlot: CowsSlot
+			class CowsSlot: asdg_OpticRail1913
 			{
 				iconPosition[]={0.34,0.15000001};
 				iconScale=0.2;
 				access=1;
-				compatibleItems[]=
+				/*compatibleItems[]=
 				{
-					/*"optic_str_pkm_ap",
+					"optic_str_pkm_ap",
 					"optic_str_kobra_p",
 					"optic_str_barsik_p",
 					"optic_jorik_p",
@@ -609,14 +609,8 @@ class CfgWeapons
 					"optic_str_pu_p",
 					"optic_str_1p78p",
 					"optic_str_pk05",
-					"optic_str_pkvi",*/
-					"optic_aco",
-					"optic_ACO_grn",
-					"optic_aco_smg",
-					"optic_ACO_grn_smg",
-					"optic_Holosight",
-					"optic_Holosight_smg"
-				};
+					"optic_str_pkvi",
+				};*/
 				displayname="Optics Slot";
 				linkproxy="\A3\data_f\proxies\weapon_slots\TOP";
 				scope=0;
