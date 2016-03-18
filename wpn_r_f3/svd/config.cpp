@@ -357,9 +357,17 @@ class CfgWeapons
 			mass=140;
 			class CowsSlot: asdg_OpticRail_dvtl_str
 			{
-				iconPosition[]={0.68000001,0.40000001};
+				iconPosition[]={0.52999997,0.33000001};
 				iconScale=0.2;
-				linkproxy="\A3\data_f\proxies\weapon_slots\TOP";
+				access=1;
+				compatibleItems[]=
+				{
+					"optic_str_pso1",
+					"optic_str_kobra",
+					"optic_str_pkas",
+					"optic_str_1p29",
+				};
+				linkProxy = "\A3\data_f\proxies\weapon_slots\TOP";
 			};
 			class UnderBarrelSlot: asdg_UnderSlot
 			{

@@ -21,6 +21,7 @@ class single_far_optics2;
 class fullauto_medium;
 class MuzzleSlot;
 class CowsSlot;
+class asdg_OpticRail_dvtl_str;
 class CfgWeapons
 {
 	class arifle_Katiba_F;
@@ -611,32 +612,19 @@ class CfgWeapons
 				iconPosition[]={-0.029999999,0.36000001};
 				iconScale=0.2;
 			};
-			class CowsSlot: CowsSlot
+			class CowsSlot: asdg_OpticRail_dvtl_str
 			{
-				iconPosition[]={0.41999999,0.25};
+				iconPosition[]={0.52999997,0.33000001};
 				iconScale=0.2;
 				access=1;
 				compatibleItems[]=
 				{
-					/*"optic_str_Aco",
-					"optic_str_eotech",
-					"optic_str_pkm_al",
+					"optic_str_pso1",
 					"optic_str_kobra",
-					"optic_str_barsik",
-					"optic_str_pg210",
-					"optic_str_kasht2",
-					"optic_str_pk01",
-					"optic_str_1p63",
-					"optic_str_1p78",
-					"optic_str_nit",
-					"optic_str_p1x42_kro",
-					"optic_str_pu_kro",
-					"optic_str_pkvi_kro",
-					"optic_str_pk05_kro"*/
+					"optic_str_pkas",
+					"optic_str_1p29",
 				};
-				displayname="Optics Slot";
-				linkproxy="\A3\data_f\proxies\weapon_slots\TOP";
-				scope=0;
+				linkProxy = "\A3\data_f\proxies\weapon_slots\TOP";
 			};
 		};
 	};

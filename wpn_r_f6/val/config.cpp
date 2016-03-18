@@ -25,6 +25,7 @@ class CowsSlot;
 class PointerSlot;
 class asdg_str_SideW;
 class asdg_OpticRail1913;
+class asdg_OpticRail_dvtl_str;
 class cfgRecoils
 {
 	class recoil_default;
@@ -429,15 +430,19 @@ class CfgWeapons
 		{
 			allowedslots[]={901};
 			mass=120;
-			class CowsSlot: CowsSlot
+			class CowsSlot: asdg_OpticRail_dvtl_str
 			{
-				iconPosition[]={0.52999997,0.30000001};
+				iconPosition[]={0.52999997,0.33000001};
 				iconScale=0.2;
 				access=1;
-				compatibleItems[]={};
-				displayname="Optics Slot";
-				linkproxy="\A3\data_f\proxies\weapon_slots\TOP";
-				scope=0;
+				compatibleItems[]=
+				{
+					"optic_str_pso1",
+					"optic_str_kobra",
+					"optic_str_pkas",
+					"optic_str_1p29",
+				};
+				linkProxy = "\A3\data_f\proxies\weapon_slots\TOP";
 			};
 			class PointerSlot: asdg_str_SideW
 			{

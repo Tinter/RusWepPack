@@ -656,9 +656,17 @@ class CfgWeapons
 			};
 			class CowsSlot: asdg_OpticRail_dvtl_str
 			{
-				iconPosition[]={0.52999997,0.30000001};
+				iconPosition[]={0.52999997,0.33000001};
 				iconScale=0.2;
 				access=1;
+				compatibleItems[]=
+				{
+					"optic_str_pso1",
+					"optic_str_kobra",
+					"optic_str_pkas",
+					"optic_str_1p29",
+				};
+				linkProxy = "\A3\data_f\proxies\weapon_slots\TOP";
 			};
 			class PointerSlot: asdg_str_SideM
 			{
@@ -746,9 +754,17 @@ class CfgWeapons
 			};
 			class CowsSlot: asdg_OpticRail_dvtl_str
 			{
-				iconPosition[]={0.52999997,0.28999999};
+				iconPosition[]={0.52999997,0.33000001};
 				iconScale=0.2;
 				access=1;
+				compatibleItems[]=
+				{
+					"optic_str_pso1",
+					"optic_str_kobra",
+					"optic_str_pkas",
+					"optic_str_1p29",
+				};
+				linkProxy = "\A3\data_f\proxies\weapon_slots\TOP";
 			};
 		};
 	};
