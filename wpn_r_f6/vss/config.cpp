@@ -443,15 +443,19 @@ class CfgWeapons
 		{
 			allowedslots[]={901};
 			mass=115;
-			class CowsSlot: CowsSlot
+			class CowsSlot: asdg_OpticRail_dvtl_str
 			{
-				iconPosition[]={0.56,0.33000001};
+				iconPosition[]={0.52999997,0.33000001};
 				iconScale=0.2;
 				access=1;
-				compatibleItems[]={};
-				displayname="Optics Slot";
-				linkproxy="\A3\data_f\proxies\weapon_slots\TOP";
-				scope=0;
+				compatibleItems[]=
+				{
+					"optic_str_pso1",
+					"optic_str_kobra",
+					"optic_str_pkas",
+					"optic_str_1p29",
+				};
+				linkProxy = "\A3\data_f\proxies\weapon_slots\TOP";
 			};
 			class UnderBarrelSlot2: asdg_UnderSlot
 			{
