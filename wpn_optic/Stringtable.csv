@@ -1,0 +1,25 @@
+﻿////Multiplicity: <br/>Range: <br/>Modes: 
+////Кратность: <br/>Дальность: <br/>Режимы: 
+///////////////
+Language, "Original"
+
+STR_pka_name,"PK-A(dvtl)"
+STR_pka_desc,"Multiplicity: 1x<br/>Range: 100<br/>Modes: vis","Кратность: 1x<br/>Дальность: 100<br/>Режимы: vis"
+
+STR_pln_name,"Mount for dovetail","Кронштейн для Ласт. хвост"
+STR_pln_desc,"Mounting Method-side","Способ крепления-сбоку"
+
+STR_kob_kro_name,"EKP-8-18"
+STR_kob_kro_desc,"Modern Russian 1x collimator optic. Fits RMP-5 rails."
+STR_kob_name,"EKP-8-18(w)"
+
+STR_kobDrob_kro_name,"EKP-8-18"
+STR_kobDrob_kro_desc,"Modern Russian 1x collimator optic. Fits RMP-5 rails."
+STR_kobDrob_name,"EKP-8-18(Shgn)(w)"
+
+STR_psoC_name,"PSO-1"
+STR_psoDrob_name,"PSO-1(Shgn)(w)"
+STR_psoDrob_desc,"4x Marksman Sight, designed for the Soviet marksman. Fits RMP-5 rails."
+
+STR_psoC_kro_name,"PSO-1"
+STR_psoDrob_kro_name,"PSO-1(Shgn)(dvtl)"
