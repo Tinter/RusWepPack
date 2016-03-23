@@ -1,3 +1,4 @@
+#include "BIS_AddonInfo.hpp"
 class CfgPatches
 {
 	class RusWeapPack_mosin
@@ -24,6 +25,66 @@ class MuzzleSlot;
 class optic_DMS;
 class asdg_OpticRail1913;
 class asdg_OpticRail_dvtl_str;
+class cfgRecoils
+{
+	DZ_Recoil_Mosin[] = 
+	{
+		0,
+		0,
+		0,
+		0.04,
+		"0.036943*(0.8)",
+		"0.0134348*(2.3)",
+		0.08,
+		"0.019755*(0.8)",
+		"0.003056*(2.3)",
+		0.09,
+		0,
+		0,
+		0.14,
+		"-0.003138*(0.8)",
+		"-0.0005*(2.3)",
+		0.08,
+		"-0.001177*(0.8)",
+		"-0.000188*(2.3)",
+		0.12,
+		0,
+		0
+	};
+	DZ_Recoil_Mosin_Prone[] = 
+	{
+		0,
+		0,
+		0,
+		0.004,
+		"0.036943*(0.01)",
+		"0.0134348*(0.1)",
+		0.008,
+		"0.019755*(0.01)",
+		"0.003056*(0.1)",
+		0.009,
+		0,
+		0,
+		0.014,
+		"-0.003138*(0.01)",
+		"-0.0005*(0.1)",
+		0.008,
+		"-0.001177*(0.01)",
+		"-0.000188*(0.1)",
+		0.012,
+		0,
+		0
+	};
+};
+class CfgSounds
+{
+	class DZ_Bolt_Mosin9130
+	{
+		name = "DZ_Bolt_Mosin9130";
+		Sound[] = {"wpn_r_f4\3x_lineika\snd\mosin_cycling", 0.8, 1, 20};
+		titles[] = {};
+	};
+};
 class CfgWeapons
 {
 	class srifle_DMR_01_F;
@@ -51,6 +112,13 @@ class CfgWeapons
 		};
 		// reloadAction="DZ_GestureReloadMosin";
 		reloadAction="DZ_GestureReloadMosinFast";
+		drySound[] = 
+		{
+			"wpn_r_f4\3x_lineika\snd\mosin_dry", 
+			0.5, 
+			1, 
+			20
+		};
 		reloadMagazineSound[]=
 		{
 			"wpn_r_f4\3x_lineika\snd\mosin_reloading_dz",
@@ -116,42 +184,40 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"wpn_r_f4\3x_lineika\snd\mosin_fire.wav",
-					1.3,
+					"wpn_r_f4\3x_lineika\snd\mosin_close_0",
+					1, // 1.3
 					1,
-					2000
+					1000
 				};
 				begin2[]=
 				{
-					"wpn_r_f4\3x_lineika\snd\mosin_fire.wav",
-					1.3,
+					"wpn_r_f4\3x_lineika\snd\mosin_close_1",
+					1, // 1.3
 					1,
-					2000
+					1000 // 2000
 				};
 				begin3[]=
 				{
-					"wpn_r_f4\3x_lineika\snd\mosin_fire.wav",
-					1.3,
+					"wpn_r_f4\3x_lineika\snd\mosin_close_2",
+					1, // 1.3
 					1,
-					2000
+					1000
 				};
-				begin4[]=
+				/*begin4[]=
 				{
 					"wpn_r_f4\3x_lineika\snd\mosin_fire.wav",
 					1.3,
 					1,
 					2000
-				};
+				};*/
 				soundBegin[]=
 				{
 					"begin1",
-					0.25,
+					0.33333, // 0.25
 					"begin2",
-					0.25,
+					0.33333, // 0.25
 					"begin3",
-					0.25,
-					"begin4",
-					0.25
+					0.33333, // 0.25
 				};
 				class SoundTails
 				{
@@ -315,8 +381,8 @@ class CfgWeapons
 			};
 			reloadTime=2.7;
 			dispersion=0.00050000002;
-			recoil="recoil_single_ebr";
-			recoilProne="recoil_single_prone_ebr";
+			recoil="DZ_Recoil_Mosin"; // recoil="recoil_single_ebr";
+			recoilProne="DZ_Recoil_Mosin_Prone"; // recoilProne="recoil_single_prone_ebr";
 			minRange=2;
 			minRangeProbab=0.1;
 			midRange=170;
@@ -399,7 +465,7 @@ class CfgWeapons
 			{
 				HandAction = "HLC_GestureRechamberM1903A1_UN";
 				Actiondelay = 0.5;
-				Sound = "hlc_bolt_AWM";
+				Sound = "DZ_Bolt_Mosin9130";
 				Sound_Location = "RightHandMiddle1";
 				hasOptic = 1;
 			};
