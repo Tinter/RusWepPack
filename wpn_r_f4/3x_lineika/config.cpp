@@ -203,13 +203,6 @@ class CfgWeapons
 					1,
 					1000
 				};
-				/*begin4[]=
-				{
-					"wpn_r_f4\3x_lineika\snd\mosin_fire.wav",
-					1.3,
-					1,
-					2000
-				};*/
 				soundBegin[]=
 				{
 					"begin1",
