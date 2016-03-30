@@ -95,23 +95,24 @@ class CfgWeapons
 			};
 			class StandardSound: BaseSoundModeType
 			{
+				// 762_sks.wav
 				begin1[]=
 				{
-					"wpn_r_f3\sks\snd\762_sks.wav",
+					"wpn_r_f3\sks\snd\SKS_close_0",
 					1.3,
 					1,
 					1300
 				};
 				begin2[]=
 				{
-					"wpn_r_f3\sks\snd\762_sks.wav",
+					"wpn_r_f3\sks\snd\SKS_close_0",
 					1.3,
 					1,
 					1300
 				};
 				begin3[]=
 				{
-					"wpn_r_f3\sks\snd\762_sks.wav",
+					"wpn_r_f3\sks\snd\SKS_close_0",
 					1.3,
 					1,
 					1300
