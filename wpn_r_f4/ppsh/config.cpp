@@ -3,27 +3,20 @@ class CfgPatches
 	class weap_StreetYou_vpo_ppsh
 	{
 		units[]={};
-		weapons[]={};
+		weapons[]={
+			"str_ppsh_old"
+		};
 		requiredVersion=0.1;
+		requiredAddons[]=
+		{
+			"A3_Weapons_F"
+		};
 	};
 };
-class Mode_SemiAuto;
-class Mode_Burst;
 class Mode_FullAuto;
-class single_close_optics1;
 class single_medium_optics1;
-class single_far_optics1;
 class single_far_optics2;
 class fullauto_medium;
-class SlotInfo;
-class ItemCore;
-class InventoryItem_Base_F;
-class InventoryMuzzleItem_Base_F;
-class InventoryOpticsItem_Base_F;
-class MuzzleSlot;
-class CowsSlot;
-class PointerSlot;
-class UnderBarrelSlot;
 class CfgWeapons
 {
 	class SMG_02_F;
