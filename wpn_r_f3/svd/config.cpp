@@ -3,28 +3,21 @@ class CfgPatches
 	class weap_StreetYou_svd_black
 	{
 		units[]={};
-		weapons[]={};
+		weapons[]={
+			"str_svd",
+			"str_svdp"
+		};
 		requiredVersion=0.1;
+		requiredAddons[]=
+		{
+			"A3_Weapons_F"
+		};
 	};
 };
 class Mode_SemiAuto;
-class Mode_Burst;
-class Mode_FullAuto;
 class Single;
 class FullAuto;
-class single_close_optics1;
-class single_medium_optics1;
-class single_far_optics1;
-class single_far_optics2;
-class fullauto_medium;
-class SlotInfo;
-class ItemCore;
-class InventoryItem_Base_F;
-class InventoryMuzzleItem_Base_F;
-class InventoryOpticsItem_Base_F;
 class CowsSlot;
-class PointerSlot;
-class MuzzleSlot;
 class asdg_UnderSlot;
 class asdg_OpticRail1913;
 class asdg_OpticRail_dvtl_str;
@@ -365,7 +358,7 @@ class CfgWeapons
 					"optic_str_pso1",
 					"optic_str_kobra",
 					"optic_str_pkas",
-					"optic_str_1p29",
+					"optic_str_1p29"
 				};
 				linkProxy = "\A3\data_f\proxies\weapon_slots\TOP";
 			};
@@ -407,9 +400,4 @@ class CfgWeapons
 			};
 		};
 	};
-};
-class cfgMods
-{
-	author="76561198086111011";
-	timepacked="1455979884";
 };

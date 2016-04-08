@@ -79,19 +79,6 @@ STR_ks23_3b_barr_desc,"Caliber: 23x75 R mm<br />Quantity: 3 shells<br />Type: Sl
 STR_ks23_3b_kart_name,"Shrapnel-25 (3 round)"
 STR_ks23_3b_barr_desc,"Caliber: 23x75 R mm<br />Quantity: 3 shells<br />Type: Buckshot<br />Use: KS-23"
 
-STR_aps_w_sh_85b_name,"9x18(85 round)"
-STR_aps_w_sh_85b_desc,"Caliber: 9x18mm<br />Quantity: 85 rounds<br />Type: Normal<br />Use: APS(with shield)"
-
-STR_145mm_name_BS,"5rnd BS Stripper Clip"
-STR_145mm_name_BS_short,"BS (AP)"
-STR_145mm_desc_BS,"5rnd Stripper Clip<br/>BS Armour-Piercing Incendiary. 32mm of penetration at 500m."
-STR_145mm_name_B32,"5rnd B-32 Stripper Clip"
-STR_145mm_name_B32_short,"B-32 (APHE)"
-STR_145mm_desc_B32,"5rnd Stripper Clip<br/>B-32 Armour-Piercing High Explosive. 60mm of penetration at 500m."
-STR_145mm_name_BZT,"5rnd BZT Stripper Clip"
-STR_145mm_name_BZT_short,"BZT (Tracer)"
-STR_145mm_desc_BZT,"5rnd Stripper Clip<br/>BZT Armour-Piercing Tracer. 20mm of penetration at 500m."
-
 STR_9x19_vit_name,"9x19 (30 round)"
 STR_9x19_vit_desc,"Caliber: 9x19mm<br />Quantity: 30 rounds<br />Type: Normal<br />Use: PP-19-01 Vityaz"
 STR_9x19_vit_trs_name,"9x19(30 round), Green Tracer"

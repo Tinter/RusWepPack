@@ -9,9 +9,6 @@ STR_pkp_pe4_bp_desc,"Caliber: 7.62x54<br/> Distance: 600<br/> Modes: auto<br/> R
 STR_pkm_pul_name,"PKM"
 STR_pkm_l_name,"PKMN"
 
-STR_p_aps_plus_shit_name,"APS + Shield"
-STR_p_aps_plus_shit_desc,"Caliber: 9x18<br/> Distance: 150<br/> Modes: Full-auto<br/> Rate of fire: 700<br/> Mags: Drum mag 85 bullets"
-
 STR_ks23_dr_name,"KS-23"
 STR_ks23_dr_desc,"Caliber: 23x75 R mm<br/> Distance: ~100<br/> Modes: Pump action<br/> Rate of fire: 72<br/> Mags: 3 shells 23mm"
 

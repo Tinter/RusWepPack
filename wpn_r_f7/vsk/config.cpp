@@ -622,7 +622,7 @@ class CfgWeapons
 					"optic_str_pso1",
 					"optic_str_kobra",
 					"optic_str_pkas",
-					"optic_str_1p29",
+					"optic_str_1p29"
 				};
 				linkProxy = "\A3\data_f\proxies\weapon_slots\TOP";
 			};
@@ -664,31 +664,10 @@ class CfgWeapons
 				access=1;
 				compatibleItems[]=
 				{
-					/*"optic_str_arco",
-					"optic_str_harm",
-					"optic_str_dms",
-					"optic_str_lrps",
-					"optic_str_nstalk",
 					"optic_str_pso1",
-					"optic_str_1p29",
-					"optic_str_puo1_kro",
-					"optic_str_pk021_kro",
-					"optic_str_pks07_kro",
-					"optic_str_pks07n_kro",
-					"optic_str_1p69",
-					"optic_str_1p69n",
-					"optic_str_rak_kro",
-					"optic_str_cod2_kro",
-					"optic_str_psu_kro",
-					"optic_str_ded5_20_kro",
-					"optic_str_ded5_20n_kro",
-					"optic_str_NFx52_kro",
-					"optic_str_NFx52n_kro",
-					"optic_str_d470_kro",
-					"optic_str_pos1350_kro",
-					"optic_str_pos1350n_kro",
-					"optic_str_elcan_kro",
-					"optic_str_ded3_12_kro"*/
+					"optic_str_kobra",
+					"optic_str_pkas",
+					"optic_str_1p29"
 				};
 				displayname="Optics Slot";
 				linkproxy="\A3\data_f\proxies\weapon_slots\TOP";

@@ -3,24 +3,22 @@ class CfgPatches
 	class weap_StreetYou_valik
 	{
 		units[]={};
-		weapons[]={};
+		weapons[]={
+			"str_as_val",
+			"str_as_val_w"
+		};
 		requiredVersion=0.1;
+		requiredAddons[]=
+		{
+			"A3_Weapons_F"
+		};
 	};
 };
 class Mode_SemiAuto;
-class Mode_Burst;
 class Mode_FullAuto;
-class single_close_optics1;
 class single_medium_optics1;
-class single_far_optics1;
 class single_far_optics2;
 class fullauto_medium;
-class SlotInfo;
-class ItemCore;
-class InventoryItem_Base_F;
-class InventoryMuzzleItem_Base_F;
-class InventoryOpticsItem_Base_F;
-class MuzzleSlot;
 class CowsSlot;
 class PointerSlot;
 class asdg_str_SideW;
@@ -440,7 +438,7 @@ class CfgWeapons
 					"optic_str_pso1",
 					"optic_str_kobra",
 					"optic_str_pkas",
-					"optic_str_1p29",
+					"optic_str_1p29"
 				};
 				linkProxy = "\A3\data_f\proxies\weapon_slots\TOP";
 			};

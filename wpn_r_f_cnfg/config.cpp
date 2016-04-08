@@ -419,19 +419,6 @@ class CfgMagazines
 		descriptionshort="$STR_ks23_3b_barr_desc";
 		mass=6;
 	};
-	class 85Rnd_Mag_aps_sh: 16Rnd_9x21_Mag
-	{
-		author="Street-you";
-		scope=2;
-		ammo="B_9x18_pula";
-		count=85;
-		displayname="$STR_aps_w_sh_85b_name";
-		picture="\wpn_r_f_cnfg\ammon\aps_shield_85b";
-		descriptionShort="$STR_aps_w_sh_85b_desc";
-		displaynameshort="";
-		initSpeed=360;
-		mass=38;
-	};
 	class 30rnd_9mm_vit: 30Rnd_9x21_Mag
 	{
 		author="Street-you";
