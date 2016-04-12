@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class weap_StreetYou_valik
+	class weap_StreetYou_vss
 	{
 		units[]={};
 		weapons[]={
