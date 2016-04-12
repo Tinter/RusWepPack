@@ -77,7 +77,7 @@ STR_sks10mag_desc,"Caliber: 7.62x39mm<br />Quantity: 10 rounds<br />Type: Normal
 STR_ks23_3b_barr_name,"Barrikada (3 round)"
 STR_ks23_3b_barr_desc,"Caliber: 23x75 R mm<br />Quantity: 3 shells<br />Type: Slug<br />Use: KS-23"
 STR_ks23_3b_kart_name,"Shrapnel-25 (3 round)"
-STR_ks23_3b_barr_desc,"Caliber: 23x75 R mm<br />Quantity: 3 shells<br />Type: Buckshot<br />Use: KS-23"
+STR_ks23_3b_kart_desc,"Caliber: 23x75 R mm<br />Quantity: 3 shells<br />Type: Buckshot<br />Use: KS-23"
 
 STR_9x19_vit_name,"9x19 (30 round)"
 STR_9x19_vit_desc,"Caliber: 9x19mm<br />Quantity: 30 rounds<br />Type: Normal<br />Use: PP-19-01 Vityaz"
