@@ -87,8 +87,8 @@ class CfgWeapons
 		};
 		reloadMagazineSound[]=
 		{
-			"\wpn_r_f\snd\reload",
-			1,
+			"\hlc_wp_ak\snd\ak74m_reload",
+			0.9,
 			1,
 			30
 		};

@@ -36,7 +36,7 @@ class CfgWeapons
 		displayname="$STR_aba_name";
 		model="\wpn_r_f7\abakan\an.p3d";
 		picture="\wpn_r_f7\abakan\gear_an94_x_ca";
-		reloadAction="GestureReloadDMR04";
+		reloadAction="HLC_GestureReloadAK";
 		handanim[]=
 		{
 			"OFP2_ManSkeleton",
@@ -71,10 +71,10 @@ class CfgWeapons
 		};
 		reloadMagazineSound[]=
 		{
-			"A3\Sounds_F_Mark\arsenal\weapons\LongRangeRifles\DMR_04_ASP1_Kir\DMR_04_reload",
-			0.35118899,
+			"\hlc_wp_ak\snd\ak74m_reload",
+			0.9,
 			1,
-			10
+			30
 		};
 		modes[]=
 		{
