@@ -4,6 +4,11 @@ class CfgPatches
 	{
 		requiredversion=1;
 		units[]={};
+		requiredAddons[]=
+		{
+			"a3_weapons_f_mark_acc",
+			"A3_Weapons_F"
+		};
 	};
 };
 class Mode_SemiAuto;
@@ -11,26 +16,10 @@ class Mode_Burst;
 class Mode_FullAuto;
 class CfgWeapons
 {
-	class WeaponSlotsInfo;
-	class SlotInfo;
-	class Rifle_Base_F;
 	class ItemCore;
-	class InventoryItem_Base_F;
-	class InventoryMuzzleItem_Base_F;
 	class InventoryOpticsItem_Base_F;
 	class muzzle_snds_H;
-	class muzzle_snds_L;
-	class muzzle_snds_M;
-	class muzzle_snds_B;
-	class muzzle_snds_H_MG;
-	class optic_Hamr;
-	class optic_Arco;
-	class optic_Aco;
-	class optic_SOS;
-	class optic_Yorris;
-	class optic_DMS;
 	class NVGoggles;
-	class NVGoggles_OPFOR;
 	class optic_str_pkas: ItemCore
 	{
 	    scope = 2;

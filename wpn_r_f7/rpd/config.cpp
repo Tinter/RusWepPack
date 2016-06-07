@@ -3,30 +3,20 @@ class CfgPatches
 	class weap_StreetYou_rpde
 	{
 		units[]={};
-		weapons[]={};
+		weapons[]={
+			"str_rpd"
+		};
 		requiredVersion=0.1;
+		requiredAddons[]=
+		{
+			"A3_Weapons_F"
+		};
 	};
 };
-class Mode_SemiAuto;
-class Mode_Burst;
 class Mode_FullAuto;
-class single_close_optics1;
 class single_medium_optics1;
-class single_far_optics1;
 class single_far_optics2;
 class fullauto_medium;
-class SlotInfo;
-class ItemCore;
-class InventoryItem_Base_F;
-class InventoryMuzzleItem_Base_F;
-class InventoryOpticsItem_Base_F;
-class MuzzleSlot;
-class CowsSlot;
-class PointerSlot;
-class asdg_OpticRail_dvtl_str;
-class asdg_OpticRail1913;
-class asdg_str_SideW;
-class asdg_UnderSlot;
 class CfgWeapons
 {
 	class LMG_Zafir_F;
@@ -78,7 +68,7 @@ class CfgWeapons
 		{
 			sounds[]=
 			{
-				"StandardSound",
+				"StandardSound"
 			};
 			class BaseSoundModeType
 			{

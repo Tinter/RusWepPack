@@ -1,4 +1,3 @@
-#include "BIS_AddonInfo.hpp"
 class CfgPatches
 {
 	class RusWeapPack_mosin
@@ -210,7 +209,7 @@ class CfgWeapons
 					"begin2",
 					0.33333, // 0.25
 					"begin3",
-					0.33333, // 0.25
+					0.33333 // 0.25
 				};
 				class SoundTails
 				{

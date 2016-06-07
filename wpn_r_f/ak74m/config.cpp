@@ -171,8 +171,8 @@ class CfgWeapons
 		};
 		reloadMagazineSound[]=
 		{
-			"\wpn_r_f\snd\reload",
-			1,
+			"\hlc_wp_ak\snd\ak74m_reload",
+			0.9,
 			1,
 			30
 		};
@@ -748,7 +748,7 @@ class CfgWeapons
 					"optic_str_pso1",
 					"optic_str_kobra",
 					"optic_str_pkas",
-					"optic_str_1p29",
+					"optic_str_1p29"
 				};
 				linkProxy = "\A3\data_f\proxies\weapon_slots\TOP";
 			};
@@ -846,7 +846,7 @@ class CfgWeapons
 					"optic_str_pso1",
 					"optic_str_kobra",
 					"optic_str_pkas",
-					"optic_str_1p29",
+					"optic_str_1p29"
 				};
 				linkProxy = "\A3\data_f\proxies\weapon_slots\TOP";
 			};

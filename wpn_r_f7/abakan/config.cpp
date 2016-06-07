@@ -3,32 +3,25 @@ class CfgPatches
 	class weap_StreetYou_ababakan
 	{
 		units[]={};
-		weapons[]={};
+		weapons[]={
+			"str_an94"
+		};
 		requiredVersion=0.1;
+		requiredAddons[]=
+		{
+			"A3_Weapons_F"
+		};
 	};
 };
 class Mode_SemiAuto;
 class Mode_Burst;
 class Mode_FullAuto;
-class single_close_optics1;
 class single_medium_optics1;
-class single_far_optics1;
 class single_far_optics2;
 class fullauto_medium;
-class SlotInfo;
-class ItemCore;
-class InventoryItem_Base_F;
-class InventoryMuzzleItem_Base_F;
-class InventoryOpticsItem_Base_F;
 class MuzzleSlot;
 class CowsSlot;
-class PointerSlot;
-class UnderBarrelSlot;
 class asdg_OpticRail_dvtl_str;
-class asdg_OpticRail1913;
-class asdg_str_SideW;
-class asdg_str_SideM;
-class asdg_MuzzleSlot_545R;
 class CfgRecoils
 {
 	str_an_abak_recoil[]={0.0070000002,0,-2.8,0.0080000004,0,-3.3};
@@ -43,7 +36,7 @@ class CfgWeapons
 		displayname="$STR_aba_name";
 		model="\wpn_r_f7\abakan\an.p3d";
 		picture="\wpn_r_f7\abakan\gear_an94_x_ca";
-		reloadAction="GestureReloadDMR04";
+		reloadAction="HLC_GestureReloadAK";
 		handanim[]=
 		{
 			"OFP2_ManSkeleton",
@@ -78,10 +71,10 @@ class CfgWeapons
 		};
 		reloadMagazineSound[]=
 		{
-			"A3\Sounds_F_Mark\arsenal\weapons\LongRangeRifles\DMR_04_ASP1_Kir\DMR_04_reload",
-			0.35118899,
+			"\hlc_wp_ak\snd\ak74m_reload",
+			0.9,
 			1,
-			10
+			30
 		};
 		modes[]=
 		{
@@ -904,7 +897,7 @@ class CfgWeapons
 					"optic_str_pso1",
 					"optic_str_kobra",
 					"optic_str_pkas",
-					"optic_str_1p29",
+					"optic_str_1p29"
 				};
 				linkProxy = "\A3\data_f\proxies\weapon_slots\TOP";
 			};
@@ -915,4 +908,3 @@ class CfgWeapons
 		};
 	};
 };
-
