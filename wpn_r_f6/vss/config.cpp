@@ -33,11 +33,11 @@ class CfgWeapons
 		displayname="$STR_vss_w_name";
 		model="\wpn_r_f6\vss\vin.p3d";
 		picture="\wpn_r_f6\vss\ui\gear_vss_w_x_ca";
-		reloadAction="GestureReloadDMR06";
+		reloadAction = "GestureReloadDMR03";
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"\wpn_r_f\anim\AK.rtm"
+			"\A3\Weapons_F_Mark\LongRangeRifles\DMR_03\data\Anim\DMR_03.rtm"
 		};
 		initspeed=-1;
 		dexterity=1.2456;
@@ -65,7 +65,7 @@ class CfgWeapons
 		};
 		reloadMagazineSound[]=
 		{
-			"A3\Sounds_F_Mark\arsenal\weapons\LongRangeRifles\DMR_06_Mk14\DMR_06_reload",
+			"A3\Sounds_F_Mark\arsenal\weapons\LongRangeRifles\DMR_03_MkI_EMR\DMR_03_reload",
 			1,
 			1,
 			10
