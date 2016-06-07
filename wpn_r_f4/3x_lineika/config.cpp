@@ -4,8 +4,7 @@ class CfgPatches
 	{
 		units[]={};
 		weapons[]={
-			"str_3xlin_sn",
-			"str_3xlin_sht"
+			"str_3xlin_sn"
 		};
 		requiredVersion=0.1;
 		requiredAddons[]=
@@ -26,7 +25,7 @@ class asdg_OpticRail1913;
 class asdg_OpticRail_dvtl_str;
 class cfgRecoils
 {
-	DZ_Recoil_Mosin[] = 
+	DZ_Recoil_Mosin[] =
 	{
 		0,
 		0,
@@ -50,7 +49,7 @@ class cfgRecoils
 		0,
 		0
 	};
-	DZ_Recoil_Mosin_Prone[] = 
+	DZ_Recoil_Mosin_Prone[] =
 	{
 		0,
 		0,
@@ -80,7 +79,7 @@ class CfgSounds
 	class DZ_Bolt_Mosin9130
 	{
 		name = "DZ_Bolt_Mosin9130";
-		Sound[] = {"wpn_r_f4\3x_lineika\snd\mosin_cycling", 0.8, 1, 20};
+		sound[] = {"wpn_r_f4\3x_lineika\snd\nagant_shift.ogg", 0.8, 1, 20};
 		titles[] = {};
 	};
 };
@@ -111,16 +110,16 @@ class CfgWeapons
 		};
 		// reloadAction="DZ_GestureReloadMosin";
 		reloadAction="DZ_GestureReloadMosinFast";
-		drySound[] = 
+		drySound[] =
 		{
-			"wpn_r_f4\3x_lineika\snd\mosin_dry", 
-			0.5, 
-			1, 
+			"wpn_r_f4\3x_lineika\snd\mosin_dry",
+			0.5,
+			1,
 			20
 		};
 		reloadMagazineSound[]=
 		{
-			"wpn_r_f4\3x_lineika\snd\mosin_reloading_dz",
+			"wpn_r_f4\3x_lineika\snd\nagant_reload.ogg",
 			1,
 			1,
 			10
@@ -183,33 +182,15 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"wpn_r_f4\3x_lineika\snd\mosin_close_0",
-					1, // 1.3
-					1,
-					1000
-				};
-				begin2[]=
-				{
-					"wpn_r_f4\3x_lineika\snd\mosin_close_1",
-					1, // 1.3
-					1,
-					1000 // 2000
-				};
-				begin3[]=
-				{
-					"wpn_r_f4\3x_lineika\snd\mosin_close_2",
-					1, // 1.3
+					"wpn_r_f4\3x_lineika\snd\nagant_fire.ogg",
+					1.3,
 					1,
 					1000
 				};
 				soundBegin[]=
 				{
 					"begin1",
-					0.33333, // 0.25
-					"begin2",
-					0.33333, // 0.25
-					"begin3",
-					0.33333 // 0.25
+					0.33333
 				};
 				class SoundTails
 				{
@@ -451,7 +432,7 @@ class CfgWeapons
 				// scope=0;
 			};
 		};
-		class bg_weaponparameters 
+		class bg_weaponparameters
 		{
 			class onFired_Action
 			{
