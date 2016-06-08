@@ -702,6 +702,12 @@ class CfgWeapons
 			displayName="$STR_gp30m_gl";
 			reloadTime=0.1;
 			reloadaction="AV_GestureReloadGP30";
+			reloadmagazinesound[] = {
+				"\hlc_wp_ak\snd\gp30_reload",
+				1.1,
+				1,
+				20
+			};
 			magazines[] = {
 				"hlc_VOG25_AK",
 				"hlc_GRD_White",
@@ -1117,6 +1123,12 @@ class CfgWeapons
 			displayName="$STR_gp30m_gl";
 			reloadTime=0.1;
 			reloadaction="AV_GestureReloadGP30";
+			reloadmagazinesound[] = {
+				"\hlc_wp_ak\snd\gp30_reload",
+				1.1,
+				1,
+				20
+			};
 			magazines[] = {
 				"hlc_VOG25_AK",
 				"hlc_GRD_White",
