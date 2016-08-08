@@ -77,8 +77,7 @@ class CfgWeapons
 		{
 			sounds[]=
 			{
-				"StandardSound",
-				"SilencedSound"
+				"StandardSound"
 			};
 			class BaseSoundModeType
 			{
@@ -108,10 +107,6 @@ class CfgWeapons
 			{
 			    soundSetShot[] = { "CUP_PKM_Shot_SoundSet", "CUP_PKM_Tail_SoundSet" };
 			};
-			class SilencedSound: BaseSoundModeType
-			{
-			    soundSetShot[] = { "carbine_silencerShot_SoundSet", "carbine_silencerTail_SoundSet" };
-			};
 			reloadTime=0.092;
 			dispersion=0.001025;
 			recoil="recoil_auto_smg_01";
@@ -127,8 +122,7 @@ class CfgWeapons
 		{
 			sounds[]=
 			{
-				"StandardSound",
-				"SilencedSound"
+				"StandardSound"
 			};
 			class BaseSoundModeType
 			{
@@ -156,195 +150,7 @@ class CfgWeapons
 			};
 			class StandardSound: BaseSoundModeType
 			{
-				begin1[]=
-				{
-					"wpn_r_f6\pkp\snd\pkm1p.wav",
-					1.7782794,
-					1,
-					1200
-				};
-				begin2[]=
-				{
-					"wpn_r_f6\pkp\snd\pkm1p.wav",
-					1.7782794,
-					1,
-					1200
-				};
-				begin3[]=
-				{
-					"wpn_r_f6\pkp\snd\pkm1p.wav",
-					1.7782794,
-					1,
-					1200
-				};
-				soundBegin[]=
-				{
-					"begin1",
-					0.33000001,
-					"begin2",
-					0.33000001,
-					"begin3",
-					0.34
-				};
-				class SoundTails
-				{
-					class TailTrees
-					{
-						sound[]=
-						{
-							"A3\Sounds_F\arsenal\weapons\Machineguns\Zafir\Zafir_tail_trees",
-							1,
-							1,
-							1200
-						};
-						frequency=1;
-						volume="(1-interior/1.4)*trees";
-					};
-					class TailForest
-					{
-						sound[]=
-						{
-							"A3\Sounds_F\arsenal\weapons\Machineguns\Zafir\Zafir_tail_forest",
-							1,
-							1,
-							1200
-						};
-						frequency=1;
-						volume="(1-interior/1.4)*forest";
-					};
-					class TailMeadows
-					{
-						sound[]=
-						{
-							"A3\Sounds_F\arsenal\weapons\Machineguns\Zafir\Zafir_tail_meadows",
-							1,
-							1,
-							1200
-						};
-						frequency=1;
-						volume="(1-interior/1.4)*(meadows/2 max sea/2)";
-					};
-					class TailHouses
-					{
-						sound[]=
-						{
-							"A3\Sounds_F\arsenal\weapons\Machineguns\Zafir\Zafir_tail_houses",
-							1,
-							1,
-							1200
-						};
-						frequency=1;
-						volume="(1-interior/1.4)*houses";
-					};
-					class TailInterior
-					{
-						sound[]=
-						{
-							"A3\Sounds_F\arsenal\weapons\Machineguns\Zafir\Zafir_tail_interior",
-							1.9952624,
-							1,
-							1200
-						};
-						frequency=1;
-						volume="interior";
-					};
-				};
-			};
-			class SilencedSound: BaseSoundModeType
-			{
-				begin1[]=
-				{
-					"A3\Sounds_F\arsenal\weapons\Machineguns\Mk200\Silencer_Mk200_short_01",
-					0.71250898,
-					1,
-					250
-				};
-				begin2[]=
-				{
-					"A3\Sounds_F\arsenal\weapons\Machineguns\Mk200\Silencer_Mk200_short_02",
-					0.71250898,
-					1,
-					250
-				};
-				begin3[]=
-				{
-					"A3\Sounds_F\arsenal\weapons\Machineguns\Mk200\Silencer_Mk200_short_03",
-					0.71250898,
-					1,
-					250
-				};
-				soundBegin[]=
-				{
-					"begin1",
-					0.33000001,
-					"begin2",
-					0.33000001,
-					"begin1",
-					0.34
-				};
-				class SoundTails
-				{
-					class TailTrees
-					{
-						sound[]=
-						{
-							"A3\Sounds_F\arsenal\weapons\Machineguns\Mk200\Silencer_Mk200_tail_trees",
-							1,
-							1,
-							1800
-						};
-						frequency=1;
-						volume="(1-interior/1.4)*trees";
-					};
-					class TailForest
-					{
-						sound[]=
-						{
-							"A3\Sounds_F\arsenal\weapons\Machineguns\Mk200\Silencer_Mk200_tail_forest",
-							1,
-							1,
-							1800
-						};
-						frequency=1;
-						volume="(1-interior/1.4)*forest";
-					};
-					class TailInterior
-					{
-						sound[]=
-						{
-							"A3\Sounds_F\arsenal\weapons\Machineguns\Mk200\Silencer_Mk200_tail_interior",
-							1.9952624,
-							1,
-							1200
-						};
-						frequency=1;
-						volume="interior";
-					};
-					class TailMeadows
-					{
-						sound[]=
-						{
-							"A3\Sounds_F\arsenal\weapons\Machineguns\Mk200\Silencer_Mk200_tail_meadows",
-							1,
-							1,
-							1800
-						};
-						frequency=1;
-						volume="(1-interior/1.4)*(meadows/2 max sea/2)";
-					};
-					class TailHouses
-					{
-						sound[]=
-						{
-							"A3\Sounds_F\arsenal\weapons\Machineguns\Mk200\Silencer_Mk200_tail_houses",
-							1,
-							1,
-							1800
-						};
-						frequency=1;
-						volume="(1-interior/1.4)*houses";
-					};
-				};
+			    soundSetShot[] = { "CUP_PKM_Shot_SoundSet", "CUP_PKM_Tail_SoundSet" };
 			};
 			reloadTime=0.092;
 			dispersion=0.00103;
