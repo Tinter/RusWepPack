@@ -337,7 +337,7 @@ class CfgMagazines
 		author="Street-you";
 		displayname="$STR_7b_drob_name";
 		displaynameshort="$STR_drob";
-		ammo="drob_12cal";
+		ammo="CUP_B_12Gauge_Pellets";
 		count=7;
 		initspeed=396;
 		picture="\wpn_r_f_cnfg\ammon\drobov_7b";
@@ -361,7 +361,7 @@ class CfgMagazines
 		author="Street-you";
 		displayname="$STR_2b_drob_name";
 		displaynameshort="$STR_drob";
-		ammo="drob_12cal";
+		ammo="CUP_B_12Gauge_Pellets";
 		count=2;
 		initspeed=396;
 		picture="\wpn_r_f_cnfg\ammon\dvustv_2b";
