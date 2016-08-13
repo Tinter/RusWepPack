@@ -43,6 +43,10 @@ class CfgWeapons
         opticsZoomMin = 0.249;
         opticsZoomMax = 1.1;
         opticsZoomInit = 0.75;
+		fireSpreadAngle=0.78482461;
+		ACE_twistDirection=0;
+		ACE_barrelTwist=0;
+		ACE_barrelLength=469.89999;
 		magazines[]=
 		{
 			"2pul_drob",

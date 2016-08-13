@@ -33,6 +33,10 @@ class CfgWeapons
         opticsZoomMin = 0.249;
         opticsZoomMax = 1.1;
         opticsZoomInit = 0.75;
+		fireSpreadAngle=0.78482461;
+		ACE_twistDirection=0;
+		ACE_barrelTwist=0;
+		ACE_barrelLength=469.89999;
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
@@ -316,7 +320,7 @@ class CfgWeapons
 				};
 			};
 			reloadTime=0.82999998;
-			dispersion=0.0049999999;
+			dispersion=0.003;
 			recoil="recoil_single_ebr";
 			recoilProne="recoil_single_prone_ebr";
 			minRange=0;
