@@ -17,9 +17,6 @@ class CfgPatches
 };
 class Mode_SemiAuto;
 class Mode_FullAuto;
-class single_close_optics1;
-class single_medium_optics1;
-class single_far_optics1;
 class InventoryOpticsItem_Base_F;
 class CowsSlot;
 class CfgWeapons

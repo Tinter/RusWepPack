@@ -14,9 +14,6 @@ class CfgPatches
 	};
 };
 class Mode_FullAuto;
-class single_medium_optics1;
-class single_far_optics2;
-class fullauto_medium;
 class CfgWeapons
 {
 	class LMG_Zafir_F;

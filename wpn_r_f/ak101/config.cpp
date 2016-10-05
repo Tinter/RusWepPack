@@ -20,9 +20,6 @@ class CfgPatches
 class Mode_SemiAuto;
 class Mode_Burst;
 class Mode_FullAuto;
-class single_medium_optics1;
-class single_far_optics2;
-class fullauto_medium;
 class MuzzleSlot;
 class CowsSlot;
 class PointerSlot;

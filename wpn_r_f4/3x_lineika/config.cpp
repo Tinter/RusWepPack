@@ -15,7 +15,6 @@ class CfgPatches
 	};
 };
 class Mode_SemiAuto;
-class Single;
 
 class InventoryOpticsItem_Base_F;
 class CowsSlot;

@@ -15,8 +15,6 @@ class CfgPatches
 	};
 };
 class Mode_SemiAuto;
-class Single;
-class FullAuto;
 class CowsSlot;
 class asdg_UnderSlot;
 class asdg_OpticRail1913;
