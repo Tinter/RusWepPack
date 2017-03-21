@@ -21,6 +21,7 @@ class CfgWeapons
 	class str_oc_kipa: SMG_02_F
 	{
 		author="Vostok Games";
+    baseWeapon="str_oc_kipa";
 		displayname="$STR_oc02_name";
 		model="wpn_r_f7\kipa\ris.p3d";
 		picture="\wpn_r_f7\kipa\gear_kipa_x_ca";

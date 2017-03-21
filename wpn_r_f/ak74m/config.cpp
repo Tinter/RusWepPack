@@ -127,6 +127,7 @@ class CfgWeapons
 	class str_ak74m: arifle_Katiba_F
 	{
 		author="Adept, SAM61, IIacTyX";
+    baseWeapon = "str_ak74m";
 		displayname="$STR_ak74m_name";
 		model="\wpn_r_f\ak74m\ka.p3d";
 		picture="\wpn_r_f\ak74m\ui\gear_ak74m_x_ca";
@@ -357,6 +358,7 @@ class CfgWeapons
 	class str_ak74m_gp: str_ak74m
 	{
 		author="Adept, SAM61, IIacTyX\TIGG";
+    baseWeapon = "str_ak74m_gp";
 		displayname="$STR_ak74mgp_name";
 		descriptionshort="$STR_ak74mgp_desc";
 		model="\wpn_r_f\ak74m\ak_gp.p3d";

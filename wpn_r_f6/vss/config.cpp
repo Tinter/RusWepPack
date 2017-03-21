@@ -27,6 +27,7 @@ class CfgWeapons
 	class str_vss_vin: arifle_Katiba_F
 	{
 		author="AbsolutSoft\Noble Empire Corp.";
+    baseWeapon="str_vss_vin";
 		displayname="$STR_vss_w_name";
 		model="\wpn_r_f6\vss\vin.p3d";
 		picture="\wpn_r_f6\vss\ui\gear_vss_w_x_ca";
@@ -429,6 +430,7 @@ class CfgWeapons
 	class str_vss_vinl: str_vss_vin
 	{
 		author="AbsolutSoft\Noble Empire Corp.";
+    baseWeapon="str_vss_vinl";
 		displayname="$STR_STR_vss_name";
 		model="\wpn_r_f6\vss\vin_l.p3d";
 		picture="\wpn_r_f6\vss\ui\gear_vss_x_ca";

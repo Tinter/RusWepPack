@@ -169,7 +169,7 @@ class CfgGesturesMale
 		interpolationRestart="true";
 		preload="true";
 		disableWeapons="true";
-		enableOptics="true";
+		enableOptics="false";
 		showWeaponAim="true";
 		enableMissile="true";
 		enableBinocular="true";

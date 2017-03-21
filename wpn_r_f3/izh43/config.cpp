@@ -27,6 +27,7 @@ class CfgWeapons
 	class str_ij_obr: hgun_Rook40_F
 	{
 		author="$STR_A3_Bohemia_Interactive";
+    baseWeapon="str_ij_obr";
 		displayName="$STR_ij43_obr_name";
 		model="\wpn_r_f3\izh43\izh43_sawedoff.p3d";
 		picture="\wpn_r_f3\izh43\ui\ij43_obr";
@@ -212,6 +213,7 @@ class CfgWeapons
 	class str_ij_long: srifle_EBR_F
 	{
 		author="$STR_A3_Bohemia_Interactive";
+    baseWeapon="str_ij_long";
 		displayName="$STR_ij43_l_name";
 		model="\wpn_r_f3\izh43\izh43.p3d";
 		picture="\wpn_r_f3\izh43\ui\ij43_long";

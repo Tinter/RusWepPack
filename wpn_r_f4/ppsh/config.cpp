@@ -20,7 +20,7 @@ class CfgWeapons
 	class str_ppsh_old: SMG_02_F
 	{
 		author="Mallow & Tinter";
-		scope = 2;
+    baseWeapon="str_ppsh_old";
 		displayname="$STR_psh_name";
 		model="\wpn_r_f4\ppsh\p2.p3d";
 		picture="\wpn_r_f4\ppsh\ui\gear_psh_x_ca";

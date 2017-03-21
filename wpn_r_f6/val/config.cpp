@@ -38,6 +38,7 @@ class CfgWeapons
 	class str_as_val: arifle_Katiba_F
 	{
 		author="SAM61, Millenia\Noble Empire Corp.";
+    baseWeapon="str_as_val";
 		displayname="$STR_val_name";
 		model="\wpn_r_f6\val\as.p3d";
 		picture="\wpn_r_f6\val\ui\gear_val_x_ca";
@@ -450,6 +451,7 @@ class CfgWeapons
 	class str_as_val_w: str_as_val
 	{
 		author="SAM61, Millenia\Noble Empire Corp.";
+    baseWeapon="str_as_val_w";
 		displayname="$STR_val_w_name";
 		model="\wpn_r_f6\val\as_w.p3d";
 		picture="\wpn_r_f6\val\ui\gear_val_w_x_ca";

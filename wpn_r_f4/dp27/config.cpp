@@ -23,6 +23,7 @@ class CfgWeapons
 	class str_pul_DP: arifle_MXC_F
 	{
 		author="Tripwire Interactive";
+    baseWeapon="str_pul_DP";
 		displayname="$STR_pulDP_name";
 		model="\wpn_r_f4\dp27\dp.p3d";
 		picture="\wpn_r_f4\dp27\ui\gear_dp_x_ca";

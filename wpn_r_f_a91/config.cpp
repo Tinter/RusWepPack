@@ -25,6 +25,7 @@ class CfgWeapons
 	class str_a91: arifle_Katiba_F
 	{
 		author="DICE";
+    baseWeapon="str_a91";
 		displayname="$STR_a91_name";
 		descriptionshort="$STR_a91_desc";
 		model="\wpn_r_f_a91\a91.p3d";
@@ -610,6 +611,7 @@ class CfgWeapons
 	class str_ads: str_a91
 	{
 		author="DICE\gerasimow9";
+    baseWeapon="str_ads";
 		displayname="$STR_a91ads_name";
 		descriptionshort="$STR_a91ads_desc";
 		model="\wpn_r_f_a91\ads.p3d";

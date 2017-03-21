@@ -25,6 +25,7 @@ class CfgWeapons
 	class str_ngn: hgun_ACPC2_F
 	{
 		author="Tripwire Interactive";
+    baseWeapon="str_ngn";
 		displayName="$STR_ngn_name";
 		model="\wpn_r_f_pist\nagan\ngn.p3d";
 		picture="\wpn_r_f_pist\nagan\gear_ng_x_ca";

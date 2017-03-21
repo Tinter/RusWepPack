@@ -21,6 +21,7 @@ class CfgWeapons
 	class str_ks_23: srifle_EBR_F
 	{
 		author="AGENT05";
+    baseWeapon="str_ks_23";
 		displayname="$STR_ks23_dr_name";
 		descriptionshort="$STR_ks23_dr_desc";
 		model="wpn_r_f6\ks23\ks.p3d";

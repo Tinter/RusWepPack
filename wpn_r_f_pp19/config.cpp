@@ -25,6 +25,7 @@ class CfgWeapons
 	class str_pp_vit: SMG_02_F
 	{
 		author="AbsolutSoft";
+    baseWeapon="str_pp_vit";
 		displayname="$STR_pp1901_name";
 		model="\wpn_r_f_pp19\pp19vit.p3d";
 		reloadAction="GestureReloadSMG_02";
@@ -226,6 +227,7 @@ class CfgWeapons
 	class str_pp_90m1: str_pp_vit
 	{
 		author="HE SAW";
+    baseWeapon="str_pp_90m1";
 		displayname="$STR_pp90m1_name";
 		descriptionshort="$STR_pp90m1_desc";
 		model="\wpn_r_f_pp19\m1.p3d";

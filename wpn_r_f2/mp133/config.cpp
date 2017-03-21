@@ -22,6 +22,7 @@ class CfgWeapons
 	class str_mp133: srifle_EBR_F
 	{
 		author="$STR_A3_Bohemia_Interactive";
+    baseWeapon = "str_mp133";
 		displayname="$STR_mp133_name";
 		descriptionshort="$STR_mp133_desc";
 		model="wpn_r_f2\mp133\mp133.p3d";

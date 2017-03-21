@@ -22,6 +22,7 @@ class CfgWeapons
 	class str_pp_200: SMG_02_F
 	{
 		author="DICE";
+    baseWeapon="str_pp_200";
 		displayname="$STR_p20p_name";
 		model="\wpn_r_f7\pp20\pp.p3d";
 		reloadAction="GestureReloadSMG_03";

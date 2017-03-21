@@ -25,6 +25,7 @@ class CfgWeapons
 	class str_ma_9a: arifle_Katiba_F
 	{
 		author="kouoaeha,Millenia";
+    baseWeapon="str_ma_9a";
 		displayname="$STR_9a9_name";
 		model="\wpn_r_f7\vsk\avt01.p3d";
 		picture="\wpn_r_f7\vsk\ui\gear_9a_x_ca";
@@ -628,6 +629,7 @@ class CfgWeapons
 	class str_vsk: str_ma_9a
 	{
 		author="kouoaeha,Millenia\Vostok Games";
+    baseWeapon="str_vsk";
 		displayname="$STR_vsk_name";
 		model="\wpn_r_f7\vsk\vsk.p3d";
 		picture="\wpn_r_f7\vsk\ui\gear_vsk_x_ca";

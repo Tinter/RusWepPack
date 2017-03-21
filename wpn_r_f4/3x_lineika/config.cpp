@@ -88,6 +88,7 @@ class CfgWeapons
 	class str_3xlin_sn: srifle_DMR_01_F
 	{
 		author="$STR_A3_Bohemia_Interactive";
+    baseWeapon="str_3xlin_sn";
 		displayname="$STR_mosr_sn_name";
 		model="wpn_r_f4\3x_lineika\mosin9130_sn.p3d";
 		picture="\wpn_r_f4\3x_lineika\ui\gear_mos_sn_x_ca";

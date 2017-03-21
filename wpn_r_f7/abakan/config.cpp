@@ -30,6 +30,7 @@ class CfgWeapons
 	class str_an94: arifle_Katiba_F
 	{
 		author="DICE";
+    baseWeapon="str_an94";
 		displayname="$STR_aba_name";
 		model="\wpn_r_f7\abakan\an.p3d";
 		picture="\wpn_r_f7\abakan\gear_an94_x_ca";

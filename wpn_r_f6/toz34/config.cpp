@@ -25,6 +25,7 @@ class CfgWeapons
 	class str_to34_long: srifle_EBR_F
 	{
 		author="SAM61,r0tzbua,Millenia";
+    baseWeapon="str_to34_long";
 		displayName="$STR_to34_name";
 		model="\wpn_r_f6\toz34\t34.p3d";
 		picture="\wpn_r_f6\toz34\gear_to34_x_Ca";

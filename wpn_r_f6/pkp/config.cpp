@@ -28,6 +28,7 @@ class CfgWeapons
 	class str_pkm: LMG_Zafir_F
 	{
 		author="SAM61, Sarvs, BULL5H1T";
+    baseWeapon="str_pkm";
 		displayname="$STR_pkm_pul_name";
 		descriptionshort="$STR_pkp_pe4_m_desc";
 		model="\wpn_r_f6\pkp\pkm.p3d";
@@ -211,6 +212,7 @@ class CfgWeapons
 	class str_pkm_lh: str_pkm
 	{
 		author="SAM61, Sarvs, BULL5H1T";
+    baseWeapon="str_pkm_lh";
 		displayname="$STR_pkm_l_name";
 		descriptionshort="$STR_pkp_pe4_m_desc";
 		model="\wpn_r_f6\pkp\pkm_l.p3d";
@@ -238,6 +240,7 @@ class CfgWeapons
 	class str_pkp_st: str_pkm
 	{
 		author="Street-you/DICE";
+    baseWeapon="str_pkp_st";
 		displayname="$STR_pkp_pul_name";
 		descriptionshort="$STR_pkp_pe4_m_desc";
 		model="\wpn_r_f6\pkp\pkp_1.p3d";
@@ -331,6 +334,7 @@ class CfgWeapons
 	class str_pkp_bp: str_pkp_st
 	{
 		author="Street-you/DICE";
+    baseWeapon="str_pkp_bp";
 		displayname="$STR_pkp_b_name";
 		descriptionshort="$STR_pkp_pe4_bp_desc";
 		model="\wpn_r_f6\pkp\pkp_b.p3d";

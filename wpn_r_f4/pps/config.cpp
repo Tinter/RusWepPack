@@ -20,6 +20,7 @@ class CfgWeapons
 	class str_pps43: SMG_02_F
 	{
 		author="D.Kruger";
+    baseWeapon="str_pps43";
 		displayname="$STR_ppPPS_name";
 		model="\wpn_r_f4\pps\pps.p3d";
 		picture="\wpn_r_f4\pps\gear_pps_x_ca";

@@ -20,6 +20,7 @@ class CfgWeapons
 	class str_sks_old: srifle_EBR_F
 	{
 		author="$STR_A3_Bohemia_Interactive";
+    baseWeapon="str_sks_old";
 		displayname="$STR_skso_name";
 		model="wpn_r_f3\sks\sks.p3d";
 		reloadAction="DZ_GestureReloadSKS";
@@ -42,9 +43,9 @@ class CfgWeapons
 		discreteDistance[]={100,200,300,400};
 		discreteDistanceInitIndex=0;
 		maxZeroing=400;
-        opticsZoomMin = 0.249;
-        opticsZoomMax = 1.1;
-        opticsZoomInit = 0.75;
+    opticsZoomMin = 0.249;
+    opticsZoomMax = 1.1;
+    opticsZoomInit = 0.75;
 		magazines[]=
 		{
 			"10rnd_sks_mag"

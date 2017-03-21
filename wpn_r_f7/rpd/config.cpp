@@ -20,6 +20,7 @@ class CfgWeapons
 	class str_rpd: LMG_Zafir_F
 	{
 		author="Vostok Games";
+    baseWeapon="str_rpd";
 		displayname="$STR_rpdekt_name";
 		descriptionshort="$STR_rpdekt_desc";
 		model="\wpn_r_f7\rpd\rp.p3d";

@@ -26,6 +26,7 @@ class CfgWeapons
 	class str_svt: srifle_EBR_F
 	{
 		author="Tripwire Interactive";
+    baseWeapon="str_svt";
 		displayname="$STR_svt_name";
 		model="wpn_r_f4\svt\svt.p3d";
 		handAnim[]=
@@ -257,6 +258,7 @@ class CfgWeapons
 	class str_avt: str_svt
 	{
 		author="Tripwire Interactive";
+    baseWeapon="str_avt";
 		displayname="$STR_avt_name";
 		modes[]=
 		{

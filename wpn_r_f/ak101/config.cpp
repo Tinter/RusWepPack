@@ -50,6 +50,7 @@ class CfgWeapons
 	class str_ak101: arifle_Katiba_F
 	{
 		author="Adept, SAM61, IIacTyX";
+    baseWeapon = "str_ak101";
 		displayname="$STR_ak101_name";
 		model="\wpn_r_f\ak101\ka.p3d";
 		picture="\wpn_r_f\ak101\ui\gear_ak101_x_ca";
@@ -273,6 +274,7 @@ class CfgWeapons
 	class str_ak101gp: str_ak101
 	{
 		author="Adept, SAM61, IIacTyX\TIGG";
+    baseWeapon = "str_ak101gp";
 		displayname="$STR_ak101gp_name";
 		descriptionshort="$STR_ak101gp_desc";
 		model="\wpn_r_f\ak101\ka_gp.p3d";
@@ -370,6 +372,7 @@ class CfgWeapons
 	class str_ak101_2: str_ak101
 	{
 		author="Adept, SAM61, IIacTyX";
+    baseWeapon = "str_ak101_2";
 		displayname="$STR_ak101_2_name";
 		model="\wpn_r_f\ak101\ka_01.p3d";
 		picture="\wpn_r_f\ak101\ui\gear_ak1012_x_ca";
@@ -492,6 +495,7 @@ class CfgWeapons
 	class str_ak101_2gp: str_ak101_2
 	{
 		author="Adept, SAM61, IIacTyX\Tigg";
+    baseWeapon = "str_ak101_2gp";
 		displayname="$STR_ak101_2gp_name";
 		model="\wpn_r_f\ak101\ka_01_gp.p3d";
 		picture="\wpn_r_f\ak101\ui\gear_ak1012_gp";

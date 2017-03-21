@@ -25,6 +25,7 @@ class CfgWeapons
 	class str_svd: srifle_DMR_01_F
 	{
 		author="$STR_A3_Bohemia_Interactive";
+    baseWeapon="str_svd";
 		displayname="$STR_svdb_name";
 		model="wpn_r_f3\svd\svd.p3d";
 		picture="\wpn_r_f3\svd\ui\gear_svd_b_x_ca";
@@ -176,6 +177,7 @@ class CfgWeapons
 	class str_svdp: str_svd
 	{
 		author="$STR_A3_Bohemia_Interactive";
+    baseWeapon="str_svdp";
 		displayname="$STR_svdbp_desc";
 		model="wpn_r_f3\svd\svd_p.p3d";
 		picture="\wpn_r_f3\svd\ui\gear_svd_b_x_ca";
