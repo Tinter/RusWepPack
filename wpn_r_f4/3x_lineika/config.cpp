@@ -82,9 +82,67 @@ class CfgSounds
 		titles[] = {};
 	};
 };
+class CfgMovesBasic
+{
+	class Default;
+	class DefaultDie;
+
+ 	class ManActions
+ 	{
+ 	
+		RWP_GestureRechamberM9130[] = { "RWP_GestureRechamberM9130_Context", "Gesture" };
+ 	};
+
+	class Actions
+	{
+		class NoActions : ManActions
+		{
+			RWP_GestureRechamberM9130[] = { "RWP_GestureRechamberM9130_Context", "Gesture" };
+		};
+		class RifleBaseStandActions;
+		class RifleProneActions: RifleBaseStandActions
+		{
+			RWP_GestureRechamberM9130[] = { "RWP_GestureRechamberM9130_Prone", "Gesture" };
+		};
+		class RifleAdjustProneBaseActions;
+		class RifleAdjustRProneActions: RifleAdjustProneBaseActions
+		{
+			RWP_GestureRechamberM9130[] = { "RWP_GestureRechamberM9130_Prone", "Gesture" };
+		};
+		class RifleAdjustLProneActions: RifleAdjustProneBaseActions
+		{
+			RWP_GestureRechamberM9130[] = { "RWP_GestureRechamberM9130_Context", "Gesture" };
+		};
+		class RifleAdjustFProneActions: RifleAdjustProneBaseActions
+		{
+			RWP_GestureRechamberM9130[] = { "RWP_GestureRechamberM9130_Context", "Gesture" };
+		};
+	};
+};
+
+class CfgGesturesMale {
+  class States {
+    class RHS_GestureRechamberM38;
+    class RHS_GestureRechamberM38_Context;
+    class RHS_GestureRechamberM38_Prone;
+    class RWP_GestureRechamberM9130: RHS_GestureRechamberM38 {
+      speed = 0.35;
+    };
+    class RWP_GestureRechamberM9130_Context: RHS_GestureRechamberM38_Context {
+      speed = 0.35;
+    };
+    class RWP_GestureRechamberM9130_Prone: RHS_GestureRechamberM38_Prone {
+      speed = 0.35;
+    };
+  };
+};
 class CfgWeapons
 {
-	class srifle_DMR_01_F;
+	class DMR_01_base_F;
+	class srifle_DMR_01_F: DMR_01_base_F
+  {
+    class Eventhandlers;
+  };
 	class str_3xlin_sn: srifle_DMR_01_F
 	{
 		author="$STR_A3_Bohemia_Interactive";
@@ -432,7 +490,7 @@ class CfgWeapons
 				// scope=0;
 			};
 		};
-		class bg_weaponparameters
+		/*class bg_weaponparameters
 		{
 			class onFired_Action
 			{
@@ -442,38 +500,18 @@ class CfgWeapons
 				Sound_Location = "RightHandMiddle1";
 				hasOptic = 1;
 			};
-		};
+		};*/
+    class Eventhandlers: Eventhandlers {
+      class RHS_BoltAction {
+        fired = "[_this select 0,_this select 1,_this select 1] call rhs_fnc_boltAction;";
+      };
+    };
+    rhs_boltActionSound[] = {"wpn_r_f4\3x_lineika\snd\nagant_shift.ogg", 0.8, 1, 20};
+		// rhs_boltActionAnim = "RHS_GestureRechamberOrsis";
+    // rhs_boltActionAnim = "HLC_GestureRechamberM1903A1_UN";
+    // rhs_boltActionAnim = "RHS_GestureRechamberM38";
+    rhs_boltActionAnim = "RWP_GestureRechamberM9130";
 	};
-	/*class str_3xlin_sht: str_3xlin_sn
-	{
-		author="Tripwire Interactive";
-		displayname="$STR_mosr_sht_name";
-		descriptionshort="$STR_mosr_sht_desc";
-		model="wpn_r_f4\3x_lineika\3x_lin_sht.p3d";
-		picture="\wpn_r_f4\3x_lineika\ui\gear_mos_sht_x_ca";
-		initspeed=860;
-		reloadAction="DZ_GestureReloadMosinFast";
-		class Single: Single
-		{
-			reloadTime=1.33;
-			dispersion=0.00056999997;
-		};
-		class WeaponSlotsInfo
-		{
-			allowedslots[]={901};
-			mass=105;
-			class MuzzleSlot: MuzzleSlot
-			{
-				iconPosition[]={0.022,0.40000001};
-				iconScale=0.2;
-				linkProxy="\A3\data_f\proxies\weapon_slots\MUZZLE";
-				compatibleItems[]=
-				{
-					// "muzzle_str_bram"
-				};
-			};
-		};
-	};*/
 	class optic_str_puold: optic_DMS
 	{
 		scope=2;

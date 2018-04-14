@@ -19,7 +19,6 @@ class CfgMovesBasic
 		DZ_GestureReloadMosin="DZ_GestureReloadMosin";
 		DZ_GestureReloadMosinFast="DZ_GestureReloadMosinFast";
 		DZ_GestureReloadSKS="DZ_GestureReloadSKS";
-		R_f_Pump="R_f_Pump";
 	};
 	class Actions
 	{
@@ -38,11 +37,6 @@ class CfgMovesBasic
 			DZ_GestureReloadSKS[]=
 			{
 				"DZ_GestureReloadSKS",
-				"Gesture"
-			};
-			R_f_Pump[]=
-			{
-				"R_f_Pump",
 				"Gesture"
 			};
 		};
@@ -64,11 +58,6 @@ class CfgMovesBasic
 				"DZ_GestureReloadSKS_prone",
 				"Gesture"
 			};
-			R_f_Pump[]=
-			{
-				"R_f_Pump_prone",
-				"Gesture"
-			};
 		};
 		class RifleAdjustProneBaseActions;
 		class RifleAdjustRProneActions: RifleAdjustProneBaseActions
@@ -86,11 +75,6 @@ class CfgMovesBasic
 			DZ_GestureReloadSKS[]=
 			{
 				"DZ_GestureReloadSKS_Context",
-				"Gesture"
-			};
-			R_f_Pump[]=
-			{
-				"R_f_Pump_Context",
 				"Gesture"
 			};
 		};
@@ -111,11 +95,6 @@ class CfgMovesBasic
 				"DZ_GestureReloadSKS_Context",
 				"Gesture"
 			};
-			R_f_Pump[]=
-			{
-				"R_f_Pump_Context",
-				"Gesture"
-			};
 		};
 		class RifleAdjustFProneActions: RifleAdjustProneBaseActions
 		{
@@ -132,11 +111,6 @@ class CfgMovesBasic
 			DZ_GestureReloadSKS[]=
 			{
 				"DZ_GestureReloadSKS",
-				"Gesture"
-			};
-			R_f_Pump[]=
-			{
-				"R_f_Pump",
 				"Gesture"
 			};
 		};
@@ -294,40 +268,6 @@ class CfgGesturesMale
 			mask="handsWeapon";
 		};
 		class DZ_GestureReloadSKS_Context: DZ_GestureReloadSKS
-		{
-			mask="handsWeapon_context";
-		};
-		class R_f_Pump: Default2
-		{
-			file="wpn_r_f\anim\pump\pump.rtm";
-			speed=-0.67;
-			leftHandIKcurve[]={ 0.1, 1, 0.2, 0, 0.94, 0, 0.95, 1 };
-			rightHandIKCurve[]={1,1};
-			looped="false";
-			disableInventory=1;
-			disableWeaponChange=1;
-			interpolationSpeed=12;
-			interpolationRestart="false";
-			rightHandIKBeg=1;
-			rightHandIKEnd=1;
-			mask="handsWeapon";
-		};
-		class R_f_Pump_prone: Default2
-		{
-			file="wpn_r_f\anim\pump\pump.rtm";
-			speed=-0.67;
-			leftHandIKcurve[]={ 0.1, 1, 0.2, 0, 0.94, 0, 0.95, 1 };
-			rightHandIKCurve[]={1,1};
-			looped="false";
-			disableInventory=1;
-			disableWeaponChange=1;
-			interpolationSpeed=12;
-			interpolationRestart="false";
-			rightHandIKBeg=1;
-			rightHandIKEnd=1;
-			mask="handsWeapon";
-		};
-		class R_f_Pump_Context: R_f_Pump
 		{
 			mask="handsWeapon_context";
 		};

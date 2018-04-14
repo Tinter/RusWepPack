@@ -8,11 +8,3 @@ class CfgPatches
 		requiredAddons[]={};
 	};
 };
-class CfgSounds
-{
-	class r_f_pump
-	{
-		sound[] = {"wpn_r_f\snd\pump.ogg", 1, 1, 15};
-		titles[] = {};
-	};
-};

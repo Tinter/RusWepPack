@@ -9,10 +9,3 @@ STR_ij43_obr_desc,"Caliber: 12 gauge<br/> Distance: 100<br/> Mags: 2 .12 gauge s
 
 STR_ij43_l_name,"IZH-43"
 STR_ij43_l_desc,"Caliber: 12 gauge<br/> Distance: 150<br/> Mags: 2 .12 gauge shells"
-
-STR_svdb_name,"SVDM"
-STR_svdb_desc,"Caliber: 7.62x54 mm<br/> Distance: 800<br/> Modes: 1<br/> Rate of fire: 500<br/> Mags: 10/20 rounds mag svd "
-STR_svdbp_desc,"SVDM (Rail)"
-
-STR_tigr_name,"SVD"
-STR_tigr_desc,"Caliber: 7.62x54 mm<br/> Distance: 400<br/> Modes: 1<br/> Rate of fire: 500<br/> Mags: 10 rounds mag svd "

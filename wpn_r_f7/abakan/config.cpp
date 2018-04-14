@@ -17,7 +17,6 @@ class Mode_SemiAuto;
 class Mode_Burst;
 class Mode_FullAuto;
 class MuzzleSlot;
-class CowsSlot;
 class asdg_OpticRail_dvtl_str;
 class CfgRecoils
 {
@@ -51,13 +50,7 @@ class CfgWeapons
 			"hlc_30Rnd_545x39_T_AK",
 			"hlc_30Rnd_545x39_EP_AK",
 			"hlc_45Rnd_545x39_t_rpk",
-			"hlc_30Rnd_545x39_S_AK",
-			"CUP_30Rnd_545x39_AK_M",
-			"CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M",
-			"CUP_30Rnd_TE1_Red_Tracer_545x39_AK_M",
-			"CUP_30Rnd_TE1_White_Tracer_545x39_AK_M",
-			"CUP_30Rnd_TE1_Yellow_Tracer_545x39_AK_M",
-			"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M"
+			"hlc_30Rnd_545x39_S_AK"
 		};
 		descriptionshort="$STR_aba_desc";
 		drySound[]=
