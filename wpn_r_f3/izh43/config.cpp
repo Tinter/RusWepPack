@@ -226,16 +226,7 @@ class CfgWeapons
 		initspeed=395;
 		handAnim[] = {
 			"OFP2_ManSkeleton",
-      // "\A3\Weapons_F\LongRangeRifles\GM6\Data\Anim\GM6.rtm"
-      // "\A3\Weapons_F\Rifles\TRG20\Data\Anim\TRG_21.rtm"
-      // "\A3\weapons_f\Rifles\SDAR\data\Anim\SDAR.rtm"
-      // "\A3\Weapons_F_Mark\Machineguns\MMG_01\Data\Anim\mmg_01.rtm"
-			// "\wpn_r_f\anim\izh43.rtm"
-      // "\rhsusf\addons\rhsusf_c_weapons\anims\rhs_hand_m249_standard.rtm"
-      // "\rhsusf\addons\rhsusf_c_weapons\anims\rhs_hand_m240.rtm"
-      // "\A3\Weapons_F_Exp\Rifles\CTAR\Anim\CTARGL.rtm"
-      // "\hlc_wp_m60e4\gesture\m60e4.rtm"
-      "\hlc_wp_MG3\anim\handpose_MG42.rtm"
+			"\wpn_r_f\anim\izh43so.rtm"
 		};
 	};
 };
