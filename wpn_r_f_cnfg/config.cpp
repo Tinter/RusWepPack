@@ -153,6 +153,7 @@ class CfgMagazines
 	class 2pul_drob: CA_Magazine
 	{
 		author="Street-you";
+		scope=2;
 		displayname="$STR_2b_drob_name";
 		displaynameshort="$STR_drob";
 		ammo="rhs_ammo_12g_00buckshot";
@@ -165,6 +166,7 @@ class CfgMagazines
 	class 2pul_pula: CA_Magazine
 	{
 		author="Street-you";
+		scope=2;
 		displayname="$STR_2b_pula_name";
 		displaynameshort="$STR_pula";
 		ammo="pulia_12cal";
