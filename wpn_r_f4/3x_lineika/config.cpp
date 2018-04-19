@@ -490,26 +490,12 @@ class CfgWeapons
 				// scope=0;
 			};
 		};
-		/*class bg_weaponparameters
-		{
-			class onFired_Action
-			{
-				HandAction = "HLC_GestureRechamberM1903A1_UN";
-				Actiondelay = 0.5;
-				Sound = "DZ_Bolt_Mosin9130";
-				Sound_Location = "RightHandMiddle1";
-				hasOptic = 1;
-			};
-		};*/
     class Eventhandlers: Eventhandlers {
       class RHS_BoltAction {
         fired = "[_this select 0,_this select 1,_this select 1] call rhs_fnc_boltAction;";
       };
     };
     rhs_boltActionSound[] = {"wpn_r_f4\3x_lineika\snd\nagant_shift.ogg", 0.8, 1, 20};
-		// rhs_boltActionAnim = "RHS_GestureRechamberOrsis";
-    // rhs_boltActionAnim = "HLC_GestureRechamberM1903A1_UN";
-    // rhs_boltActionAnim = "RHS_GestureRechamberM38";
     rhs_boltActionAnim = "RWP_GestureRechamberM9130";
 	};
 	class optic_str_puold: optic_DMS
